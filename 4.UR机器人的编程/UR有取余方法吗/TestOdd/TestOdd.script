@@ -1,0 +1,26 @@
+def TestOdd():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "count≔0"
+    global count=0
+    $ 3 "循环 count<100"
+    while (count <100):
+      $ 4 "count≔count+1"
+      global count=count+1
+      $ 5 "Odd≔count%2"
+      global Odd=count%2
+      $ 6 "等待: 1.0"
+      sleep(1.0)
+    end
+  end
+end

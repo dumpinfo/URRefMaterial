@@ -1,0 +1,4832 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: HowToChangeTheRobotCable < Technical < Universal Robots Support
+Date: Tue, 5 Nov 2013 09:54:33 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0041_01CEDA0D.079AF970"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17514
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/html;
+	charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den_US xml:lang=3D"en_US"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>HowToChangeTheRobotCa=
+ble < Technical < Universal Robots Support</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-15" =
+http-equiv=3DContent-Type><LINK=20
+rel=3Dicon type=3Dimage/x-icon=20
+href=3D"/foswiki/pub/System/ProjectLogos/favicon.ico"><LINK =
+rel=3D"shortcut icon"=20
+type=3Dimage/x-icon =
+href=3D"/foswiki/pub/System/ProjectLogos/favicon.ico"><LINK=20
+title=3D"edit HowToChangeTheRobotCable" rel=3Dalternate =
+type=3Dapplication/x-wiki=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/edit/Technical/HowToChangeTh=
+eRobotCable?t=3D1383616450">
+<META name=3DWEBTOPIC content=3DHowToChangeTheRobotCable>
+<META name=3DWEB content=3DTechnical>
+<META name=3DSCRIPTURLPATH content=3D/foswiki/bin>
+<META name=3DSCRIPTSUFFIX content=3D"">
+<META name=3DTEXT_JUMP content=3DJump>
+<META name=3DTEXT_SEARCH content=3DSearch>
+<META name=3DTEXT_NUM_TOPICS content=3D"Number of topics:">
+<META name=3DTEXT_MODIFY_SEARCH content=3D"Modify search"><LINK =
+title=3D"RSS Feed"=20
+rel=3Dalternate type=3Dapplication/rss+xml =
+href=3D"/Technical/WebRss"></BASE><!--BEHAVIOURCONTRIB-->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/BehaviourContrib/behav=
+iour.compressed.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+ilib.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iWindow.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iEvent.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iHTML.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iCSS.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iForm.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/pattern.js=
+"></SCRIPT>
+
+<STYLE type=3Dtext/css media=3Dall>@import url( =
+/foswiki/pub/System/SkinTemplates/base.css );
+</STYLE>
+
+<STYLE type=3Dtext/css media=3Dall>@import url( =
+/foswiki/pub/System/PatternSkin/layout.css );
+@import url( /foswiki/pub/System/PatternSkin/style.css );
+@import url( /foswiki/pub/System/PatternSkin/colors.css );
+</STYLE>
+
+<STYLE type=3Dtext/css media=3Dall>@import url( =
+http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/column_left.css =
+);
+@import url( =
+http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/theme_foswiki.css=
+ );
+</STYLE>
+
+<STYLE type=3Dtext/css media=3Dall>@import url( =
+/foswiki/pub/System/PatternSkinCssCookbookFonts/fonts.css );
+@import url( /foswiki/pub/System/PatternSkin/my_colors.css );
+</STYLE>
+
+<STYLE type=3Dtext/css media=3Dall>.patternBookView .foswikiTopRow {
+	BACKGROUND-COLOR: #efefef
+}
+.patternWebIndicator A IMG {
+	BACKGROUND-COLOR: #efefef
+}
+.patternWebIndicator A:hover IMG {
+	BACKGROUND-COLOR: #efefef
+}
+.patternBookView {
+	BORDER-BOTTOM-COLOR: #efefef; BORDER-TOP-COLOR: #efefef; =
+BORDER-RIGHT-COLOR: #efefef; BORDER-LEFT-COLOR: #efefef
+}
+.patternPreviewPage #patternMain {
+=09
+}
+</STYLE>
+
+<STYLE type=3Dtext/css media=3Dall>@import url( =
+/foswiki/pub/System/PatternSkin/print.css );
+</STYLE>
+<!--[if IE]>
+<STYLE type=3Dtext/css media=3Dscreen>PRE {
+	OVERFLOW-X: auto; HEIGHT: 1%
+}
+</STYLE>
+<![endif]-->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswik=
+iStyles.js"></SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17514"></HEAD>
+<BODY class=3DpatternViewPage><A name=3DPageTop></A>
+<DIV class=3DfoswikiPage>
+<DIV id=3DpatternScreen>
+<DIV id=3DpatternPageShadow>
+<DIV id=3DpatternPage>
+<DIV id=3DpatternWrapper>
+<DIV id=3DpatternOuter>
+<DIV id=3DpatternFloatWrap>
+<DIV id=3DpatternMain>
+<DIV id=3DpatternClearHeaderCenter></DIV>
+<DIV id=3DpatternMainContents>
+<DIV class=3DpatternTop><SPAN class=3D"patternHomePath =
+foswikiLeft"><SPAN=20
+class=3DpatternHomePathTitle>You are here: </SPAN><A=20
+href=3D"http://wiki03.lynero.net/Main/WebHome">Universal Robots Support =
+</A><SPAN=20
+class=3DfoswikiSeparator>&gt;</SPAN><A=20
+href=3D"http://wiki03.lynero.net/Technical/WebHome">Technical =
+Web</A><SPAN=20
+class=3DfoswikiSeparator>&gt;</SPAN><A=20
+title=3D"Topic revision: 4 (15 Apr 2013 - 07:49:52)"=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable">HowT=
+oChangeTheRobotCable</A>=20
+<SPAN class=3DpatternRevInfo>(15 Apr 2013, <A=20
+href=3D"http://wiki03.lynero.net/Main/LasseKieffer">LasseKieffer</A>)</SP=
+AN></SPAN><!-- /patternHomePath--><SPAN=20
+class=3D"patternToolBar foswikiRight"><SPAN><A accessKey=3Dm=20
+title=3D"Delete or rename this topic; set parent topic; view and compare =
+revisions"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/oops/Technical/HowToChangeTh=
+eRobotCable?template=3Doopsmore&amp;param1=3D4&amp;param2=3D4"=20
+rel=3Dnofollow><SPAN class=3DfoswikiAccessKey>M</SPAN>ore topic=20
+actions</A></SPAN></SPAN><!-- /patternToolBar--><BR =
+class=3DfoswikiClear></DIV><!--/patternTop-->
+<DIV class=3DfoswikiContentHeader></DIV>
+<DIV class=3DpatternContent>
+<DIV class=3DfoswikiTopic>
+<H1><A name=3DChanging_the_robot_cable_How_to></A>Changing the robot =
+cable - How=20
+to make it <FONT color=3D#ff0000>longer</FONT>, <FONT =
+color=3D#ff0000>shorter</FONT>=20
+or more <FONT color=3D#ff0000>flexible</FONT> </H1>
+<H2><A name=3DCable_on_a_standard_UR_robot></A>Cable on a standard UR =
+robot </H2>
+<P>UR5:=20
+<P>The cable on an UR5 has the following data: <BR>Product: 0035380 from =
+Lapp=20
+Group (<A href=3D"http://www.lappgroup.com/"=20
+target=3D_top>http://www.lappgroup.com/</A>)<BR>Type: 2 x 2 x 1.0mm2 =
+Twisted pair,=20
+PVC tin plated copper<BR>Length: Approx. 6m<BR>Diameter: 10.3=20
+(+/-0.4)<BR>Minimum fixed installation bending radius: 6x cable diameter =
+
+(62mm)<BR>Minimum flexing radius: 15x cable diameter =
+(155mm)<BR>Operating=20
+temperature: -30 to 70 Celsius=20
+<P>UR10:=20
+<P>The cable for an UR10 is similar to the UR5. It has 6 connections. 2x =
++48V,=20
+2x 0V/GND and 2 connections for RS485. The specs and requirements are =
+the same.=20
+Nominal diameter is 10.4mm.=20
+<H2><A name=3DUsing_another_cable_Longer_short></A>Using another cable =
+(Longer,=20
+shorter and/or more flexible) </H2>
+<P>A UR robot comes with a 6m cable only. There are no other options at =
+the=20
+moment. If you have enquiries please contact your UR sales office.<BR>It =
+is=20
+possible to change the cable yourself. However, there are some very =
+important=20
+pitfalls to be aware of.<BR>Find your new cable by contacting your =
+nearest Lapp=20
+Group distributor <A href=3D"http://www.lappgroup.com/"=20
+target=3D_top>http://www.lappgroup.com/</A> (In Denmark it is Miltronic =
++45 4395=20
+0000)=20
+<H6><A name=3DImportant_cable_requirements></A><SPAN=20
+style=3D"FONT-WEIGHT: normal">Important cable requirements:</SPAN> </H6>
+<UL>
+  <LI>The two communication (RS485) wires shall be twisted pair=20
+  <LI>If the cable length is extended then the resistance of the power =
+wires=20
+  shall be no more than the original cable. (&lt;100mOhm / wire)=20
+  <LI>The cable shall have a shield which is connected to the housing in =
+both=20
+  robot and control box </LI></UL>
+<H6><A name=3DNice_to_know></A><SPAN style=3D"FONT-WEIGHT: normal">Nice =
+to=20
+know:</SPAN> </H6>
+<UL>
+  <LI>It is acceptable if the power wires are not twisted pairs.=20
+  <LI>It is acceptable to split the cable into two cables. By doing so =
+you can=20
+  use a small cable for the communication and a very thick cable for the =
+48V=20
+  power. Remember to connect both shields in both ends and keep the two =
+cables=20
+  along each other.=20
+  <LI>If you make a wrong connection in the cable you will not damage =
+the robot=20
+  when turning it on. If the communication is reversed the robot powers =
+off=20
+  immediately after pushing the ON button. And if the power lines are =
+reversed=20
+  you get a [Code c50a101 or c50a103] "ROBOT POWERUP FAILURE" error.=20
+</LI></UL><SPAN style=3D"LINE-HEIGHT: 12px; COLOR: #d1400e">Pitfalls and =
+
+errors:</SPAN>=20
+<UL>
+  <LI>If you use a cable with to high resistance in the 48V wires the =
+robot=20
+  probably seem to work. But, if you use a high acceleration and/or a =
+high speed=20
+  you might get errors like [Code a48cxx] "Voltage drop detected". The =
+error may=20
+  also appear when the robot unlocks its breaks and some joints may end =
+up in=20
+  shutdown mode.=20
+  <LI>If you do not use twisted pairs for the communication the robot =
+probably=20
+  seem to work. However, then you might not meet the requirements of the =
+EMC=20
+  standards (e.g. the EN 61000 series) and regulations. In noisy =
+environments=20
+  you might get some errors on the log screen, e.g. [Code a4cxx] "Broken =
+
+  communication error" or [Code a10cxx] "Bad CRC error". The robot =
+tolerates few=20
+  communication errors without stopping the robot program. If two many =
+errors=20
+  appear you get a [Code a107cxx] "Too many errors in a row" error and =
+the robot=20
+  stops. </LI></UL></DIV><!-- /foswikiTopic-->
+<DIV class=3DfoswikiContentFooter></DIV></DIV><!-- /patternContent--><A=20
+name=3Dtopic-actions></A>
+<DIV class=3DpatternTopicActions>
+<DIV class=3DpatternTopicAction><SPAN =
+class=3DpatternActionButtons><SPAN><A=20
+title=3D"New Discuss Topic"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/edit/Technical/HowToChangeTh=
+eRobotCableTalk?topicparent=3DTechnical.HowToChangeTheRobotCable;onlynewt=
+opic=3D1"=20
+rel=3Dnofollow>New Discuss Topic</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN=20
+class=3DfoswikiRequiresChangePermission><A accessKey=3De=20
+title=3D"Edit this topic text"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/edit/Technical/HowToChangeTh=
+eRobotCable?t=3D1383616450"=20
+rel=3Dnofollow><SPAN =
+class=3DfoswikiAccessKey>E</SPAN>dit</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN=20
+class=3DfoswikiRequiresChangePermission><A accessKey=3Da=20
+title=3D"Attach an image or document to this topic"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/attach/Technical/HowToChange=
+TheRobotCable"=20
+rel=3Dnofollow><SPAN =
+class=3DfoswikiAccessKey>A</SPAN>ttach</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN><A accessKey=3Dp=20
+title=3D"Printable version of this topic"=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?cover=
+=3Dprint"=20
+rel=3Dnofollow><SPAN class=3DfoswikiAccessKey>P</SPAN>rint =
+version</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN><SPAN=20
+class=3DfoswikiRequiresChangePermission><A accessKey=3Dh=20
+title=3D"View total topic history"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/rdiff/Technical/HowToChangeT=
+heRobotCable?type=3Dhistory"=20
+rel=3Dnofollow><SPAN class=3DfoswikiAccessKey>H</SPAN>istory</A></SPAN>: =
+r4&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/rdiff/Technical/HowToChangeT=
+heRobotCable?rev1=3D4;rev2=3D3"=20
+rel=3Dnofollow>&lt;</A>&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?rev=3D=
+3"=20
+rel=3Dnofollow>r3</A>&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/rdiff/Technical/HowToChangeT=
+heRobotCable?rev1=3D3;rev2=3D2"=20
+rel=3Dnofollow>&lt;</A>&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?rev=3D=
+2"=20
+rel=3Dnofollow>r2</A>&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/rdiff/Technical/HowToChangeT=
+heRobotCable?rev1=3D2;rev2=3D1"=20
+rel=3Dnofollow>&lt;</A>&nbsp;<A=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?rev=3D=
+1"=20
+rel=3Dnofollow>r1</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN><A accessKey=3Db=20
+title=3D"Search the Technical Web for topics that link to here"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/oops/Technical/HowToChangeTh=
+eRobotCable?template=3Dbacklinksweb"=20
+rel=3Dnofollow><SPAN =
+class=3DfoswikiAccessKey>B</SPAN>acklinks</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN><A accessKey=3Dr=20
+title=3D"View raw text without formatting"=20
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?raw=3D=
+on"=20
+rel=3Dnofollow><SPAN class=3DfoswikiAccessKey>R</SPAN>aw =
+View</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN=20
+class=3DfoswikiRequiresChangePermission><A accessKey=3Dw=20
+title=3D"Raw Edit this topic text"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/edit/Technical/HowToChangeTh=
+eRobotCable?t=3D1383616450;nowysiwyg=3D1"=20
+rel=3Dnofollow>Ra<SPAN class=3DfoswikiAccessKey>w</SPAN> =
+edit</A></SPAN><SPAN=20
+class=3DfoswikiSeparator>&nbsp;|&nbsp;</SPAN><SPAN><A accessKey=3Dm=20
+title=3D"Delete or rename this topic; set parent topic; view and compare =
+revisions"=20
+href=3D"http://wiki03.lynero.net/foswiki/bin/oops/Technical/HowToChangeTh=
+eRobotCable?template=3Doopsmore&amp;param1=3D4&amp;param2=3D4"=20
+rel=3Dnofollow><SPAN class=3DfoswikiAccessKey>M</SPAN>ore topic=20
+actions</A></SPAN></SPAN></DIV><!--/patternTopicAction--></DIV><!--/patte=
+rnTopicActions-->
+<DIV class=3D"patternInfo foswikiGrayText">
+<DIV class=3DpatternRevInfo>Topic revision: r4 - 15 Apr 2013 - 07:49:52 =
+- <A=20
+href=3D"http://wiki03.lynero.net/Main/LasseKieffer">LasseKieffer</A></DIV=
+><!-- /patternRevInfo-->
+<DIV=20
+class=3DpatternMoved></DIV><!-- /patternMoved--></DIV><!-- =
+/patternInfo--></DIV><!-- /patternMainContents--></DIV><!-- =
+/patternMain-->
+<DIV id=3DpatternSideBar>
+<DIV id=3DpatternClearHeaderLeft></DIV>
+<DIV id=3DpatternSideBarContents>
+<DIV class=3DpatternWebIndicator>
+<UL>
+  <LI><A href=3D"http://wiki03.lynero.net/Technical/WebHome"><IMG=20
+  style=3D"BACKGROUND-COLOR: #efefef" alt=3DTechnical=20
+  =
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/web-b=
+g.gif">=20
+  Technical</A> </LI></UL></DIV><!--/patternWebIndicator-->
+<DIV class=3DpatternLeftBarPersonal>Hello <A=20
+href=3D"http://wiki03.lynero.net/Main/PatrickShao">Patrick Shao</A><BR>
+<UL>
+  <LI class=3DpatternLogOut><A=20
+  =
+href=3D"http://wiki03.lynero.net/Technical/HowToChangeTheRobotCable?logou=
+t=3D1">Log=20
+  Out</A></LI></UL>
+<DIV class=3DpatternLeftBarPersonalContent>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://wiki03.lynero.net/foswiki/bin/edit/Main/PatrickShaoLeftBar=
+?templatetopic=3DSystem.WebLeftBarPersonalTemplate&amp;topicparent=3DPatr=
+ickShao">Create=20
+  personal =
+sidebar</A></LI></UL></DIV><!--/patternLeftBarPersonalContent--></DIV><!-=
+-/patternLeftBarPersonal-->
+<UL>
+  <LI><STRONG>Toolbox</STRONG>=20
+  <LI><A=20
+  =
+href=3D"http://wiki03.lynero.net/Technical/WebCreateNewTopic?topicparent=3D=
+HowToChangeTheRobotCable"=20
+  target=3D_top><IMG border=3D0 alt=3Dnewtopic align=3Dtop=20
+  =
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/newto=
+pic.gif"=20
+  width=3D16 height=3D16> Create New Topic</A>=20
+  <LI><A href=3D"http://wiki03.lynero.net/Technical/WebSearch"><IMG =
+border=3D0=20
+  alt=3Dsearchtopic align=3Dtop=20
+  =
+src=3D"http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/searc=
+htopic.gif"=20
+  width=3D16 height=3D16> Search</A> </LI></UL>
+<P>
+<HR>
+<SPAN style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; =
+TOP: -3px"=20
+border=3D0 alt=3D"" =
+src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/Main/WebHome">&nbsp;Main</A></SPAN><BR><=
+SPAN=20
+style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; TOP: =
+-3px" border=3D0=20
+alt=3D"" src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/Downloads/WebHome">&nbsp;Downloads</A></=
+SPAN><BR><SPAN=20
+style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; TOP: =
+-3px" border=3D0=20
+alt=3D"" src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/Technical/WebHome">&nbsp;Technical</A></=
+SPAN><BR><SPAN=20
+style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; TOP: =
+-3px" border=3D0=20
+alt=3D"" src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/Safety/WebHome">&nbsp;Safety</A></SPAN><=
+BR><SPAN=20
+style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; TOP: =
+-3px" border=3D0=20
+alt=3D"" src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/URScript/WebHome">&nbsp;URScript</A></SP=
+AN><BR><SPAN=20
+style=3D"WHITE-SPACE: nowrap"><IMG style=3D"POSITION: relative; TOP: =
+-3px" border=3D0=20
+alt=3D"" src=3D"http://wiki03.lynero.net/foswiki/pub/mere.gif"><A=20
+href=3D"http://wiki03.lynero.net/University/WebHome">&nbsp;University</A>=
+</SPAN><BR>
+<P></P></DIV><!-- /patternSideBarContents--></DIV><!-- =
+/patternSideBar--></DIV><!-- /patternFloatWrap-->
+<DIV class=3Dclear></DIV></DIV><!-- /patternOuter--></DIV><!-- =
+/patternWrapper-->
+<DIV id=3DpatternTopBar>
+<DIV id=3DpatternTopBarContents>
+<TABLE style=3D"WIDTH: 100%" border=3D0 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dcenter><SPAN id=3DfoswikiLogo class=3DfoswikiImage><A=20
+      href=3D"http://wiki03.lynero.net/Main/WebHome"><IMG=20
+      style=3D"BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none"=20
+      border=3D0 alt=3D"Universal Robots Wiki"=20
+      =
+src=3D"http://wiki03.lynero.net/foswiki/pub/Main/SitePreferences/logo_rob=
+ots2.gif"></A></SPAN></TD>
+    <TD class=3DpatternMetaMenu vAlign=3Dtop align=3Dright>
+      <UL>
+        <LI>
+        <FORM name=3DjumpForm =
+action=3D/Technical/HowToChangeTheRobotCable><INPUT=20
+        id=3DjumpFormField class=3DfoswikiInputField size=3D18=20
+name=3Dtopic><NOSCRIPT>&nbsp;<INPUT class=3DfoswikiButton value=3DJump =
+size=3D5 type=3Dsubmit name=3Dsubmit>&nbsp;</NOSCRIPT>=20
+        </FORM>
+        <LI>
+        <FORM name=3DquickSearchForm =
+action=3D/Technical/WebSearch><INPUT=20
+        id=3DquickSearchBox class=3DfoswikiInputField size=3D18 =
+name=3Dsearch><INPUT=20
+        value=3Dall type=3Dhidden name=3Dscope><INPUT value=3Dall =
+type=3Dhidden=20
+        name=3Dweb><NOSCRIPT>&nbsp;<INPUT class=3DfoswikiButton =
+value=3DSearch size=3D5 type=3Dsubmit name=3Dsubmit>&nbsp;</NOSCRIPT>=20
+        </FORM>
+        <LI></LI></UL></TD></TR></TBODY></TABLE></DIV></DIV><!-- =
+/patternTopBar-->
+<DIV id=3DpatternBottomBar>
+<DIV id=3DpatternBottomBarContents>
+<DIV id=3DpatternWebBottomBar><SPAN class=3DfoswikiRight><A=20
+href=3D"http://lynero.dk/"><IMG=20
+title=3D"This site is powered by Foswiki, Hosted by Lynero" border=3D0=20
+alt=3D"This site is powered by Foswiki, Hosted by Lynero"=20
+src=3D"http://wiki03.lynero.net/foswiki/pub/Main/SitePreferences/LYNERO_C=
+MYK_lille.png"></A></SPAN>Copyright=20
+=A9 UNIVERSAL ROBOTS.</DIV><!--/patternWebBottomBar--></DIV><!-- =
+/patternBottomBarContents--></DIV><!-- /patternBottomBar--></DIV><!-- =
+/patternPage--></DIV><!-- /patternPageShadow--></DIV><!-- =
+/patternScreen--></DIV><!-- /foswikiPage--></BODY></HTML>
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/web-bg.gif
+
+R0lGODlhEAAQAJECAN3d3f///9br9QAAACH5BAEAAAIALAAAAAAQABAAAAImhI9pwe2+hJxUhljz
+BSFr7E1bF4pgOZYmp1pnmLaxOqPLgzPKjhQAOw==
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/newtopic.gif
+
+R0lGODlhEAAQANUAAP///93d3QCZAH5+YP//AP//wuXlsOHhrdHRov39wM3NoPPyufb2vNHQovLy
+uc7NoPr5v87NodXUpdXUpNXTpPPzuYWFatTTpZychuHgrdTUpff2vIeIbPr6vqqql7m5qOHhrLW2
+pKSlj5CQdpWUe/n6vgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQABAAAAZxwIBw
+SCwKAcikUnkcDCwjjOcjqCabhaxWQBBcA4BBYpyocs2AZqkDgXAJ8G4aPNgw7uautelYVPoLZ19h
+BoWGaEhNGQcgB44HIUx0ExIXExoUEiKSYQ0In58NJJwDEQ8KCg8RChykTq+vnEuziUa2Q0EAOw==
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/DocumentGraphics/searchtopic.gif
+
+R0lGODlhEAAQAOYAAP///93d3WxkZPr6+vj4+OLg4Pv6+vn5+W9oaOTh4eLg38fExObj48vIyHdw
+cNTS0tPQ0Pb19nRtbeLf4Oro6Hdvb+Xj48jGxvb19eTi4XNsbMnHx+/t7ebm5ezq6/Lw8dnW1u7t
+7ePi4uTh4MfDxObk5LSvr/Lx8erp6eLf38rHx+nn6Pj3+L67u7y4uPLw8LGtrLKurvTy8uno6OPh
+4szJyePg4PTz88TAwObl5YyFhdfU1OXk4+jm5e3q64uFheTi4vHw8OPh4ejl5o+JiZ+Zmejm5oyG
+hgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAAAQABAAAAehgAGCg4SFggCIiYqKhwYDjh05jwOTAIcEBAsSAgISJCyYBJYBABEL
+CBcHBxcICxgYEaMAJw4biioOHzI3sjsCA4oDAiAvQbIPv8ECDxwhsisVtokNFSg+HrIULQgNqjUI
+RwwUM7JDPS4anBpFAjojRrIlPBYWEBAMDCYCPymyGRlAhIigkaBgDAFEZNlQUKChggkTCiiAgUPW
+oouIDGkkFAgAOw==
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/mere.gif
+
+R0lGODlhDgAIAJECAP///5eSAP///wAAACH5BAEAAAIALAAAAAAOAAgAAAIZjG+ii8hqQJAJBnEk
+bUjzPh3M9V2QxS1LAQA7
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/Main/SitePreferences/logo_robots2.gif
+
+R0lGODlh9ABWAOf+AHVzdfb5+11aXSAdIerq6klGSdzc3D47P6upq9nZ2eHh4SQhJZqZm8nZ6uLi
+4qGfocDS54yLjYWDhZaVlvf5/NLS0lFOUoqJi1pYW25sbrOys317fTAtMIiGiOPr9NHR0VRSVeDp
+84aEhmFfYtzm8YGAgpiWmDg1OfH1+mJgY3h3eebu9WVjZcHU53Z1d2xqbFhWWbSztWhmafz8/uzx
+901LTtfj783b62tpa0A9QSckKEVDRionK5COkL/S5sXW6LzQ5b7R5jUyNiMgJB0aHr3Q5fX19eTs
+9R4bH/v8/ejn6O3y+P7+/re2t/D0+cjIyE5MT9ra2v39/ff393Fvcr++wOfm59/e3xsYHM/d7MLB
+wp+en46MjldVWM/P0NHf7e/v7/Lx8hwZHeXl5SgmKfPz8/Dw8JGQkjIwM7vP5S4rL/b29iwpLTMw
+NEdESM3MzcfHyMbGx3d2eB8cII+Njx4cH8PCw399f52cntbV1ru6u9fX2FZUV5STle3t7ezs7PLy
+8uTk5JKRk/Hw8eno6bW0tq6tr/v7+6+ur8rJytvb20pIS9fW12dlaM/Oz8XExcbFxjc0OKuqrCso
+LHBucfj4+M7Nzr3R5fv6+3Jwc3NxdMnIyV5cX+np6t7d3ry7vNjj8G9tcMzLzL69v19dYMHAwd3n
+8uDf4GZkZy8sML7S5ouKjC0qLqmoqfr6+ubm5rjN4/r8/b28vUJAQ0NBRKinqDQxNd7o8jYzN87d
+7NHe7bi3uJOSlL7R5cvKy4B/gfn5+YOBhO/0+f3+/ktJTHt5fMC/wNTT1CkmKtXU1cTDxPT09Lm4
+ubq5ujo4O/z8/FNRVD88QLrO5LrP5LvP5KyrrdDe7KOipKSjpa2srv7+/+7u7r29vsTW6NTh7uPs
+9OTs9Ozy+NLf7bvQ5eTr9Ofu9ebt9UZER9vm8Z6dnsfY6evx+Hp4e/T3+6Wkpk9NULjN5MTV573R
+5tDd7NPg7Ts5PPz9/v7//+7z+KKgopuanLCvsM7c7JybnRoXG////ywAAAAA9ABWAAAI/gD/CRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0CDCh1KtKjRo0iTKl3KtKnTp1CjSp1KtarVq1izat3KtavXr2DDih1LtqzZs2jT
+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
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://wiki03.lynero.net/foswiki/pub/Main/SitePreferences/LYNERO_CMYK_lille.png
+
+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
+IuZT7zS9AAAAAElFTkSuQmCC
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/SkinTemplates/base.css
+
+.foswikiMakeVisible {
+	DISPLAY: none
+}
+.foswikiMakeVisibleInline {
+	DISPLAY: none
+}
+.foswikiMakeVisibleBlock {
+	DISPLAY: none
+}
+.foswikiLeft {
+	POSITION: relative; FLOAT: left
+}
+.foswikiRight {
+	POSITION: relative; MARGIN: 0px; DISPLAY: inline; FLOAT: right
+}
+.foswikiClear {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 0px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; DISPLAY: block; HEIGHT: 0px; CLEAR: both; =
+PADDING-TOP: 0px
+}
+.foswikiHidden {
+	DISPLAY: none
+}
+.foswikiSmall {
+	LINE-HEIGHT: 110%; FONT-SIZE: 86%
+}
+.foswikiSmallish {
+	FONT-SIZE: 94%
+}
+.foswikiLarge {
+	LINE-HEIGHT: 1.5em; FONT-SIZE: 1.3em
+}
+.foswikiBroadcastMessage {
+	PADDING-BOTTOM: 0.25em; BACKGROUND-COLOR: #ff0; MARGIN: 0px 0px 1em; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0.25em
+}
+.foswikiBroadcastMessage B {
+	COLOR: #f00
+}
+.foswikiBroadcastMessage STRONG {
+	COLOR: #f00
+}
+.foswikiAlert {
+	COLOR: #f00
+}
+.foswikiAlert CODE {
+	COLOR: #f00
+}
+.foswikiEmulatedLink {
+	TEXT-DECORATION: underline
+}
+.foswikiAccessKey {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 0px =
+solid; BORDER-RIGHT: 0px solid; TEXT-DECORATION: none
+}
+A:hover .foswikiAccessKey {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none
+}
+.foswikiImage IMG {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 3px; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.foswikiPreviewArea {
+	BORDER-BOTTOM: #f00 1px solid; BORDER-LEFT: #f00 1px solid; =
+PADDING-BOTTOM: 1em; MARGIN: 1em 0px; PADDING-LEFT: 1em; PADDING-RIGHT: =
+1em; BORDER-TOP: #f00 1px solid; BORDER-RIGHT: #f00 1px solid; =
+PADDING-TOP: 1em
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/layout.css
+
+HTML {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 100%; BORDER-LEFT-WIDTH: 0px; =
+PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 100%; BORDER-LEFT-WIDTH: 0px; =
+PADDING-TOP: 0px
+}
+BODY {
+	MIN-WIDTH: 100%; TEXT-ALIGN: center
+}
+.clear {
+	LINE-HEIGHT: 1%; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px; OVERFLOW: =
+hidden
+}
+#patternWrapper {
+	HEIGHT: 100%
+}
+#patternWrapper {
+	HEIGHT: auto
+}
+* HTML #patternWrapper {
+	HEIGHT: 100%
+}
+#patternPage {
+	POSITION: relative; TEXT-ALIGN: left; WIDTH: 100%; MARGIN-LEFT: auto; =
+MARGIN-RIGHT: auto
+}
+#patternOuter {
+	Z-INDEX: 1; POSITION: relative; HEIGHT: 100%
+}
+#patternFloatWrap {
+	WIDTH: 100%; DISPLAY: inline; FLOAT: left
+}
+#patternSideBar {
+	DISPLAY: inline; FLOAT: left; OVERFLOW: hidden
+}
+#patternSideBarContents {
+	POSITION: relative
+}
+#patternMain {
+	WIDTH: 100%; DISPLAY: inline; FLOAT: right
+}
+#patternTopBar {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; TOP: 0px
+}
+#patternBottomBar {
+	Z-INDEX: 1; WIDTH: 100%; CLEAR: both
+}
+.foswikiContentFooter {
+	CLEAR: both
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/style.css
+
+HTML BODY {
+	FONT-SIZE: small; voice-family: inherit
+}
+HTML > BODY {
+	FONT-SIZE: small
+}
+TH {
+	LINE-HEIGHT: 1.15em
+}
+P {
+	MARGIN: 1em 0px 0px
+}
+LABEL {
+	PADDING-BOTTOM: 0.15em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.3em; =
+PADDING-TOP: 0.15em
+}
+HR {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; HEIGHT: 1px; BORDER-LEFT-STYLE: none
+}
+PRE {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 1em; =
+MARGIN: 1em 0px; PADDING-LEFT: 1em; WIDTH: auto; PADDING-RIGHT: 1em; =
+BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 1em
+}
+PRE {
+	FONT-FAMILY: "Bitstream Vera Sans Mono","Andale =
+Mono",Courier,monospace; FONT-SIZE: 86%
+}
+CODE {
+	FONT-FAMILY: "Bitstream Vera Sans Mono","Andale =
+Mono",Courier,monospace; FONT-SIZE: 86%
+}
+TT {
+	FONT-FAMILY: "Bitstream Vera Sans Mono","Andale =
+Mono",Courier,monospace; FONT-SIZE: 86%
+}
+HTML > BODY PRE {
+	WIDTH: auto; OVERFLOW: auto !important
+}
+OL {
+	MARGIN-TOP: 0px
+}
+UL {
+	MARGIN-TOP: 0px
+}
+BLOCKQUOTE {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 5px solid; PADDING-BOTTOM: =
+0.5em; PADDING-LEFT: 1.25em; PADDING-RIGHT: 1.25em; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 0.5em
+}
+H1 {
+	MARGIN: 0px 0px 0.5em
+}
+H1 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H2 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H3 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H4 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H5 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H6 {
+	LINE-HEIGHT: 1em; FONT-WEIGHT: normal
+}
+H1 {
+	FONT-SIZE: 190%
+}
+H2 {
+	FONT-SIZE: 153%
+}
+H3 {
+	FONT-SIZE: 133%
+}
+H4 {
+	FONT-SIZE: 122%; FONT-WEIGHT: bold
+}
+H5 {
+	FONT-SIZE: 110%; FONT-WEIGHT: bold
+}
+H6 {
+	FONT-SIZE: 95%; FONT-WEIGHT: bold
+}
+H2 {
+	PADDING-BOTTOM: 0.25em; MARGIN: 1em -10px 0.35em; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: auto; PADDING-TOP: 0.25em
+}
+H3 {
+	PADDING-BOTTOM: 0.25em; MARGIN: 1em -10px 0.35em; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: auto; PADDING-TOP: 0.25em
+}
+H4 {
+	PADDING-BOTTOM: 0.25em; MARGIN: 1em -10px 0.35em; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: auto; PADDING-TOP: 0.25em
+}
+H5 {
+	PADDING-BOTTOM: 0.25em; MARGIN: 1em -10px 0.35em; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: auto; PADDING-TOP: 0.25em
+}
+H6 {
+	PADDING-BOTTOM: 0.25em; MARGIN: 1em -10px 0.35em; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: auto; PADDING-TOP: 0.25em
+}
+H1.patternTemplateTitle {
+	TEXT-ALIGN: center; FONT-SIZE: 170%
+}
+H2.patternTemplateTitle {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; BORDER-RIGHT-STYLE: =
+none; MARGIN-TOP: 0.5em; BORDER-TOP-STYLE: none; BACKGROUND: none =
+transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: none
+}
+.foswikiNewLink {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 0px =
+solid; BORDER-RIGHT: 0px solid
+}
+.foswikiNewLink A {
+	MARGIN-LEFT: 1px; TEXT-DECORATION: none
+}
+.foswikiNewLink A SUP {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; =
+PADDING-RIGHT: 2px; FONT-SIZE: 100%; VERTICAL-ALIGN: baseline; =
+TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.foswikiNewLink A:link SUP {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid; TEXT-DECORATION: none
+}
+.foswikiNewLink A:visited SUP {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid; TEXT-DECORATION: none
+}
+.foswikiNewLink A:hover SUP {
+	TEXT-DECORATION: none
+}
+:focus:link {
+	TEXT-DECORATION: underline
+}
+:focus:visited {
+	TEXT-DECORATION: underline
+}
+:link {
+	TEXT-DECORATION: underline
+}
+:visited {
+	TEXT-DECORATION: underline
+}
+:active {
+	TEXT-DECORATION: underline
+}
+:active {
+	TEXT-DECORATION: underline
+}
+:hover:link {
+	TEXT-DECORATION: none
+}
+:hover:visited {
+	TEXT-DECORATION: none
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; VERTICAL-ALIGN: text-bottom; BORDER-LEFT-WIDTH: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+TEXTAREA {
+	FONT-FAMILY: verdana, sans-serif; FONT-SIZE: 100%; VERTICAL-ALIGN: =
+middle
+}
+INPUT {
+	FONT-FAMILY: verdana, sans-serif; FONT-SIZE: 100%; VERTICAL-ALIGN: =
+middle
+}
+SELECT {
+	FONT-FAMILY: verdana, sans-serif; FONT-SIZE: 100%; VERTICAL-ALIGN: =
+middle
+}
+.foswikiTextarea {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+PADDING-TOP: 1px
+}
+.foswikiSubmit {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiSubmitDisabled {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiButton {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiButtonDisabled {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiButtonCancel {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+A.foswikiButton {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+A.foswikiSubmit {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+A.foswikiButtonCancel {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiCheckbox {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; =
+PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; BORDER-TOP: 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.foswikiSubmit {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiSubmitDisabled {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiButton {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiButtonDisabled {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiButtonCancel {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiSubmit:hover {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiSubmitDisabled:hover {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiButton:hover {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiSubmit:active {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiSubmitDisabled:active {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+.foswikiButton:active {
+	OUTLINE-STYLE: none; CURSOR: default
+}
+A.foswikiButton {
+	TEXT-DECORATION: none
+}
+A.foswikiButton:hover {
+	TEXT-DECORATION: none
+}
+A.foswikiButton:active {
+	TEXT-DECORATION: none
+}
+A.foswikiButton:active {
+	TEXT-DECORATION: none
+}
+A.foswikiButtonCancel {
+	TEXT-DECORATION: none
+}
+A.foswikiButtonCancel:hover {
+	TEXT-DECORATION: none
+}
+A.foswikiButtonCancel:active {
+	TEXT-DECORATION: none
+}
+A.foswikiButtonCancel:active {
+	TEXT-DECORATION: none
+}
+A.foswikiSubmit {
+	TEXT-DECORATION: none
+}
+A.foswikiSubmit:hover {
+	TEXT-DECORATION: none
+}
+A.foswikiSubmit:active {
+	TEXT-DECORATION: none
+}
+A.foswikiSubmit:active {
+	TEXT-DECORATION: none
+}
+.foswikiCheckbox {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 1px 0.25em 1px =
+0.1em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+.foswikiRadioButton {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 1px 0.25em 1px =
+0.1em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+.foswikiTextarea {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; BORDER-TOP: 2px =
+solid; BORDER-RIGHT: 2px solid
+}
+.foswikiInputField {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; BORDER-TOP: 2px =
+solid; BORDER-RIGHT: 2px solid
+}
+.foswikiInputFieldDisabled {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; BORDER-TOP: 2px =
+solid; BORDER-RIGHT: 2px solid
+}
+.foswikiInputFieldReadOnly {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; BORDER-TOP: 2px =
+solid; BORDER-RIGHT: 2px solid
+}
+.foswikiSelect {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; BORDER-TOP: 2px =
+solid; BORDER-RIGHT: 2px solid
+}
+.foswikiTextarea {
+	FONT-SIZE: 100%
+}
+.foswikiInputField {
+	FONT-SIZE: 100%
+}
+.foswikiInputFieldDisabled {
+	FONT-SIZE: 100%
+}
+.foswikiInputFieldReadOnly {
+	FONT-SIZE: 100%
+}
+.foswikiInputField {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.foswikiInputFieldDisabled {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.foswikiInputFieldReadOnly {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.tagMePlugin SELECT {
+	MARGIN: 0px 0.25em 0px 0px
+}
+.tagMePlugin INPUT {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-LEFT-WIDTH: 0px
+}
+.patternEditPage .revComment {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 1em
+}
+.editTable .foswikiTable {
+	MARGIN: 0px 0px 2px
+}
+.editTableEditImageButton {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+.foswikiTable {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: =
+1px; BORDER-LEFT-WIDTH: 1px
+}
+.foswikiTable TD {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: =
+1px; BORDER-LEFT-WIDTH: 1px
+}
+.foswikiTable TH {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: =
+1px; BORDER-LEFT-WIDTH: 1px
+}
+.foswikiTable {
+	BORDER-BOTTOM-STYLE: solid; BORDER-RIGHT-STYLE: solid; MARGIN: 2px 0px; =
+BORDER-COLLAPSE: collapse; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: =
+solid
+}
+.foswikiTable TD {
+	BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 6px; =
+PADDING-RIGHT: 6px; BORDER-TOP-STYLE: solid; PADDING-TOP: 3px
+}
+.foswikiTable TH {
+	PADDING-BOTTOM: 4px; BORDER-RIGHT-STYLE: solid; PADDING-LEFT: 6px; =
+PADDING-RIGHT: 6px; BORDER-LEFT-STYLE: solid; PADDING-TOP: 4px
+}
+.foswikiTable .tableSortIcon {
+	MARGIN: 0px 0px 0px 5px
+}
+.foswikiTable A:link {
+	TEXT-DECORATION: underline
+}
+.foswikiTable A:visited {
+	TEXT-DECORATION: underline
+}
+.foswikiTable A:hover {
+	TEXT-DECORATION: underline
+}
+.twistyTrigger A:link {
+	TEXT-DECORATION: none
+}
+.twistyTrigger A:visited {
+	TEXT-DECORATION: none
+}
+.twistyTrigger A:link .foswikiLinkLabel {
+	TEXT-DECORATION: none
+}
+.twistyTrigger A:visited .foswikiLinkLabel {
+	TEXT-DECORATION: none
+}
+.tipsOfTheDay {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+PADDING-TOP: 10px
+}
+#foswikiLogin {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 44em
+}
+#foswikiLogin .foswikiFormSteps {
+	BORDER-RIGHT-WIDTH: 5px; BORDER-TOP-WIDTH: 5px; BORDER-BOTTOM-WIDTH: =
+5px; BORDER-LEFT-WIDTH: 5px
+}
+#foswikiLogin .patternLoginNotification {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; BORDER-TOP: 2px solid; BORDER-RIGHT: 2px solid
+}
+.foswikiAttachments {
+	PADDING-BOTTOM: 1px; MARGIN: 1em 0px; PADDING-LEFT: 1px; PADDING-RIGHT: =
+1px; HEIGHT: 1%; PADDING-TOP: 1px
+}
+.foswikiForm {
+	PADDING-BOTTOM: 1px; MARGIN: 1em 0px; PADDING-LEFT: 1px; PADDING-RIGHT: =
+1px; HEIGHT: 1%; PADDING-TOP: 1px
+}
+.foswikiTable H2 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable H2 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiTable H3 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable H3 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiTable H4 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable H4 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiTable H5 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable H5 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiTable H6 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable H6 {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: =
+0px
+}
+.foswikiFormTable TH {
+	FONT-WEIGHT: normal
+}
+.foswikiFormTable .foswikiTable TH {
+	FONT-WEIGHT: bold
+}
+.patternEditPage .foswikiFormTable TD {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: =
+0.3em; PADDING-LEFT: 0.4em; PADDING-RIGHT: 0.4em; VERTICAL-ALIGN: =
+middle; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: =
+0.3em
+}
+.patternEditPage .foswikiFormTable TH {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: =
+0.3em; PADDING-LEFT: 0.4em; PADDING-RIGHT: 0.4em; VERTICAL-ALIGN: =
+middle; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: =
+0.3em
+}
+.patternContent .foswikiAttachments {
+	BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: 1em; =
+MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 94%; =
+BORDER-TOP: 2px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: 1em
+}
+.patternContent .foswikiForm {
+	BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: 1em; =
+MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 94%; =
+BORDER-TOP: 2px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: 1em
+}
+.foswikiAttachments .foswikiTable {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 0px; =
+MARGIN: 10px 0px 5px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; =
+PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show; =
+BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 0px
+}
+TABLE.foswikiFormTable {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 0px; =
+MARGIN: 10px 0px 5px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; =
+PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show; =
+BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 0px
+}
+.foswikiAttachments TABLE {
+	LINE-HEIGHT: 1.5em; WIDTH: 100%
+}
+.foswikiAttachments .foswikiTable TH {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px; =
+BORDER-RIGHT: 1px
+}
+.foswikiAttachments .foswikiTable TH {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: =
+2.5em; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: =
+2.5em; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow {
+	TEXT-ALIGN: center
+}
+.foswikiFormTableFooter {
+=09
+}
+.foswikiAttachments .foswikiTable TD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 2em; HEIGHT: 1.5em; VERTICAL-ALIGN: top; PADDING-TOP: 3px
+}
+TABLE.foswikiFormTable TD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 2em; HEIGHT: 1.5em; VERTICAL-ALIGN: top; PADDING-TOP: 3px
+}
+.foswikiAttachments .foswikiTable TH.foswikiFirstCol {
+	TEXT-ALIGN: center; WIDTH: 26px
+}
+.foswikiAttachments .foswikiTable TD.foswikiFirstCol {
+	TEXT-ALIGN: center; WIDTH: 26px
+}
+.foswikiAttachments .foswikiTable CAPTION {
+	DISPLAY: none
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow A:link {
+	TEXT-DECORATION: none
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow A:visited {
+	TEXT-DECORATION: none
+}
+.foswikiAttachments H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; DISPLAY: inline; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; PADDING-TOP: =
+0px
+}
+.foswikiForm H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; DISPLAY: inline; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; PADDING-TOP: =
+0px
+}
+.patternTwistyButton H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; DISPLAY: inline; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; PADDING-TOP: =
+0px
+}
+.patternTwistyButton H3 {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.patternAttachmentHeader {
+=09
+}
+.foswikiForm H3 A:link {
+	TEXT-DECORATION: none
+}
+.foswikiForm H3 A:visited {
+	TEXT-DECORATION: none
+}
+.foswikiForm H3 .foswikiSmall {
+	MARGIN: 0px 0px 0px 0.15em; FONT-SIZE: 86%; FONT-WEIGHT: normal
+}
+.foswikiFormSteps {
+	BORDER-BOTTOM: 0px solid; TEXT-ALIGN: left; BORDER-LEFT: 0px solid; =
+BORDER-TOP: 1px solid; BORDER-RIGHT: 0px solid
+}
+.foswikiFormStep {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: 1em; =
+LINE-HEIGHT: 140%; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; HEIGHT: =
+100%; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: 1em
+}
+.foswikiFormStep H2 {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px 0px 0.1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.foswikiFormStep H3 {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px 0px 0.1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.foswikiFormStep H4 {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px 0px 0.1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.foswikiFormStep H2 {
+	FONT-SIZE: 130%; FONT-WEIGHT: bold
+}
+.foswikiFormStep H3 {
+	FONT-SIZE: 115%; FONT-WEIGHT: bold
+}
+.foswikiFormStep H4 {
+	FONT-SIZE: 104%; FONT-WEIGHT: bold
+}
+.foswikiFormStep P {
+	MARGIN: 0.5em 0px
+}
+.foswikiFormStep BLOCKQUOTE {
+	PADDING-BOTTOM: 0.25em; MARGIN-LEFT: 1em; PADDING-TOP: 0.25em
+}
+.foswikiActionFormStepSign {
+	LINE-HEIGHT: 1em; FLOAT: left; MARGIN-LEFT: -20px; FONT-SIZE: 100%; =
+VERTICAL-ALIGN: text-top
+}
+.foswikiToc {
+	PADDING-BOTTOM: 0.6em; MARGIN: 1em 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 0.3em
+}
+.foswikiToc UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.foswikiToc LI {
+	PADDING-LEFT: 1em; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+0px 0.5em; MARGIN-LEFT: 1em
+}
+.foswikiToc .foswikiTocTitle {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.foswikiSmall {
+	LINE-HEIGHT: 1.5em; FONT-SIZE: 86%
+}
+.foswikiSmallish {
+	LINE-HEIGHT: 1.5em; FONT-SIZE: 94%
+}
+.foswikiNew {
+=09
+}
+.foswikiSummary {
+	FONT-SIZE: 86%
+}
+.foswikiEmulatedLink {
+	TEXT-DECORATION: underline
+}
+.foswikiPageForm TABLE {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid
+}
+.foswikiPageForm TABLE {
+	WIDTH: 100%
+}
+.foswikiPageForm TH {
+	PADDING-BOTTOM: 0.5em; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 1em; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0.5em
+}
+.foswikiPageForm TD {
+	PADDING-BOTTOM: 0.5em; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 1em; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0.5em
+}
+.foswikiPageForm TD {
+=09
+}
+.foswikiPageForm TD.first {
+	PADDING-TOP: 1em
+}
+.foswikiBroadcastMessage {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+PADDING-TOP: 1em
+}
+.foswikiNotification {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+PADDING-TOP: 1em
+}
+.foswikiNotification {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; MARGIN: 1em 0px; =
+BORDER-TOP: 2px solid; BORDER-RIGHT: 2px solid
+}
+.foswikiBroadcastMessage {
+	MARGIN: 0px 0px 1.25em
+}
+.foswikiHelp {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-BOTTOM: 1em; =
+MARGIN: 0.25em 0px 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; HEIGHT: =
+1%; BORDER-TOP: 2px solid; BORDER-RIGHT: 2px solid; PADDING-TOP: 1em
+}
+.foswikiHelp UL {
+	MARGIN: 0px; PADDING-LEFT: 20px
+}
+.foswikiAccessKey {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+A:hover .foswikiAccessKey {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 0px =
+solid; BORDER-RIGHT: 0px solid; TEXT-DECORATION: none
+}
+.foswikiWebIndent {
+	MARGIN: 0px 0px 0px 1em
+}
+.foswikiLinkLabel {
+=09
+}
+.foswikiImage IMG {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 3px; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; =
+BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.foswikiImage A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.foswikiImage A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#foswikiLogo IMG {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+.foswikiNoBreak {
+	WHITE-SPACE: nowrap
+}
+.foswikiSearchResultCount {
+	FONT-WEIGHT: bold
+}
+.foswikiPage {
+	LINE-HEIGHT: 1.5em; FONT-FAMILY: verdana, sans-serif; HEIGHT: 100%; =
+FONT-SIZE: 105%
+}
+.foswikiPage FONT {
+	LINE-HEIGHT: 135%
+}
+.patternNoViewPage #patternOuter {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+#patternTopBar {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px; BORDER-TOP: 1px; =
+BORDER-RIGHT: 1px
+}
+#patternBottomBar {
+	BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 0px solid
+}
+#patternWebBottomBar {
+	TEXT-ALIGN: left; LINE-HEIGHT: 125%; FONT-SIZE: 94%
+}
+#patternSideBarContents {
+	MARGIN: 0px 0px 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 0.5em
+}
+#patternMainContents {
+	PADDING-LEFT: 2em; PADDING-RIGHT: 2em
+}
+#patternBottomBarContents {
+	PADDING-LEFT: 2em; PADDING-RIGHT: 2em
+}
+#patternSideBarContents {
+	PADDING-LEFT: 2em; PADDING-RIGHT: 2em
+}
+#patternTopBarContents {
+	PADDING-LEFT: 2em; PADDING-RIGHT: 2em
+}
+#patternSideBarContents {
+	PADDING-TOP: 2em
+}
+#patternMainContents {
+	PADDING-TOP: 2em
+}
+#patternSideBarContents {
+	PADDING-BOTTOM: 2em
+}
+#patternTopBarContents {
+	PADDING-TOP: 1em
+}
+#patternBottomBarContents {
+	PADDING-TOP: 1em
+}
+.patternNoViewPage .foswikiTopic {
+	MARGIN-TOP: 2em
+}
+#patternMainContents {
+	PADDING-BOTTOM: 4em
+}
+#patternBottomBarContents {
+	PADDING-BOTTOM: 2em
+}
+.foswikiTopic {
+	MARGIN: 0px 0px 2em
+}
+.patternNoViewPage #patternMainContents {
+	MARGIN-LEFT: 4%; MARGIN-RIGHT: 4%
+}
+.patternNoViewPage #patternBottomBarContents {
+	MARGIN-LEFT: 4%; MARGIN-RIGHT: 4%
+}
+.patternEditPage #patternMainContents {
+	MARGIN-LEFT: 2%; MARGIN-RIGHT: 2%
+}
+.patternEditPage #patternBottomBarContents {
+	MARGIN-LEFT: 2%; MARGIN-RIGHT: 2%
+}
+.patternTop {
+	MARGIN: 0px 0px 0.5em
+}
+.patternNoViewPage .patternTop {
+	FONT-SIZE: 94%
+}
+#patternSideBarContents IMG {
+	MARGIN: 0px 3px 0px 0px; VERTICAL-ALIGN: text-bottom
+}
+#patternSideBarContents A:link {
+	TEXT-DECORATION: none
+}
+#patternSideBarContents A:visited {
+	TEXT-DECORATION: none
+}
+#patternSideBarContents UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#patternSideBarContents {
+	LINE-HEIGHT: 1.35em
+}
+#patternSideBarContents UL {
+	LINE-HEIGHT: 1.35em
+}
+#patternSideBarContents LI {
+	LINE-HEIGHT: 1.35em
+}
+#patternSideBarContents H2 {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: =
+transparent; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+#patternSideBarContents .patternLeftBarPersonal {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px; PADDING-BOTTOM: 0.75em; =
+MARGIN: 0px -1em 0.75em; PADDING-LEFT: 1em; WIDTH: 100%; PADDING-RIGHT: =
+1em; HEIGHT: 1%; BORDER-TOP: 1px; BORDER-RIGHT: 1px; PADDING-TOP: 0px
+}
+#patternSideBarContents .patternWebIndicator {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px; PADDING-BOTTOM: 0.75em; =
+MARGIN: 0px -1em 0.75em; PADDING-LEFT: 1em; WIDTH: 100%; PADDING-RIGHT: =
+1em; HEIGHT: 1%; BORDER-TOP: 1px; BORDER-RIGHT: 1px; PADDING-TOP: 0px
+}
+.patternWebIndicator A {
+	FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.patternLeftBarPersonalContent {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 1em
+}
+#patternSideBarContents LI {
+	OVERFLOW: hidden
+}
+HTML > BODY #patternSideBarContents LI {
+	OVERFLOW: visible
+}
+.patternMetaMenu {
+=09
+}
+.patternMetaMenu INPUT {
+	MARGIN: 0px
+}
+.patternMetaMenu SELECT {
+	MARGIN: 0px
+}
+.patternMetaMenu SELECT OPTION {
+	MARGIN: 0px
+}
+.patternMetaMenu SELECT OPTION {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 1px
+}
+.patternMetaMenu UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.patternMetaMenu UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: =
+inline; PADDING-TOP: 0px
+}
+.patternMetaMenu UL LI .foswikiInputField {
+	MARGIN: 0px 0px 0px 0.5em
+}
+.patternMetaMenu UL LI .foswikiSelect {
+	MARGIN: 0px 0px 0px 0.5em
+}
+.patternHomePath .foswikiSeparator {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0px
+}
+.patternHomePath A:link {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px; BORDER-TOP: 1px; =
+BORDER-RIGHT: 1px; TEXT-DECORATION: none
+}
+.patternHomePath A:visited {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px; BORDER-TOP: 1px; =
+BORDER-RIGHT: 1px; TEXT-DECORATION: none
+}
+.patternToolBar {
+=09
+}
+.patternToolBar SPAN {
+	FLOAT: left
+}
+.patternToolBar SPAN S {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: =
+0.1em; MARGIN: 0px 0px 0.2em 0.25em; PADDING-LEFT: 0.35em; =
+PADDING-RIGHT: 0.35em; DISPLAY: block; BORDER-TOP: 1px solid; =
+FONT-WEIGHT: bold; BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.patternToolBar SPAN STRIKE {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: =
+0.1em; MARGIN: 0px 0px 0.2em 0.25em; PADDING-LEFT: 0.35em; =
+PADDING-RIGHT: 0.35em; DISPLAY: block; BORDER-TOP: 1px solid; =
+FONT-WEIGHT: bold; BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.patternToolBar SPAN A:link {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: =
+0.1em; MARGIN: 0px 0px 0.2em 0.25em; PADDING-LEFT: 0.35em; =
+PADDING-RIGHT: 0.35em; DISPLAY: block; BORDER-TOP: 1px solid; =
+FONT-WEIGHT: bold; BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.patternToolBar SPAN A:visited {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: =
+0.1em; MARGIN: 0px 0px 0.2em 0.25em; PADDING-LEFT: 0.35em; =
+PADDING-RIGHT: 0.35em; DISPLAY: block; BORDER-TOP: 1px solid; =
+FONT-WEIGHT: bold; BORDER-RIGHT: 1px solid; PADDING-TOP: 0.1em
+}
+.patternToolBar SPAN A:link {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+.patternToolBar SPAN A:visited {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+.patternToolBar SPAN A:hover {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid
+}
+.patternToolBar SPAN A:hover {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid
+}
+.patternToolBar SPAN A:active {
+	OUTLINE-STYLE: none
+}
+.patternToolBar SPAN.foswikiAccessKey {
+	FLOAT: none
+}
+.patternToolBar SPAN S {
+	TEXT-DECORATION: none
+}
+.patternToolBar SPAN STRIKE {
+	TEXT-DECORATION: none
+}
+.patternTopicActions {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+.patternTopicAction {
+	BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: =
+0.4em; LINE-HEIGHT: 1.5em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+HEIGHT: 1%; BORDER-TOP: 1px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: =
+0.4em
+}
+.patternOopsPage .patternTopicActions {
+	MARGIN: 2em 0px 0px
+}
+.patternEditPage .patternTopicActions {
+	MARGIN: 2em 0px 0px
+}
+.patternAttachPage .patternTopicAction {
+	PADDING-LEFT: 40px
+}
+.patternRenamePage .patternTopicAction {
+	PADDING-LEFT: 40px
+}
+.patternActionButtons A:link {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+PADDING-TOP: 1px
+}
+.patternActionButtons A:visited {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+PADDING-TOP: 1px
+}
+.patternTopicAction .patternActionButtons A:link {
+	TEXT-DECORATION: none
+}
+.patternTopicAction .patternActionButtons A:visited {
+	TEXT-DECORATION: none
+}
+.patternTopicAction .patternActionButtons SPAN S {
+	TEXT-DECORATION: none
+}
+.patternTopicAction .patternActionButtons SPAN STRIKE {
+	TEXT-DECORATION: none
+}
+.patternActionButtons A.foswikiButton {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.patternActionButtons A.foswikiSubmit {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.patternActionButtons A.foswikiButtonCancel {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.1em
+}
+.patternNoViewPage .patternTopicAction {
+	MARGIN-TOP: -1px
+}
+.patternInfo {
+	MARGIN: 1.5em 0px 0px
+}
+.patternHomePath .patternRevInfo {
+	WHITE-SPACE: nowrap; FONT-SIZE: 94%
+}
+.patternMoved {
+	MARGIN: 1em 0px
+}
+.patternMoved I {
+	FONT-STYLE: normal
+}
+.patternMoved EM {
+	FONT-STYLE: normal
+}
+.patternTopicFooter {
+	MARGIN: 1em 0px 0px
+}
+.patternSimpleLogo {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#foswikiSearchTable {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: =
+0px
+}
+#foswikiSearchTable TH {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: 1em; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BORDER-TOP: 0px solid; =
+BORDER-RIGHT: 0px solid; PADDING-TOP: 1em
+}
+#foswikiSearchTable TD {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: 1em; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BORDER-TOP: 0px solid; =
+BORDER-RIGHT: 0px solid; PADDING-TOP: 1em
+}
+#foswikiSearchTable TH {
+	TEXT-ALIGN: right; WIDTH: 20%
+}
+#foswikiSearchTable TD {
+	WIDTH: 80%
+}
+.patternSearchResults {
+	MARGIN: 0px 0px 1em
+}
+.patternSearchResults BLOCKQUOTE {
+	MARGIN: 1em 0px 1em 5em
+}
+H3.patternSearchResultsHeader {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; DISPLAY: block; =
+HEIGHT: 1%; BORDER-TOP: 0px solid; FONT-WEIGHT: bold; BORDER-RIGHT: 0px =
+solid
+}
+H4.patternSearchResultsHeader {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; DISPLAY: block; =
+HEIGHT: 1%; BORDER-TOP: 0px solid; FONT-WEIGHT: bold; BORDER-RIGHT: 0px =
+solid
+}
+.patternSearchResults H3 {
+	PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: =
+40px; FONT-SIZE: 115%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+H4.patternSearchResultsHeader {
+	PADDING-BOTTOM: 0.3em; FONT-SIZE: 100%; FONT-WEIGHT: normal; =
+PADDING-TOP: 0.3em
+}
+.patternSearchResult .foswikiTopRow {
+	MARGIN-TOP: 0.1em; PADDING-TOP: 0.2em
+}
+.patternSearchResult .foswikiBottomRow {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 0px solid; PADDING-BOTTOM: =
+0.25em; MARGIN-BOTTOM: 0.1em; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px =
+solid
+}
+.patternSearchResult .foswikiAlert {
+	FONT-WEIGHT: bold
+}
+.patternSearchResult .foswikiSummary .foswikiAlert {
+	FONT-WEIGHT: normal
+}
+.patternSearchResult .foswikiNew {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 0px; =
+PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-SIZE: 86%; BORDER-TOP: 1px =
+solid; FONT-WEIGHT: bold; BORDER-RIGHT: 1px solid; PADDING-TOP: 0px
+}
+.patternSearchResults .foswikiHelp {
+	PADDING-BOTTOM: 0.1em; MARGIN: 1em -5px 0.35em; PADDING-LEFT: 5px; =
+WIDTH: auto; PADDING-RIGHT: 5px; DISPLAY: block; PADDING-TOP: 0.1em
+}
+.patternSearchResult .foswikiSRAuthor {
+	TEXT-ALIGN: left; WIDTH: 15%
+}
+.patternSearchResult .foswikiSRRev {
+	TEXT-ALIGN: left; WIDTH: 30%
+}
+.patternSearchResultCount {
+	MARGIN: 1em 0px 3em
+}
+.patternSearched {
+	DISPLAY: block
+}
+.patternBookView {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-BOTTOM: 0px; =
+MARGIN: 0.5em 0px 1.5em -5px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; =
+BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: 0px
+}
+.patternBookView .foswikiTopRow {
+	PADDING-BOTTOM: 0.15em; MARGIN: 1em -5px 0.15em; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; PADDING-TOP: 0.25em
+}
+.patternBookView .foswikiBottomRow {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 1em; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FONT-SIZE: 100%; BORDER-LEFT-STYLE: none; =
+PADDING-TOP: 1em
+}
+.patternNoViewPage #patternMainContents {
+	PADDING-TOP: 0px
+}
+.patternEditPage #patternMainContents {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.patternEditPage .patternEditTopic {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0.5em; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.patternEditPage .foswikiTextarea {
+=09
+}
+.patternEditPage .foswikiForm {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+.foswikiFormHolder {
+	WIDTH: 100%
+}
+.patternEditPage .foswikiForm H1 {
+	FONT-SIZE: 120%; FONT-WEIGHT: bold
+}
+.patternEditPage .foswikiForm H2 {
+	FONT-SIZE: 120%; FONT-WEIGHT: bold
+}
+.patternEditPage .foswikiForm H3 {
+	FONT-SIZE: 120%; FONT-WEIGHT: bold
+}
+.foswikiEditboxStyleMono {
+	FONT-FAMILY: "Bitstream Vera Sans Mono","Andale Mono",Courier,monospace
+}
+.foswikiEditboxStyleProportional {
+	FONT-FAMILY: verdana, sans-serif
+}
+.patternEditPage .patternActionButtons {
+	MARGIN: 0.5em 0px 0px
+}
+.patternSig {
+	TEXT-ALIGN: right
+}
+.patternSigLine {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0.5em 0px =
+0px; BORDER-TOP-STYLE: none; HEIGHT: 1%; BORDER-LEFT-STYLE: none
+}
+.foswikiAddFormButton {
+	FLOAT: right
+}
+.patternTextareaButton {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; MARGIN: 0px 0px 0px =
+1px; DISPLAY: block; BORDER-TOP: 1px solid; CURSOR: pointer; =
+BORDER-RIGHT: 1px solid
+}
+.patternButtonFontSelector {
+	MARGIN: 0px 8px 0px 0px
+}
+.patternSaveOptionsContents {
+	MARGIN: 0.5em 0px 0px
+}
+.patternSaveHelp {
+	LINE-HEIGHT: 1.5em; MARGIN: 1em 0px 0px
+}
+.patternSaveOptions {
+	MARGIN: 0.25em 0px 0px; CLEAR: both
+}
+.patternPreviewPage #patternMainContents {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.patternPreviewPage .foswikiTopic {
+	MARGIN-BOTTOM: 0px
+}
+.foswikiPreviewArea {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 2em; =
+MARGIN: 0px 0px 1.5em; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; HEIGHT: =
+1%; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 2em
+}
+.patternPreviewPage .foswikiForm {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 2em; =
+MARGIN: 0px 0px 1.5em; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; HEIGHT: =
+1%; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; PADDING-TOP: 2em
+}
+.patternAttachPage .foswikiAttachments .foswikiTable {
+	WIDTH: auto
+}
+.patternAttachPage .foswikiAttachments {
+	MARGIN-TOP: 0px
+}
+.patternMoveAttachment {
+	TEXT-ALIGN: right; MARGIN: 0.5em 0px 0px
+}
+.patternDiff {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-BOTTOM: 0px; =
+MARGIN: 0.5em 0px 1.5em; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; =
+BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid; PADDING-TOP: 0px
+}
+.patternDiff H4.patternSearchResultsHeader {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+PADDING-TOP: 0.5em
+}
+.patternDiffPage .patternRevInfo UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 2em 0px 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.patternDiffPage .foswikiDiffTable {
+	MARGIN: 2em 0px
+}
+.foswikiDiffDebug {
+	FONT-FAMILY: "Bitstream Vera Sans Mono","Andale =
+Mono",Courier,monospace; WHITE-SPACE: pre; FONT-SIZE: 86%
+}
+TR.foswikiDiffDebug TD {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-TOP: 1px =
+solid; BORDER-RIGHT: 1px solid
+}
+.patternDiffPage TD.foswikiDiffDebugLeft {
+	BORDER-BOTTOM-STYLE: none
+}
+.patternDiffPage .foswikiDiffTable TH {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.25em
+}
+.patternDiffPage .foswikiDiffTable TD {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; =
+PADDING-TOP: 0.25em
+}
+.foswikiDiffLineNumberHeader {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0.3em
+}
+.mceContentBody {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+PADDING-TOP: 1px
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/colors.css
+
+#patternScreen {
+	BACKGROUND: #e2e2e2
+}
+#patternPage {
+	BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; BORDER-RIGHT-COLOR: =
+#ccc; BORDER-LEFT-COLOR: #ccc
+}
+#patternTopBar {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+#patternMain {
+=09
+}
+#patternOuter {
+	BORDER-BOTTOM-COLOR: #dadada; BORDER-TOP-COLOR: #dadada; BACKGROUND: =
+none transparent scroll repeat 0% 0%; BORDER-RIGHT-COLOR: #dadada; =
+BORDER-LEFT-COLOR: #dadada
+}
+#patternSideBar {
+	BACKGROUND: #fff
+}
+#patternWrapper {
+	BACKGROUND: #fff
+}
+#patternBottomBar {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #f5f5f5; BORDER-TOP-COLOR: =
+#ccc; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+#patternBottomBarContents {
+	COLOR: #777
+}
+#patternBottomBarContents A:link {
+	COLOR: #777
+}
+#patternBottomBarContents A:visited {
+	COLOR: #777
+}
+#patternBottomBarContents A:hover {
+	COLOR: #fff
+}
+HTML BODY {
+	BACKGROUND-COLOR: #f5f5f5; COLOR: #000
+}
+HTML BODY.patternEditPage {
+	BACKGROUND-COLOR: #fff
+}
+.mceContentBody {
+	BACKGROUND-COLOR: #fff
+}
+BODY {
+	BACKGROUND-COLOR: transparent
+}
+P {
+	BACKGROUND-COLOR: transparent
+}
+LI {
+	BACKGROUND-COLOR: transparent
+}
+UL {
+	BACKGROUND-COLOR: transparent
+}
+OL {
+	BACKGROUND-COLOR: transparent
+}
+DL {
+	BACKGROUND-COLOR: transparent
+}
+DT {
+	BACKGROUND-COLOR: transparent
+}
+DD {
+	BACKGROUND-COLOR: transparent
+}
+ACRONYM {
+	BACKGROUND-COLOR: transparent
+}
+H1 {
+	BACKGROUND-COLOR: transparent
+}
+H2 {
+	BACKGROUND-COLOR: transparent
+}
+H3 {
+	BACKGROUND-COLOR: transparent
+}
+H4 {
+	BACKGROUND-COLOR: transparent
+}
+H5 {
+	BACKGROUND-COLOR: transparent
+}
+H6 {
+	BACKGROUND-COLOR: transparent
+}
+HR {
+	BACKGROUND-COLOR: #e2e2e2; COLOR: #e2e2e2
+}
+PRE {
+	COLOR: #333
+}
+CODE {
+	COLOR: #333
+}
+TT {
+	COLOR: #333
+}
+PRE {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; BACKGROUND: #f5f5f5; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+BLOCKQUOTE {
+	BORDER-BOTTOM-COLOR: #ddd; BACKGROUND-COLOR: #f5f5f5; BORDER-TOP-COLOR: =
+#ddd; BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+BLOCKQUOTE H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+H1 {
+	COLOR: #2989bb
+}
+H2 {
+	COLOR: #d1400e
+}
+H3 {
+	COLOR: #d1400e
+}
+H4 {
+	COLOR: #d1400e
+}
+H5 {
+	COLOR: #d1400e
+}
+H6 {
+	COLOR: #d1400e
+}
+H2 {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+H3 {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+H4 {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+H5 {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+H6 {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiNewLink FONT {
+=09
+}
+.foswikiNewLink A:link SUP {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; COLOR: #777; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+.foswikiNewLink A:visited SUP {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; COLOR: #777; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+.foswikiNewLink A:hover SUP {
+	BORDER-BOTTOM-COLOR: #0055b5; BACKGROUND-COLOR: #0055b5; =
+BORDER-TOP-COLOR: #0055b5; COLOR: #fff; BORDER-RIGHT-COLOR: #0055b5; =
+BORDER-LEFT-COLOR: #0055b5
+}
+.foswikiNewLink {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; BORDER-RIGHT-COLOR: =
+#ddd; BORDER-LEFT-COLOR: #ddd
+}
+:focus:link {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:focus:visited {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:link {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:visited {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:active {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:active {
+	BACKGROUND-COLOR: transparent; COLOR: #4571d0
+}
+:hover:link {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #0055b5; COLOR: #fff
+}
+:hover:visited {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #0055b5; COLOR: #fff
+}
+:hover:link IMG {
+	BACKGROUND-COLOR: transparent
+}
+:hover:visited IMG {
+	BACKGROUND-COLOR: transparent
+}
+.foswikiTopic A:visited {
+	COLOR: #666
+}
+.foswikiTopic A:hover {
+	COLOR: #fff
+}
+.foswikiTopic .foswikiUnvisited A:visited {
+	COLOR: #4571d0
+}
+.foswikiTopic .foswikiUnvisited A:hover {
+	COLOR: #fff
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #aaa; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#aaa; COLOR: #000; BORDER-RIGHT-COLOR: #aaa; BORDER-LEFT-COLOR: #aaa
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #aaa; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#aaa; COLOR: #000; BORDER-RIGHT-COLOR: #aaa; BORDER-LEFT-COLOR: #aaa
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #aaa; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#aaa; COLOR: #000; BORDER-RIGHT-COLOR: #aaa; BORDER-LEFT-COLOR: #aaa
+}
+.foswikiSubmit {
+	BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: =
+#888; BORDER-LEFT-COLOR: #fff
+}
+.foswikiButton {
+	BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: =
+#888; BORDER-LEFT-COLOR: #fff
+}
+.foswikiSubmit {
+	BACKGROUND-COLOR: #06c; COLOR: #fff
+}
+.foswikiButton {
+	BACKGROUND-COLOR: #e2e3e3; COLOR: #000
+}
+.foswikiButtonCancel {
+	BACKGROUND-COLOR: #f2d5d0; COLOR: #000
+}
+.foswikiSubmitDisabled {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #eef7fa; BORDER-TOP-COLOR: =
+#fff; COLOR: #aaa; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #fff
+}
+.foswikiSubmitDisabled:active {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #eef7fa; BORDER-TOP-COLOR: =
+#fff; COLOR: #aaa; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #fff
+}
+.foswikiTextarea {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BORDER-TOP-COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiInputField {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BORDER-TOP-COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiInputFieldDisabled {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BORDER-TOP-COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiInputFieldReadOnly {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BORDER-TOP-COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiSelect {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BORDER-TOP-COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiTextarea {
+	BACKGROUND-COLOR: #fff; COLOR: #000
+}
+.foswikiInputField {
+	BACKGROUND-COLOR: #fff; COLOR: #000
+}
+.foswikiSelect {
+	BACKGROUND-COLOR: #fff; COLOR: #000
+}
+.foswikiInputField:active {
+	BACKGROUND-COLOR: #ffffe0
+}
+.foswikiInputField:focus {
+	BACKGROUND-COLOR: #ffffe0
+}
+.foswikiInputFieldFocus {
+	BACKGROUND-COLOR: #ffffe0
+}
+.foswikiTextareaRawView {
+	COLOR: #000
+}
+.foswikiInputFieldDisabled {
+	BACKGROUND-COLOR: #fafaf8; COLOR: #aaa
+}
+.foswikiInputFieldReadOnly {
+	COLOR: #777
+}
+.foswikiSelect {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#bbb; COLOR: #000; BORDER-RIGHT-COLOR: #f2f2f2; BORDER-LEFT-COLOR: #bbb
+}
+.foswikiInputFieldDisabled {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BACKGROUND-COLOR: #fafaf8; =
+BORDER-TOP-COLOR: #bbb; COLOR: #aaa; BORDER-RIGHT-COLOR: #f2f2f2; =
+BORDER-LEFT-COLOR: #bbb
+}
+.foswikiSelectDisabled {
+	BORDER-BOTTOM-COLOR: #f2f2f2; BACKGROUND-COLOR: #fafaf8; =
+BORDER-TOP-COLOR: #bbb; COLOR: #aaa; BORDER-RIGHT-COLOR: #f2f2f2; =
+BORDER-LEFT-COLOR: #bbb
+}
+.foswikiInputFieldBeforeFocus {
+	COLOR: #777
+}
+.foswikiTable {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiTable TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiTable TH {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiTable TH A:link {
+	COLOR: #fff
+}
+.foswikiTable TH A:visited {
+	COLOR: #fff
+}
+.foswikiTable TH A FONT {
+	COLOR: #fff
+}
+.twistyPlaceholder {
+	COLOR: #777
+}
+A.twistyTrigger:hover {
+	COLOR: #fff
+}
+.tipsOfTheDay {
+=09
+}
+.revComment .patternTopicAction {
+	BACKGROUND-COLOR: #eef7fa
+}
+.foswikiGrayText {
+	COLOR: #777
+}
+.foswikiGrayText A:link {
+	COLOR: #777
+}
+.foswikiGrayText A:visited {
+	COLOR: #777
+}
+.foswikiGrayText A:hover {
+	COLOR: #fff
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow {
+	COLOR: #777
+}
+TABLE.foswikiFormTable TD.foswikiFormTableRow {
+	COLOR: #777
+}
+.foswikiEditForm {
+	COLOR: #000
+}
+.foswikiEditForm .foswikiFormTable {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiEditForm .foswikiFormTable TH {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiEditForm .foswikiFormTable TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiEditForm .foswikiFormTable TD {
+	BACKGROUND-COLOR: #f7fafc
+}
+.foswikiEditForm .foswikiFormTable TH {
+	BACKGROUND-COLOR: #f0f6fb
+}
+.patternContent .foswikiAttachments {
+	BORDER-BOTTOM-COLOR: #fff; BACKGROUND-COLOR: #eef7fa; BORDER-TOP-COLOR: =
+#fff; BORDER-RIGHT-COLOR: #fff; BORDER-LEFT-COLOR: #fff
+}
+.patternContent .foswikiForm {
+	BORDER-BOTTOM-COLOR: #fff; BACKGROUND-COLOR: #eef7fa; BORDER-TOP-COLOR: =
+#fff; BORDER-RIGHT-COLOR: #fff; BORDER-LEFT-COLOR: #fff
+}
+.patternTwistyButton H3 {
+	COLOR: #d1400e
+}
+.foswikiAttachments TABLE {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+TABLE.foswikiFormTable {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiAttachments TABLE {
+	BACKGROUND-COLOR: #fff
+}
+.foswikiForm TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiForm TH {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiAttachments TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiAttachments TH {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiAttachments .foswikiTable TH FONT {
+	COLOR: #4571d0
+}
+TABLE.foswikiFormTable TH.foswikiFormTableHRow FONT {
+	COLOR: #4571d0
+}
+.foswikiFormSteps {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #eef7fa; =
+BORDER-TOP-COLOR: #e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; =
+BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiFormStep {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiFormStep H2 {
+	COLOR: #2989bb
+}
+.foswikiFormStep H3 {
+	COLOR: #d1400e
+}
+.foswikiFormStep H4 {
+	COLOR: #d1400e
+}
+.foswikiFormStep H3 {
+	BACKGROUND-COLOR: transparent
+}
+.foswikiFormStep H4 {
+	BACKGROUND-COLOR: transparent
+}
+.foswikiActionFormStepSign {
+	COLOR: #d1400e
+}
+.foswikiFormStep .foswikiHelp {
+	BACKGROUND: #fff
+}
+.foswikiToc .foswikiTocTitle {
+	COLOR: #777
+}
+.foswikiBroadcastMessage {
+	BACKGROUND-COLOR: #ffe67b
+}
+.foswikiNotification {
+	BACKGROUND-COLOR: #ffe67b
+}
+.foswikiNotification {
+	BORDER-BOTTOM: #ffdf4c 2px solid; BORDER-LEFT: #ffdf4c 2px solid; =
+BORDER-TOP: #ffdf4c 2px solid; BORDER-RIGHT: #ffdf4c 2px solid
+}
+#foswikiLogin .patternLoginNotification {
+	BORDER-BOTTOM-COLOR: #f00; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#f00; BORDER-RIGHT-COLOR: #f00; BORDER-LEFT-COLOR: #f00
+}
+.foswikiHelp {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #edf5fa; =
+BORDER-TOP-COLOR: #e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; =
+BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiBroadcastMessage B {
+	COLOR: #f00
+}
+.foswikiBroadcastMessage STRONG {
+	COLOR: #f00
+}
+.foswikiAlert {
+	COLOR: #f00
+}
+.foswikiAlert CODE {
+	COLOR: #f00
+}
+.foswikiEmulatedLink {
+	COLOR: #4571d0
+}
+.foswikiPageForm TABLE {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; BACKGROUND: =
+#fff; BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.foswikiPageForm HR {
+	BORDER-BOTTOM-COLOR: #cfcfcf; BACKGROUND-COLOR: #cfcfcf; =
+BORDER-TOP-COLOR: #cfcfcf; COLOR: #cfcfcf; BORDER-RIGHT-COLOR: #cfcfcf; =
+BORDER-LEFT-COLOR: #cfcfcf
+}
+.foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #777; BORDER-TOP-COLOR: #777; BORDER-RIGHT-COLOR: =
+#777; BORDER-LEFT-COLOR: #777
+}
+A:link .foswikiAccessKey {
+=09
+}
+A:visited .foswikiAccessKey {
+=09
+}
+A:hover .foswikiAccessKey {
+=09
+}
+.foswikiImage IMG {
+	BORDER-BOTTOM-COLOR: #eee; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#eee; BORDER-RIGHT-COLOR: #eee; BORDER-LEFT-COLOR: #eee
+}
+#patternTopBar .foswikiImage IMG {
+	BACKGROUND-COLOR: transparent
+}
+.foswikiImage A:hover IMG {
+	BORDER-BOTTOM-COLOR: #0055b5; BORDER-TOP-COLOR: #0055b5; =
+BORDER-RIGHT-COLOR: #0055b5; BORDER-LEFT-COLOR: #0055b5
+}
+#patternPage {
+	BACKGROUND-COLOR: #fff
+}
+.patternHomePath A:link {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; COLOR: #666; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+.patternHomePath A:visited {
+	BORDER-BOTTOM-COLOR: #ddd; BORDER-TOP-COLOR: #ddd; COLOR: #666; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd
+}
+.patternTop A:hover {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; COLOR: #fff; BORDER-LEFT-STYLE: none
+}
+.patternHomePath .patternRevInfo {
+	COLOR: #777
+}
+.patternHomePath .patternRevInfo A:link {
+	COLOR: #777
+}
+.patternHomePath .patternRevInfo A:visited {
+	COLOR: #777
+}
+.patternHomePath .patternRevInfo A:hover {
+	COLOR: #fff
+}
+#patternSideBarContents {
+	COLOR: #000
+}
+#patternSideBarContents HR {
+	BACKGROUND-COLOR: #e2e2e2; COLOR: #e2e2e2
+}
+#patternSideBarContents A:link {
+	COLOR: #444
+}
+#patternSideBarContents A:visited {
+	COLOR: #444
+}
+#patternSideBarContents A:hover {
+	COLOR: #fff
+}
+#patternSideBarContents .patternLeftBarPersonal {
+	BORDER-BOTTOM-COLOR: #dadada; BORDER-TOP-COLOR: #dadada; =
+BORDER-RIGHT-COLOR: #dadada; BORDER-LEFT-COLOR: #dadada
+}
+#patternSideBarContents .patternWebIndicator {
+	BORDER-BOTTOM-COLOR: #dadada; BORDER-TOP-COLOR: #dadada; =
+BORDER-RIGHT-COLOR: #dadada; BORDER-LEFT-COLOR: #dadada
+}
+#patternSideBarContents B {
+	COLOR: #d1400e
+}
+#patternSideBarContents STRONG {
+	COLOR: #d1400e
+}
+.patternTopicActions {
+	BACKGROUND-COLOR: #2989bb; COLOR: #bbb
+}
+.patternTopicAction {
+	BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: =
+#fff; BORDER-LEFT-COLOR: #fff
+}
+.patternTopicAction S {
+	COLOR: #aaa
+}
+.patternTopicAction STRIKE {
+	COLOR: #aaa
+}
+.patternTopicAction .foswikiSeparator {
+	COLOR: #e2e2e2
+}
+.patternActionButtons A:link {
+	COLOR: #fff
+}
+.patternActionButtons A:visited {
+	COLOR: #fff
+}
+.patternActionButtons A:hover {
+	COLOR: #fff
+}
+.patternTopicAction A:link .foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #fff; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #fff; BORDER-LEFT-COLOR: #fff
+}
+.patternTopicAction A:visited .foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #fff; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #fff; BORDER-LEFT-COLOR: #fff
+}
+.patternTopicAction A:hover .foswikiAccessKey {
+	COLOR: #fff
+}
+.patternTopicAction LABEL {
+	COLOR: #000
+}
+.patternHelpCol {
+	COLOR: #777
+}
+.patternSigLine {
+	COLOR: #777
+}
+.patternEditTopic {
+	BACKGROUND: #eef7fa
+}
+.patternToolBar A:link .foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #666; BORDER-TOP-COLOR: #666; BORDER-RIGHT-COLOR: =
+#666; BORDER-LEFT-COLOR: #666
+}
+.patternToolBar A:visited .foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #666; BORDER-TOP-COLOR: #666; BORDER-RIGHT-COLOR: =
+#666; BORDER-LEFT-COLOR: #666
+}
+.patternToolBar A:hover .foswikiAccessKey {
+	BORDER-BOTTOM-COLOR: #666; BACKGROUND-COLOR: transparent; =
+BORDER-TOP-COLOR: #666; BORDER-RIGHT-COLOR: #666; BORDER-LEFT-COLOR: =
+#666
+}
+TABLE#foswikiSearchTable {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+TABLE#foswikiSearchTable TH {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+TABLE#foswikiSearchTable TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+TABLE#foswikiSearchTable HR {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #e2e2e2; =
+BORDER-TOP-COLOR: #e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; =
+BORDER-LEFT-COLOR: #e2e2e2
+}
+TABLE#foswikiSearchTable TH {
+	COLOR: #000
+}
+H3.patternSearchResultsHeader {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #eef7fa; =
+BORDER-TOP-COLOR: #e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; =
+BORDER-LEFT-COLOR: #e2e2e2
+}
+H4.patternSearchResultsHeader {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BACKGROUND-COLOR: #eef7fa; =
+BORDER-TOP-COLOR: #e2e2e2; BORDER-RIGHT-COLOR: #e2e2e2; =
+BORDER-LEFT-COLOR: #e2e2e2
+}
+H4.patternSearchResultsHeader {
+	COLOR: #000
+}
+.patternNoViewPage H4.patternSearchResultsHeader {
+	COLOR: #d1400e
+}
+.patternSearchResult .foswikiBottomRow {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.patternSearchResult .foswikiAlert {
+	COLOR: #f00
+}
+.patternSearchResult .foswikiSummary .foswikiAlert {
+	COLOR: #900
+}
+.patternSearchResult .foswikiNew {
+	BORDER-BOTTOM-COLOR: #049804; BACKGROUND-COLOR: #ecfadc; =
+BORDER-TOP-COLOR: #049804; COLOR: #049804; BORDER-RIGHT-COLOR: #049804; =
+BORDER-LEFT-COLOR: #049804
+}
+.patternViewPage .patternSearchResultsBegin {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.patternBookView .foswikiTopRow {
+	BACKGROUND-COLOR: transparent; COLOR: #777
+}
+.patternBookView .foswikiBottomRow {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.patternBookView .patternSearchResultCount {
+	COLOR: #777
+}
+.foswikiPreviewArea {
+	BORDER-BOTTOM-COLOR: #f00; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#f00; BORDER-RIGHT-COLOR: #f00; BORDER-LEFT-COLOR: #f00
+}
+.patternPreviewPage .foswikiForm {
+	BORDER-BOTTOM-COLOR: #f00; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#f00; BORDER-RIGHT-COLOR: #f00; BORDER-LEFT-COLOR: #f00
+}
+.patternPreviewPage .foswikiForm {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#ccc; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+.patternDiff {
+	BORDER-BOTTOM-COLOR: #6b7f93; BORDER-TOP-COLOR: #6b7f93; =
+BORDER-RIGHT-COLOR: #6b7f93; BORDER-LEFT-COLOR: #6b7f93
+}
+#patternMainContents .patternDiff H4.patternSearchResultsHeader {
+	BACKGROUND-COLOR: #6b7f93; COLOR: #fff
+}
+#patternMainContents .patternDiff H4.patternSearchResultsHeader A:link {
+	COLOR: #fff
+}
+#patternMainContents .patternDiff H4.patternSearchResultsHeader =
+A:visited {
+	COLOR: #fff
+}
+TR.foswikiDiffDebug TD {
+	BORDER-BOTTOM-COLOR: #e2e2e2; BORDER-TOP-COLOR: #e2e2e2; =
+BORDER-RIGHT-COLOR: #e2e2e2; BORDER-LEFT-COLOR: #e2e2e2
+}
+.patternDiffPage .foswikiDiffTable TH {
+	BACKGROUND-COLOR: #ccc
+}
+.foswikiDiffChangedHeader {
+	BACKGROUND: #9f9
+}
+TR.foswikiDiffDebug .foswikiDiffChangedText {
+	BACKGROUND: #9f9
+}
+TR.foswikiDiffDebug .foswikiDiffChangedText {
+	BACKGROUND: #9f9
+}
+TR.foswikiDiffDebug .foswikiDiffDeletedMarker {
+	BACKGROUND-COLOR: #f99
+}
+TR.foswikiDiffDebug .foswikiDiffDeletedText {
+	BACKGROUND-COLOR: #f99
+}
+.foswikiDiffAddedHeader {
+	BACKGROUND-COLOR: #ccf
+}
+TR.foswikiDiffDebug .foswikiDiffAddedMarker {
+	BACKGROUND-COLOR: #ccf
+}
+TR.foswikiDiffDebug .foswikiDiffAddedText {
+	BACKGROUND-COLOR: #ccf
+}
+TR.foswikiDiffDebug .foswikiDiffUnchangedText {
+	COLOR: #777
+}
+.foswikiDiffUnchangedTextContents {
+=09
+}
+.foswikiDiffLineNumberHeader {
+	BACKGROUND-COLOR: #ccc
+}
+#patternTopBar {
+=09
+}
+.foswikiToc LI {
+	BACKGROUND-IMAGE: url(bullet-toc.gif); BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-POSITION: 0px 0.4em
+}
+.patternPrintPage #patternOuter {
+	BACKGROUND: #fff
+}
+.foswikiSubmit {
+	BACKGROUND-IMAGE: url(bg_submit_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.foswikiSubmitDisabled {
+	BACKGROUND-IMAGE: url(bg_submit_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.foswikiSubmit {
+	BORDER-BOTTOM-COLOR: #0e66a2; BACKGROUND-COLOR: #06c; BORDER-TOP-COLOR: =
+#94cce2; BACKGROUND-POSITION: 0px 0px; COLOR: #fff; BORDER-RIGHT-COLOR: =
+#0e66a2; BORDER-LEFT-COLOR: #94cce2
+}
+A.foswikiSubmit:link {
+	BORDER-BOTTOM-COLOR: #0e66a2; BACKGROUND-COLOR: #06c; BORDER-TOP-COLOR: =
+#94cce2; BACKGROUND-POSITION: 0px 0px; COLOR: #fff; BORDER-RIGHT-COLOR: =
+#0e66a2; BORDER-LEFT-COLOR: #94cce2
+}
+A.foswikiSubmit:visited {
+	BORDER-BOTTOM-COLOR: #0e66a2; BACKGROUND-COLOR: #06c; BORDER-TOP-COLOR: =
+#94cce2; BACKGROUND-POSITION: 0px 0px; COLOR: #fff; BORDER-RIGHT-COLOR: =
+#0e66a2; BORDER-LEFT-COLOR: #94cce2
+}
+.foswikiSubmit:hover {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #0047b7; =
+BORDER-TOP-COLOR: #0e66a2; BACKGROUND-POSITION: 0px -80px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #0e66a2
+}
+A.foswikiSubmit:hover {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #0047b7; =
+BORDER-TOP-COLOR: #0e66a2; BACKGROUND-POSITION: 0px -80px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #0e66a2
+}
+.foswikiSubmit:active {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #73ace6; =
+BORDER-TOP-COLOR: #0e66a2; BACKGROUND-POSITION: 0px -160px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #0e66a2
+}
+A.foswikiSubmit:active {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #73ace6; =
+BORDER-TOP-COLOR: #0e66a2; BACKGROUND-POSITION: 0px -160px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #0e66a2
+}
+.foswikiSubmitDisabled {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #d9e8f7; BORDER-TOP-COLOR: =
+#ccc; BACKGROUND-POSITION: 0px -240px; COLOR: #ccc; BORDER-RIGHT-COLOR: =
+#ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiSubmitDisabled:hover {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #d9e8f7; BORDER-TOP-COLOR: =
+#ccc; BACKGROUND-POSITION: 0px -240px; COLOR: #ccc; BORDER-RIGHT-COLOR: =
+#ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiSubmitDisabled:active {
+	BORDER-BOTTOM-COLOR: #ccc; BACKGROUND-COLOR: #d9e8f7; BORDER-TOP-COLOR: =
+#ccc; BACKGROUND-POSITION: 0px -240px; COLOR: #ccc; BORDER-RIGHT-COLOR: =
+#ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiButton {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#94cce2; BACKGROUND-COLOR: #cce7f1; BORDER-TOP-COLOR: #fff; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px 0px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #fff
+}
+A.foswikiButton:link {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#94cce2; BACKGROUND-COLOR: #cce7f1; BORDER-TOP-COLOR: #fff; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px 0px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #fff
+}
+A.foswikiButton:visited {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#94cce2; BACKGROUND-COLOR: #cce7f1; BORDER-TOP-COLOR: #fff; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px 0px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #fff
+}
+.foswikiButton:hover {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -160px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+.foswikiButton:active {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -160px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+A.foswikiButton:hover {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -160px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+A.foswikiButton:active {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -160px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+.foswikiButtonDisabled {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#ccc; BACKGROUND-COLOR: #edece6; BORDER-TOP-COLOR: #ccc; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -240px; COLOR: =
+#bbb; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiButtonDisabled:hover {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#ccc; BACKGROUND-COLOR: #edece6; BORDER-TOP-COLOR: #ccc; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -240px; COLOR: =
+#bbb; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiButtonDisabled:active {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BORDER-BOTTOM-COLOR: =
+#ccc; BACKGROUND-COLOR: #edece6; BORDER-TOP-COLOR: #ccc; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -240px; COLOR: =
+#bbb; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+.foswikiButtonCancel {
+	BACKGROUND-IMAGE: url(bg_buttoncancel_gradient.gif); =
+BORDER-BOTTOM-COLOR: #ce5232; BACKGROUND-COLOR: #dd724d; =
+BORDER-TOP-COLOR: #f3ddd7; BACKGROUND-REPEAT: repeat-x; =
+BACKGROUND-POSITION: 0px 0px; COLOR: #fff; BORDER-RIGHT-COLOR: #ce5232; =
+BORDER-LEFT-COLOR: #f3ddd7
+}
+.foswikiButtonCancel:hover {
+	BORDER-BOTTOM-COLOR: #f3ddd7; BACKGROUND-COLOR: #dd724d; =
+BORDER-TOP-COLOR: #ce5232; BACKGROUND-POSITION: 0px -80px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #f3ddd7; BORDER-LEFT-COLOR: #ce5232
+}
+.foswikiButtonCancel:active {
+	BORDER-BOTTOM-COLOR: #f3ddd7; BACKGROUND-COLOR: #dd724d; =
+BORDER-TOP-COLOR: #ce5232; BACKGROUND-POSITION: 0px -160px; COLOR: #fff; =
+BORDER-RIGHT-COLOR: #f3ddd7; BORDER-LEFT-COLOR: #ce5232
+}
+.patternToolBar SPAN A:link {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.patternToolBar SPAN A:visited {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.patternToolBar SPAN S {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.patternToolBar SPAN STRIKE {
+	BACKGROUND-IMAGE: url(bg_button_gradient.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.patternToolBar SPAN A:link {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #fff; BACKGROUND-POSITION: 0px 0px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #fff
+}
+.patternToolBar SPAN A:visited {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #fff; BACKGROUND-POSITION: 0px 0px; COLOR: #333; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #fff
+}
+.patternToolBar SPAN A:hover {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #cce7f1; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -80px; COLOR: #222; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+.patternToolBar SPAN A:active {
+	BORDER-BOTTOM-COLOR: #94cce2; BACKGROUND-COLOR: #e8e5d7; =
+BORDER-TOP-COLOR: #94cce2; BACKGROUND-POSITION: 0px -160px; COLOR: #222; =
+BORDER-RIGHT-COLOR: #94cce2; BORDER-LEFT-COLOR: #94cce2
+}
+.patternToolBar SPAN S {
+	BORDER-BOTTOM-COLOR: #eae9e7; BACKGROUND-COLOR: #edece6; =
+BORDER-TOP-COLOR: #eae9e7; BACKGROUND-POSITION: 0px -240px; COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #eae9e7; BORDER-LEFT-COLOR: #eae9e7
+}
+.patternToolBar SPAN STRIKE {
+	BORDER-BOTTOM-COLOR: #eae9e7; BACKGROUND-COLOR: #edece6; =
+BORDER-TOP-COLOR: #eae9e7; BACKGROUND-POSITION: 0px -240px; COLOR: #bbb; =
+BORDER-RIGHT-COLOR: #eae9e7; BORDER-LEFT-COLOR: #eae9e7
+}
+.patternTextareaButton {
+	BORDER-BOTTOM-COLOR: #b8b6ad; BORDER-TOP-COLOR: #fffefd; =
+BORDER-RIGHT-COLOR: #b8b6ad; OVERFLOW: hidden; BORDER-LEFT-COLOR: =
+#fffefd
+}
+.patternButtonFontSelector {
+	BACKGROUND-IMAGE: url(button_font_selector.gif); WIDTH: 33px; HEIGHT: =
+16px
+}
+.patternButtonFontSelectorProportional {
+	BACKGROUND-POSITION: 0px 0px
+}
+.patternButtonFontSelectorMonospace {
+	BACKGROUND-POSITION: 0px -16px
+}
+.patternButtonEnlarge {
+	BACKGROUND-IMAGE: url(button_arrow.gif); WIDTH: 16px; HEIGHT: 16px
+}
+.patternButtonShrink {
+	BACKGROUND-IMAGE: url(button_arrow.gif); WIDTH: 16px; HEIGHT: 16px
+}
+.patternButtonEnlarge {
+	BACKGROUND-POSITION: 0px 0px
+}
+.patternButtonEnlarge:hover {
+	BACKGROUND-POSITION: 0px -42px
+}
+.patternButtonEnlarge:active {
+	BACKGROUND-POSITION: 0px -84px
+}
+.patternButtonShrink {
+	BACKGROUND-POSITION: 16px 0px
+}
+.patternButtonShrink:hover {
+	BACKGROUND-POSITION: 16px -42px
+}
+.patternButtonShrink:active {
+	BACKGROUND-POSITION: 16px -84px
+}
+.foswikiBroadcastMessage {
+	BACKGROUND-IMAGE: url(background_alert.gif); BACKGROUND-REPEAT: =
+repeat-x
+}
+.patternLeftBarPersonal LI {
+	PADDING-LEFT: 13px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+0px 0.4em
+}
+LI.patternLogOut {
+	PADDING-LEFT: 13px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+0px 0.4em
+}
+LI.patternLogIn {
+	PADDING-LEFT: 13px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+0px 0.4em
+}
+.patternLeftBarPersonal LI {
+	BACKGROUND-IMAGE: url(bullet-personal_sidebar.gif)
+}
+.patternLeftBarPersonal LI.patternLogOut {
+	BACKGROUND-IMAGE: url(bullet-lock.gif)
+}
+.patternLeftBarPersonal LI.patternLogIn {
+	BACKGROUND-IMAGE: url(bullet-lock.gif)
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/column_left.css
+
+#patternOuter {
+	MARGIN-LEFT: 16em
+}
+#patternSideBar {
+	WIDTH: 16em; MARGIN-LEFT: -16em
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/theme_foswiki.css
+
+#patternScreen {
+	BACKGROUND-IMAGE: url(ur_bg.gif); PADDING-BOTTOM: 10px; MIN-HEIGHT: =
+97%; PADDING-LEFT: 100px; PADDING-RIGHT: 100px; PADDING-TOP: 10px
+}
+#patternPage {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; MARGIN: -1px; =
+BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid
+}
+#patternTopBarContents {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e8f3f7; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#patternTopBar {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#patternClearHeaderCenter {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#patternClearHeaderLeft {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#patternClearHeaderRight {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#patternTopBarContentsOuter {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#patternTopBarContents {
+	HEIGHT: 86px; OVERFLOW: hidden
+}
+#foswikiLogo {
+	MARGIN-TOP: 1em
+}
+.patternMetaMenu {
+	PADDING-BOTTOM: 15px; MARGIN: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: =
+15px; PADDING-TOP: 15px
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkinCssCookbookFonts/fonts.css
+
+BODY {
+	BACKGROUND: #000000
+}
+#patternPage {
+	FONT-FAMILY: "verdana", Geneva, Arial, sans-serif; COLOR: #000; =
+FONT-SIZE: 11px
+}
+H1 {
+	FONT-FAMILY: "verdana", serif
+}
+H2 {
+	FONT-FAMILY: "verdana", serif
+}
+H3 {
+	FONT-FAMILY: "verdana", serif
+}
+H4 {
+	FONT-FAMILY: "verdana", serif
+}
+H5 {
+	FONT-FAMILY: "verdana", serif
+}
+H6 {
+	FONT-FAMILY: "verdana", serif
+}
+.foswikiTopic {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.5em
+}
+#patternSideBar {
+	FONT-FAMILY: verdana
+}
+.patternTop {
+	FONT-FAMILY: verdana
+}
+#patternSideBar A:link {
+	COLOR: #666
+}
+#patternSideBar A:visited {
+	COLOR: #666
+}
+#patternSideBar A:hover {
+	COLOR: #acc3b1
+}
+.patternLeftBarPersonal {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.patternLeftBarPersonal A:link {
+	COLOR: #800
+}
+.patternLeftBarPersonal A:visited {
+	COLOR: #800
+}
+#patternMain {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/print.css
+
+BODY.patternPrintPage {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+BODY.patternPrintPage {
+	BACKGROUND-COLOR: #fff
+}
+.patternPrintPage #patternBottomBar {
+	BACKGROUND-COLOR: #fff
+}
+.patternPrintPage #patternScreen {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+.patternPrintPage #patternPageShadow {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+.patternPrintPage #patternPage {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+.patternPrintPage #patternOuter {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+.patternPrintPage #patternMain {
+	WIDTH: 100%; DISPLAY: inline; FLOAT: right; OVERFLOW: visible
+}
+.patternPrintPage #patternSideBar {
+	DISPLAY: none
+}
+.patternPrintPage #patternWrapper {
+	HEIGHT: 1%
+}
+.patternPrintPage #patternTopBar {
+	DISPLAY: none
+}
+.patternPrintPage #patternClearHeaderCenter {
+	DISPLAY: none
+}
+.patternPrintPage #patternClearHeaderLeft {
+	DISPLAY: none
+}
+.patternPrintPage #patternClearHeaderRight {
+	DISPLAY: none
+}
+.patternPrintPage #patternTopBarContentsOuter {
+	DISPLAY: none
+}
+.patternPrintPage .patternTopicAction {
+	DISPLAY: none
+}
+.patternPrintPage .patternToolBar {
+	DISPLAY: none
+}
+.patternPrintPage .patternToolBarBottom {
+	DISPLAY: none
+}
+.patternPrintPage .patternHomePath IMG {
+	DISPLAY: none
+}
+.patternPrintPage .patternHomePathTitle {
+	DISPLAY: none
+}
+.patternPrintPage .foswikiActionFormStepSign {
+	DISPLAY: none
+}
+.patternPrintPage #patternMainContents {
+	PADDING-BOTTOM: 1em; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+2em; PADDING-TOP: 1em
+}
+.patternPrintPage #patternBottomBarContents {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+2em; PADDING-TOP: 0px
+}
+.patternPrintPage #patternTopBarContents {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+2em; PADDING-TOP: 0px
+}
+.patternPrintPage #patternBottomBar {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 1em; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; =
+BORDER-LEFT-STYLE: none; PADDING-TOP: 1em
+}
+.patternPrintPage .patternTopicFooter {
+	MARGIN: 1em 0px 0px
+}
+.patternPrintPage #attachmentsshow {
+	DISPLAY: none
+}
+.patternPrintPage #attachmentshide {
+	DISPLAY: none
+}
+.patternPrintPage PRE {
+	OVERFLOW: visible !important
+}
+HTML > BODY .patternPrintPage PRE {
+	OVERFLOW: visible !important
+}
+.patternPrintPage H1 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage H2 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage H3 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage H4 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage H5 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage H6 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage IMG {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage BLOCKQUOTE {
+	PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage TABLE {
+	PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage PRE {
+	PAGE-BREAK-INSIDE: avoid
+}
+.patternPrintPage UL {
+	PAGE-BREAK-BEFORE: avoid
+}
+.patternPrintPage OL {
+	PAGE-BREAK-BEFORE: avoid
+}
+.patternPrintPage DL {
+	PAGE-BREAK-BEFORE: avoid
+}
+.patternPrintPage .commentPlugin {
+	DISPLAY: none
+}
+.patternPrintPage .twistyTrigger {
+	DISPLAY: none
+}
+.patternPrintPage .editTableEditImageButton {
+	DISPLAY: none
+}
+
+@media Print   =20
+{
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#patternScreen {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+#patternPageShadow {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+#patternPage {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+#patternOuter {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; FLOAT: none; BORDER-LEFT-STYLE: none; TOP: 0px; =
+PADDING-TOP: 0px
+}
+#patternMain {
+	WIDTH: 100%; DISPLAY: inline; FLOAT: right; OVERFLOW: visible
+}
+#patternSideBar {
+	DISPLAY: none
+}
+#patternWrapper {
+	HEIGHT: 1%
+}
+#patternTopBar {
+	DISPLAY: none
+}
+#patternClearHeaderCenter {
+	DISPLAY: none
+}
+#patternClearHeaderLeft {
+	DISPLAY: none
+}
+#patternClearHeaderRight {
+	DISPLAY: none
+}
+#patternTopBarContentsOuter {
+	DISPLAY: none
+}
+.patternTopicAction {
+	DISPLAY: none
+}
+.patternToolBar {
+	DISPLAY: none
+}
+.patternToolBarBottom {
+	DISPLAY: none
+}
+.patternHomePath IMG {
+	DISPLAY: none
+}
+.patternHomePathTitle {
+	DISPLAY: none
+}
+.foswikiActionFormStepSign {
+	DISPLAY: none
+}
+#patternMainContents {
+	PADDING-BOTTOM: 1em; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+2em; PADDING-TOP: 1em
+}
+#patternBottomBarContents {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#patternTopBarContents {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 2em; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#patternBottomBar {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+.patternTopicFooter {
+	MARGIN: 1em 0px 0px
+}
+#attachmentsshow {
+	DISPLAY: none
+}
+#attachmentshide {
+	DISPLAY: none
+}
+PRE {
+	OVERFLOW: visible !important
+}
+HTML > BODY PRE {
+	OVERFLOW: visible !important
+}
+H1 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+H2 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+H3 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+H4 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+H5 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+H6 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+IMG {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-INSIDE: avoid
+}
+BLOCKQUOTE {
+	PAGE-BREAK-INSIDE: avoid
+}
+TABLE {
+	PAGE-BREAK-INSIDE: avoid
+}
+PRE {
+	PAGE-BREAK-INSIDE: avoid
+}
+UL {
+	PAGE-BREAK-BEFORE: avoid
+}
+OL {
+	PAGE-BREAK-BEFORE: avoid
+}
+DL {
+	PAGE-BREAK-BEFORE: avoid
+}
+.commentPlugin {
+	DISPLAY: none
+}
+.twistyTrigger {
+	DISPLAY: none
+}
+.editTableEditImageButton {
+	DISPLAY: none
+}
+HTML BODY {
+	BACKGROUND-COLOR: #fff
+}
+H2 {
+	BACKGROUND-COLOR: transparent
+}
+H3 {
+	BACKGROUND-COLOR: transparent
+}
+H4 {
+	BACKGROUND-COLOR: transparent
+}
+H5 {
+	BACKGROUND-COLOR: transparent
+}
+H6 {
+	BACKGROUND-COLOR: transparent
+}
+#patternBottomBar {
+	BACKGROUND-COLOR: transparent
+}
+PRE {
+	COLOR: #5b4221
+}
+CODE {
+	COLOR: #5b4221
+}
+TT {
+	COLOR: #5b4221
+}
+.foswikiTable TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; COLOR: =
+#000; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid
+}
+.foswikiTable TH A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.foswikiTable TH A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.foswikiTable TH A FONT {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.foswikiAttachments .foswikiTable TH A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.foswikiAttachments .foswikiTable TH A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.foswikiAttachments .foswikiTable TH A FONT {
+	COLOR: #000; TEXT-DECORATION: none
+}
+:visited {
+	BACKGROUND-COLOR: transparent; COLOR: #06c
+}
+.foswikiTopic A:visited {
+	BACKGROUND-COLOR: transparent; COLOR: #06c
+}
+.foswikiAttachments {
+	BACKGROUND-COLOR: #fff
+}
+.patternContent .foswikiAttachments {
+	BACKGROUND-COLOR: #fff
+}
+.foswikiForm {
+	BACKGROUND-COLOR: #fff
+}
+.patternContent .foswikiForm {
+	BACKGROUND-COLOR: #fff
+}
+.patternRevInfo {
+	COLOR: #666
+}
+.foswikiGrayText {
+	COLOR: #666
+}
+.patternRevInfo A:link {
+	COLOR: #666
+}
+.patternRevInfo A:visited .foswikiGrayText A:link {
+	COLOR: #666
+}
+.foswikiGrayText A:visited {
+	COLOR: #666
+}
+
+}
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/BehaviourContrib/behaviour.compressed.js
+
+var Behaviour;if(!Behaviour){Behaviour=3D{list:new Array,submitList:new =
+Array,register:function(sheet){Behaviour.list.push(sheet);},start:functio=
+n(){Behaviour.addLoadEvent(function(){Behaviour.apply();});},apply:functi=
+on(fromElement){var h,sheet;var =
+onapply=3D!arguments.callee.done?arguments.callee.done=3Dtrue:false;for(h=
+=3D0;sheet=3DBehaviour.list[h];h++){for(selector in =
+sheet){list=3DcssQuery(selector,fromElement);if(!list.length)continue;for=
+(i=3D0;element=3Dlist[i];i++){if(!element.__applied){sheet[selector](elem=
+ent);if(element.oninit)element.oninit();if(element.onbeforesubmit){i=3DBe=
+haviour.submitList.length;Behaviour.submitList[i]=3Delement;}=0A=
+element.__applied=3Dtrue;element=3Dnull;}}}}},invokeOnBeforeSubmit:functi=
+on(){var =
+i,length,elm;length=3DBehaviour.submitList.length;for(i=3D0;i<length;i++)=
+{elm=3DBehaviour.submitList[i];if(elm&&elm.onbeforesubmit)elm.onbeforesub=
+mit();else =
+Behaviour.submitList[i]=3Dnull;elm=3Dnull;}},addLoadEvent:function(func){=
+var oldonload=3Dwindow.onload;if(typeof =
+window.onload!=3D'function'){window.onload=3Dfunc;}else{window.onload=3Df=
+unction(){oldonload();func();}}}}=0A=
+Behaviour.start();}=0A=
+eval(function(p,a,c,k,e,d){e=3Dfunction(c){return(c<a?'':e(parseInt(c/a))=
+)+((c=3Dc%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace=
+(/^/,String)){while(c--)d[e(c)]=3Dk[c]||e(c);k=3D[function(e){return =
+d[e]}];e=3Dfunction(){return'\\w+'};c=3D1};while(c--)if(k[c])p=3Dp.replac=
+e(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7 x=3D6(){7 =
+1D=3D"2.0.2";7 C=3D/\\s*,\\s*/;7 x=3D6(s,A){33{7 m=3D[];7 =
+u=3D1z.32.2c&&!A;7 b=3D(A)?(A.31=3D=3D22)?A:[A]:[1g];7 =
+1E=3D18(s).1l(C),i;9(i=3D0;i<1E.y;i++){s=3D1y(1E[i]);8(U&&s.Z(0,3).2b("")=
+=3D=3D" *#"){s=3Ds.Z(2);A=3D24([],b,s[1])}1A A=3Db;7 =
+j=3D0,t,f,a,c=3D"";H(j<s.y){t=3Ds[j++];f=3Ds[j++];c+=3Dt+f;a=3D"";8(s[j]=3D=
+=3D"("){H(s[j++]!=3D")")a+=3Ds[j];a=3Da.Z(0,-1);c+=3D"("+a+")"}A=3D(u&&V[=
+c])?V[c]:21(A,t,f,a);8(u)V[c]=3DA}m=3Dm.30(A)}2a x.2d;5 =
+m}2Z(e){x.2d=3De;5[]}};x.1Z=3D6(){5"6 x() {\\n  [1D "+1D+"]\\n}"};7 =
+V=3D{};x.2c=3DL;x.2Y=3D6(s){8(s){s=3D1y(s).2b("");2a V[s]}1A V=3D{}};7 =
+29=3D{};7 19=3DL;x.15=3D6(n,s){8(19)1i("s=3D"+1U(s));29[n]=3D12 =
+s()};x.2X=3D6(c){5 c?1i(c):o};7 D=3D{};7 h=3D{};7 =
+q=3D{P:/\\[([\\w-]+(\\|[\\w-]+)?)\\s*(\\W?=3D)?\\s*([^\\]]*)\\]/};7 =
+T=3D[];D[" "]=3D6(r,f,t,n){7 e,i,j;9(i=3D0;i<f.y;i++){7 =
+s=3DX(f[i],t,n);9(j=3D0;(e=3Ds[j]);j++){8(M(e)&&14(e,n))r.z(e)}}};D["#"]=3D=
+6(r,f,i){7 =
+e,j;9(j=3D0;(e=3Df[j]);j++)8(e.B=3D=3Di)r.z(e)};D["."]=3D6(r,f,c){c=3D12 =
+1t("(^|\\\\s)"+c+"(\\\\s|$)");7 =
+e,i;9(i=3D0;(e=3Df[i]);i++)8(c.l(e.1V))r.z(e)};D[":"]=3D6(r,f,p,a){7 =
+t=3Dh[p],e,i;8(t)9(i=3D0;(e=3Df[i]);i++)8(t(e,a))r.z(e)};h["2W"]=3D6(e){7=
+ d=3DQ(e);8(d.1C)9(7 i=3D0;i<d.1C.y;i++){8(d.1C[i]=3D=3De)5 =
+K}};h["2V"]=3D6(e){};7 M=3D6(e){5(e&&e.1c=3D=3D1&&e.1f!=3D"!")?e:23};7 =
+16=3D6(e){H(e&&(e=3De.2U)&&!M(e))28;5 e};7 =
+G=3D6(e){H(e&&(e=3De.2T)&&!M(e))28;5 e};7 1r=3D6(e){5 =
+M(e.27)||G(e.27)};7 1P=3D6(e){5 M(e.26)||16(e.26)};7 1o=3D6(e){7 =
+c=3D[];e=3D1r(e);H(e){c.z(e);e=3DG(e)}5 c};7 U=3DK;7 1h=3D6(e){7 =
+d=3DQ(e);5(2S d.25=3D=3D"2R")?/\\.1J$/i.l(d.2Q):2P(d.25=3D=3D"2O 2N")};7 =
+Q=3D6(e){5 e.2M||e.1g};7 X=3D6(e,t){5(t=3D=3D"*"&&e.1B)?e.1B:e.X(t)};7 =
+17=3D6(e,t,n){8(t=3D=3D"*")5 M(e);8(!14(e,n))5 L;8(!1h(e))t=3Dt.2L();5 =
+e.1f=3D=3Dt};7 14=3D6(e,n){5!n||(n=3D=3D"*")||(e.2K=3D=3Dn)};7 =
+1e=3D6(e){5 e.1G};6 24(r,f,B){7 =
+m,i,j;9(i=3D0;i<f.y;i++){8(m=3Df[i].1B.2J(B)){8(m.B=3D=3DB)r.z(m);1A =
+8(m.y!=3D23){9(j=3D0;j<m.y;j++){8(m[j].B=3D=3DB)r.z(m[j])}}}}5 =
+r};8(![].z)22.2I.z=3D6(){9(7 i=3D0;i<1z.y;i++){o[o.y]=3D1z[i]}5 o.y};7 =
+N=3D/\\|/;6 21(A,t,f,a){8(N.l(f)){f=3Df.1l(N);a=3Df[0];f=3Df[1]}7 =
+r=3D[];8(D[t]){D[t](r,A,f,a)}5 r};7 S=3D/^[^\\s>+~]/;7 =
+20=3D/[\\s#.:>+~()@]|[^\\s#.:>+~()@]+/g;6 1y(s){8(S.l(s))s=3D" "+s;5 =
+s.P(20)||[]};7 W=3D/\\s*([\\s>+~(),]|^|$)\\s*/g;7 =
+I=3D/([\\s>+~,]|[^(]\\+|^)([#.:@])/g;7 18=3D6(s){5 =
+s.O(W,"$1").O(I,"$1*$2")};7 =
+1u=3D{1Z:6(){5"\'"},P:/^(\'[^\']*\')|("[^"]*")$/,l:6(s){5 =
+o.P.l(s)},1S:6(s){5 o.l(s)?s:o+s+o},1Y:6(s){5 o.l(s)?s.Z(1,-1):s}};7 =
+1s=3D6(t){5 1u.1Y(t)};7 E=3D/([\\/()[\\]?{}|*+-])/g;6 R(s){5 =
+s.O(E,"\\\\$1")};x.15("1j-2H",6(){D[">"]=3D6(r,f,t,n){7 =
+e,i,j;9(i=3D0;i<f.y;i++){7 =
+s=3D1o(f[i]);9(j=3D0;(e=3Ds[j]);j++)8(17(e,t,n))r.z(e)}};D["+"]=3D6(r,f,t=
+,n){9(7 i=3D0;i<f.y;i++){7 =
+e=3DG(f[i]);8(e&&17(e,t,n))r.z(e)}};D["@"]=3D6(r,f,a){7 t=3DT[a].l;7 =
+e,i;9(i=3D0;(e=3Df[i]);i++)8(t(e))r.z(e)};h["2G-10"]=3D6(e){5!16(e)};h["1=
+x"]=3D6(e,c){c=3D12 1t("^"+c,"i");H(e&&!e.13("1x"))e=3De.1n;5 =
+e&&c.l(e.13("1x"))};q.1X=3D/\\\\:/g;q.1w=3D"@";q.J=3D{};q.O=3D6(m,a,n,c,v=
+){7 k=3Do.1w+m;8(!T[k]){a=3Do.1W(a,c||"",v||"");T[k]=3Da;T.z(a)}5 =
+T[k].B};q.1Q=3D6(s){s=3Ds.O(o.1X,"|");7 m;H(m=3Ds.P(o.P)){7 =
+r=3Do.O(m[0],m[1],m[2],m[3],m[4]);s=3Ds.O(o.P,r)}5 s};q.1W=3D6(p,t,v){7 =
+a=3D{};a.B=3Do.1w+T.y;a.2F=3Dp;t=3Do.J[t];t=3Dt?t(o.13(p),1s(v)):L;a.l=3D=
+12 2E("e","5 "+t);5 =
+a};q.13=3D6(n){1d(n.2D()){F"B":5"e.B";F"2C":5"e.1V";F"9":5"e.2B";F"1T":8(=
+U){5"1U((e.2A.P(/1T=3D\\\\1v?([^\\\\s\\\\1v]*)\\\\1v?/)||[])[1]||\'\')"}}=
+5"e.13(\'"+n.O(N,":")+"\')"};q.J[""]=3D6(a){5 a};q.J["=3D"]=3D6(a,v){5 =
+a+"=3D=3D"+1u.1S(v)};q.J["~=3D"]=3D6(a,v){5"/(^| )"+R(v)+"( =
+|$)/.l("+a+")"};q.J["|=3D"]=3D6(a,v){5"/^"+R(v)+"(-|$)/.l("+a+")"};7 =
+1R=3D18;18=3D6(s){5 =
+1R(q.1Q(s))}});x.15("1j-2z",6(){D["~"]=3D6(r,f,t,n){7 =
+e,i;9(i=3D0;(e=3Df[i]);i++){H(e=3DG(e)){8(17(e,t,n))r.z(e)}}};h["2y"]=3D6=
+(e,t){t=3D12 1t(R(1s(t)));5 t.l(1e(e))};h["2x"]=3D6(e){5 =
+e=3D=3DQ(e).1H};h["2w"]=3D6(e){7 =
+n,i;9(i=3D0;(n=3De.1F[i]);i++){8(M(n)||n.1c=3D=3D3)5 L}5 =
+K};h["1N-10"]=3D6(e){5!G(e)};h["2v-10"]=3D6(e){e=3De.1n;5 =
+1r(e)=3D=3D1P(e)};h["2u"]=3D6(e,s){7 n=3Dx(s,Q(e));9(7 =
+i=3D0;i<n.y;i++){8(n[i]=3D=3De)5 L}5 K};h["1O-10"]=3D6(e,a){5 =
+1p(e,a,16)};h["1O-1N-10"]=3D6(e,a){5 1p(e,a,G)};h["2t"]=3D6(e){5 =
+e.B=3D=3D2s.2r.Z(1)};h["1M"]=3D6(e){5 e.1M};h["2q"]=3D6(e){5 =
+e.1q=3D=3D=3DL};h["1q"]=3D6(e){5 e.1q};h["1L"]=3D6(e){5 =
+e.1L};q.J["^=3D"]=3D6(a,v){5"/^"+R(v)+"/.l("+a+")"};q.J["$=3D"]=3D6(a,v){=
+5"/"+R(v)+"$/.l("+a+")"};q.J["*=3D"]=3D6(a,v){5"/"+R(v)+"/.l("+a+")"};6 =
+1p(e,a,t){1d(a){F"n":5 K;F"2p":a=3D"2n";1a;F"2o":a=3D"2n+1"}7 =
+1m=3D1o(e.1n);6 1k(i){7 i=3D(t=3D=3DG)?1m.y-i:i-1;5 =
+1m[i]=3D=3De};8(!Y(a))5 1k(a);a=3Da.1l("n");7 m=3D1K(a[0]);7 =
+s=3D1K(a[1]);8((Y(m)||m=3D=3D1)&&s=3D=3D0)5 K;8(m=3D=3D0&&!Y(s))5 =
+1k(s);8(Y(s))s=3D0;7 =
+c=3D1;H(e=3Dt(e))c++;8(Y(m)||m=3D=3D1)5(t=3D=3DG)?(c<=3Ds):(s>=3Dc);5(c%m=
+)=3D=3Ds}});x.15("1j-2m",6(){U=3D1i("L;/*@2l@8(@\\2k)U=3DK@2j@*/");8(!U){=
+X=3D6(e,t,n){5 =
+n?e.2i("*",t):e.X(t)};14=3D6(e,n){5!n||(n=3D=3D"*")||(e.2h=3D=3Dn)};1h=3D=
+1g.1I?6(e){5/1J/i.l(Q(e).1I)}:6(e){5 Q(e).1H.1f!=3D"2g"};1e=3D6(e){5 =
+e.2f||e.1G||1b(e)};6 1b(e){7 =
+t=3D"",n,i;9(i=3D0;(n=3De.1F[i]);i++){1d(n.1c){F 11:F 1:t+=3D1b(n);1a;F =
+3:t+=3Dn.2e;1a}}5 t}}});19=3DK;5 =
+x}();',62,190,'|||||return|function|var|if|for||||||||pseudoClasses||||te=
+st|||this||AttributeSelector|||||||cssQuery|length|push|fr|id||selectors|=
+|case|nextElementSibling|while||tests|true|false|thisElement||replace|mat=
+ch|getDocument|regEscape||attributeSelectors|isMSIE|cache||getElementsByT=
+agName|isNaN|slice|child||new|getAttribute|compareNamespace|addModule|pre=
+viousElementSibling|compareTagName|parseSelector|loaded|break|_0|nodeType=
+|switch|getTextContent|tagName|document|isXML|eval|css|_1|split|ch|parent=
+Node|childElements|nthChild|disabled|firstElementChild|getText|RegExp|Quo=
+te|x22|PREFIX|lang|_2|arguments|else|all|links|version|se|childNodes|inne=
+rText|documentElement|contentType|xml|parseInt|indeterminate|checked|last=
+|nth|lastElementChild|parse|_3|add|href|String|className|create|NS_IE|rem=
+ove|toString|ST|select|Array|null|_4|mimeType|lastChild|firstChild|contin=
+ue|modules|delete|join|caching|error|nodeValue|textContent|HTML|prefix|ge=
+tElementsByTagNameNS|end|x5fwin32|cc_on|standard||odd|even|enabled|hash|l=
+ocation|target|not|only|empty|root|contains|level3|outerHTML|htmlFor|clas=
+s|toLowerCase|Function|name|first|level2|prototype|item|scopeName|toUpper=
+Case|ownerDocument|Document|XML|Boolean|URL|unknown|typeof|nextSibling|pr=
+eviousSibling|visited|link|valueOf|clearCache|catch|concat|constructor|ca=
+llee|try'.split('|'),0,{}))
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikilib.js
+
+// Foswiki namespace=0A=
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+=0A=
+foswiki.getMetaTag =3D function(inKey) {=0A=
+    if (foswiki.metaTags =3D=3D null || foswiki.metaTags.length =3D=3D =
+0) {=0A=
+        // Do this the brute-force way because of the problem=0A=
+        // seen sporadically on Bugs web where the DOM appears complete, =
+but=0A=
+        // the META tags are not all found by getElementsByTagName=0A=
+        var head =3D document.getElementsByTagName("META");=0A=
+        head =3D head[0].parentNode.childNodes;=0A=
+        foswiki.metaTags =3D new Array();=0A=
+        for (var i =3D 0; i < head.length; i++) {=0A=
+            if (head[i].tagName !=3D null &&=0A=
+                head[i].tagName.toUpperCase() =3D=3D 'META') {=0A=
+                foswiki.metaTags[head[i].name] =3D head[i].content;=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+    return foswiki.metaTags[inKey]; =0A=
+};=0A=
+=0A=
+/**=0A=
+Get all elements under root that include the given class.=0A=
+@param inRootElem: HTMLElement to start searching from=0A=
+@param inClassName: CSS class name to find=0A=
+@param inTag: (optional) HTML tag to speed up searching (if not given, a =
+wildcard is used to search all elements)=0A=
+@example:=0A=
+<code>=0A=
+var gallery =3D document.getElementById('galleryTable');=0A=
+var elems =3D foswiki.getElementsByClassName(gallery, 'personalPicture');=0A=
+var firstPicture =3D elems[0];=0A=
+</code>=0A=
+*/=0A=
+foswiki.getElementsByClassName =3D function(inRootElem, inClassName, =
+inTag) {=0A=
+	var tag =3D inTag || '*';=0A=
+	var elms =3D inRootElem.getElementsByTagName(tag);=0A=
+	var className =3D inClassName.replace(/\-/g, "\\-");=0A=
+	var re =3D new RegExp("\\b" + className + "\\b");=0A=
+	var el;=0A=
+	var hits =3D new Array();=0A=
+	for (var i =3D 0; i < elms.length; i++) {=0A=
+		el =3D elms[i];=0A=
+		if (re.test(el.className)) {=0A=
+			hits.push(el);=0A=
+		}=0A=
+	}=0A=
+	return hits;=0A=
+}=0A=
+=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiWindow.js
+
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+foswiki.Window =3D {=0A=
+	=0A=
+	POPUP_WINDOW_WIDTH : 600,=0A=
+	POPUP_WINDOW_HEIGHT : 480,=0A=
+	POPUP_ATTRIBUTES : "titlebar=3D0,resizable,scrollbars",=0A=
+	=0A=
+	/**=0A=
+	Launch a fixed-size help window.=0A=
+	@param inUrl : (required) URL String of new window=0A=
+	@param inOptions : (optional) value object with keys:=0A=
+		web : (String) name of Web=0A=
+		topic : (String) name of topic; will be window name unless specified =
+in 'name'=0A=
+		skin : (String) name of skin=0A=
+		template : (String) name of template=0A=
+		cover : (String) name of cover=0A=
+		section : (String) name of section=0A=
+		urlparams : (String) additional url params to pass to the window=0A=
+		name : (String) name of window; may be set if 'topic' has not been set=0A=
+		width : (String) width of new window; overrides default value =
+POPUP_WINDOW_WIDTH=0A=
+		height : (String) height of new window; overrides default value =
+POPUP_WINDOW_HEIGHT=0A=
+		attributes : (String) additional window attributes; overrides default =
+value POPUP_ATTRIBUTES. Each attribute/value pair is separated by a =
+comma. Example attributes string: =
+"width=3D500,height=3D400,resizable=3D1,scrollbars=3D1,status=3D1,toolbar=
+=3D1"=0A=
+	@param inAltWindow : (Window) Window where url is loaded into if no =
+pop-up could be created. The original window contents is replaced with =
+the passed url (plus optionally web, topic, skin path)=0A=
+	@use=0A=
+	<pre>=0A=
+	var window =3D foswiki.Window.openPopup(=0A=
+		"%SCRIPTURL{view}%/",=0A=
+			{=0A=
+    			topic:"WebChanges",=0A=
+    			web:"%SYSTEMWEB%"=0A=
+    		}=0A=
+    	);=0A=
+	</pre>=0A=
+	@return The new Window object.=0A=
+	*/=0A=
+	openPopup:function (inUrl, inOptions, inAltWindow) {=0A=
+		if (!inUrl) return null;=0A=
+		=0A=
+		var paramsString =3D "";=0A=
+		var name =3D "";=0A=
+		var pathString =3D inUrl;=0A=
+		var windowAttributes =3D [];=0A=
+		=0A=
+		// set default values, may be overridden below=0A=
+		var width =3D foswiki.Window.POPUP_WINDOW_WIDTH;=0A=
+		var height =3D foswiki.Window.POPUP_WINDOW_HEIGHT;=0A=
+		var attributes =3D foswiki.Window.POPUP_ATTRIBUTES;=0A=
+		=0A=
+		if (inOptions) {=0A=
+			var pathElements =3D [];=0A=
+			if (inOptions.web !=3D undefined) pathElements.push(inOptions.web);=0A=
+			if (inOptions.topic !=3D undefined) {				=0A=
+				pathElements.push(inOptions.topic);=0A=
+			}=0A=
+			pathString +=3D pathElements.join("/");=0A=
+			=0A=
+			var params =3D [];=0A=
+			if (inOptions.skin !=3D undefined) {=0A=
+				params.push("skin=3D" + inOptions.skin);=0A=
+			}=0A=
+			if (inOptions.template !=3D undefined) {=0A=
+				params.push("template=3D" + inOptions.template);=0A=
+			}=0A=
+			if (inOptions.section !=3D undefined) {=0A=
+				params.push("section=3D" + inOptions.section);=0A=
+			}=0A=
+			if (inOptions.cover !=3D undefined) {=0A=
+				params.push("cover=3D" + inOptions.cover);=0A=
+			}=0A=
+			if (inOptions.urlparams !=3D undefined) {=0A=
+				params.push(inOptions.urlparams);=0A=
+			}=0A=
+			paramsString =3D params.join(";");=0A=
+			if (paramsString.length > 0) {=0A=
+				// add query string=0A=
+				paramsString =3D "?" + paramsString;=0A=
+			}			=0A=
+			if (inOptions.topic !=3D undefined) {=0A=
+				name =3D inOptions.topic;=0A=
+			}=0A=
+			if (inOptions.name !=3D undefined) {=0A=
+				name =3D inOptions.name;=0A=
+			}=0A=
+			=0A=
+			if (inOptions.width !=3D undefined) width =3D inOptions.width;=0A=
+			if (inOptions.height !=3D undefined) height =3D inOptions.height;=0A=
+			if (inOptions.attributes !=3D undefined) attributes =3D =
+inOptions.attributes;=0A=
+		}=0A=
+	=0A=
+		windowAttributes.push("width=3D" + width);=0A=
+		windowAttributes.push("height=3D" + height);=0A=
+=0A=
+		windowAttributes.push(attributes);=0A=
+		var attributesString =3D windowAttributes.join(",");=0A=
+		var url =3D pathString + paramsString;=0A=
+		=0A=
+		var window =3D open(url, name, attributesString);=0A=
+		if (window) {=0A=
+			window.focus();=0A=
+			return window;=0A=
+		}=0A=
+		// no window opened=0A=
+		if (inAltWindow && inAltWindow.document) {=0A=
+			inAltWindow.document.location.href =3D pathString;=0A=
+		}=0A=
+		return null;=0A=
+	}=0A=
+}=0A=
+=0A=
+// Unfortunate global function required because so many translated=0A=
+// strings use it=0A=
+function launchWindow(inWeb, inTopic) {=0A=
+    var scripturlpath =3D foswiki.getMetaTag('SCRIPTURLPATH');=0A=
+    var scriptsuffix =3D foswiki.getMetaTag('SCRIPTSUFFIX');=0A=
+    foswiki.Window.openPopup(scripturlpath+'/view'+=0A=
+                           scriptsuffix+'/',=0A=
+                           { web:inWeb, topic:inTopic,=0A=
+                                   template:"viewplain" } );=0A=
+    return false;=0A=
+}=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiEvent.js
+
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+foswiki.Event =3D {=0A=
+=0A=
+	/**=0A=
+	Chain a new load handler onto the existing handler chain=0A=
+	Original code: http://simon.incutio.com/archive/2004/05/26/addLoadEvent=0A=
+	Modified for Foswiki=0A=
+	@param inFunction : (Function) function to add=0A=
+	@param inDoPrepend : (Boolean) if true: adds the function to the head =
+of the handler list; otherwise it will be added to the end (executed =
+last)=0A=
+	*/=0A=
+	addLoadEvent:function (inFunction, inDoPrepend) {=0A=
+		if (typeof(inFunction) !=3D "function") {=0A=
+			return;=0A=
+		}=0A=
+		var oldonload =3D window.onload;=0A=
+		if (typeof window.onload !=3D 'function') {=0A=
+			window.onload =3D function() {=0A=
+				inFunction();=0A=
+			};=0A=
+		} else {=0A=
+			var prependFunc =3D function() {=0A=
+				inFunction(); oldonload();=0A=
+			};=0A=
+			var appendFunc =3D function() {=0A=
+				oldonload(); inFunction();=0A=
+			};=0A=
+			window.onload =3D inDoPrepend ? prependFunc : appendFunc;=0A=
+		}=0A=
+	}=0A=
+	=0A=
+};=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiHTML.js
+
+/**=0A=
+HTML utility functions.=0A=
+*/=0A=
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+foswiki.HTML =3D {=0A=
+=0A=
+	/**=0A=
+	Writes HTML to an HTMLElement.=0A=
+	@param inId : (String) id of element to write to=0A=
+	@param inHtml : (String) HTML to write=0A=
+	@return The updated HTMLElement=0A=
+	*/=0A=
+	setHtmlOfElementWithId:function(inId, inHtml) {=0A=
+		var elem =3D document.getElementById(inId);=0A=
+		return foswiki.HTML.setHtmlOfElement(elem, inHtml);=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Writes HTML to HTMLElement el.=0A=
+	@param el : (HTMLElement) element to write to=0A=
+	@param inHtml : (String) HTML to write=0A=
+	@return The updated HTMLElement=0A=
+	*/=0A=
+	setHtmlOfElement:function(el, inHtml) {=0A=
+		if (!el || inHtml =3D=3D undefined) return null;=0A=
+		el.innerHTML =3D inHtml;=0A=
+		return el;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Returns the HTML contents of element with id inId.=0A=
+	@param inId : (String) id of element to get contents of=0A=
+	@return HTLM contents string.=0A=
+	*/=0A=
+	getHtmlOfElementWithId:function(inId) {=0A=
+		var elem =3D document.getElementById(inId);=0A=
+		return foswiki.HTML.getHtmlOfElement(elem);=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Returns the HTML contents of element el.=0A=
+	@param el : (HTMLElement) element to get contents of=0A=
+	@return HTLM contents string.=0A=
+	*/=0A=
+	getHtmlOfElement:function(el) {=0A=
+		if (!el) return null;=0A=
+		return el.innerHTML;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Clears the contents of element inId.=0A=
+	@param inId : (String) id of element to clear the contents of=0A=
+	@return The cleared HTMLElement.=0A=
+	*/=0A=
+	clearElementWithId:function(inId) {=0A=
+		var elem =3D document.getElementById(inId);=0A=
+		return foswiki.HTML.clearElement(elem);=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Clears the contents of element el.=0A=
+	@param el (HTMLElement) : object to clear=0A=
+	*/=0A=
+	clearElement:function(el) {=0A=
+		if (!el) return null;=0A=
+		foswiki.HTML.setHtmlOfElement(el, "");=0A=
+		return el;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	untested=0A=
+	*/=0A=
+	deleteElementWithId:function(inId) {=0A=
+		var elem =3D document.getElementById(inId);=0A=
+		return foswiki.HTML.deleteElement(elem);=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	untested=0A=
+	*/=0A=
+	deleteElement:function(el) {=0A=
+		if (!el) return null;=0A=
+		el.parentNode.removeChild(el);=0A=
+		return el;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Inserts a new HTMLElement after an existing element.=0A=
+	@param el : (HTMLElement) (required) the element to insert after=0A=
+	@param inType : (String) (required) element type of the new =
+HTMLElement: 'p', 'b', 'span', etc=0A=
+	@param inHtmlContents : (String) (optional) element HTML contents=0A=
+	@param inAttributes : (Object) (optional) value object with attributes =
+to set to the new element=0A=
+	@return The new HTMLElement=0A=
+	@use=0A=
+	<pre>=0A=
+	foswiki.HTML.insertAfterElement(=0A=
+    		document.getElementById('title'),=0A=
+    		'div',=0A=
+    		'<strong>not published</strong>',=0A=
+    		{=0A=
+    			"style":=0A=
+    				{=0A=
+    					"backgroundColor":"#f00",=0A=
+    					"color":"#fff"=0A=
+    				}=0A=
+    		}=0A=
+    	);=0A=
+    </pre>=0A=
+	*/=0A=
+	insertAfterElement:function(el, inType, inHtmlContents, inAttributes) {=0A=
+		if (!el || !inType) return null;=0A=
+		var newElement =3D foswiki.HTML._createElementWithTypeAndContents(=0A=
+			inType,=0A=
+			inHtmlContents,=0A=
+			inAttributes=0A=
+		);=0A=
+		if (newElement) {=0A=
+			el.appendChild(newElement);=0A=
+			return newElement;=0A=
+		}=0A=
+		return null;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Inserts a new HTMLElement before an existing element.=0A=
+	@param el : (HTMLElement) (required) the element to insert before=0A=
+	@param inType : (String) (required) element type of the new =
+HTMLElement: 'p', 'b', 'span', etc=0A=
+	@param inHtmlContents : (String) (optional) element HTML contents=0A=
+	@param inAttributes : (Object) (optional) value object with attributes =
+to set to the new element=0A=
+	@return The new HTMLElement=0A=
+	*/=0A=
+	insertBeforeElement:function(el, inType, inHtmlContents, inAttributes) {=0A=
+		if (!el || !inType) return null;=0A=
+		var newElement =3D foswiki.HTML._createElementWithTypeAndContents(=0A=
+			inType,=0A=
+			inHtmlContents,=0A=
+			inAttributes=0A=
+		);=0A=
+		if (newElement) {=0A=
+			el.parentNode.insertBefore(newElement, el);=0A=
+			return newElement;=0A=
+		}=0A=
+		return null;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Replaces an existing HTMLElement with a new element.=0A=
+	@param el : (HTMLElement) (required) the existing element to replace=0A=
+	@param inType : (String) (required) element type of the new =
+HTMLElement: 'p', 'b', 'span', etc=0A=
+	@param inHtmlContents : (String) (optional) element HTML contents=0A=
+	@param inAttributes : (Object) (optional) value object with attributes =
+to set to the new element=0A=
+	@return The new HTMLElement=0A=
+	*/=0A=
+	replaceElement:function(el, inType, inHtmlContents, inAttributes) {=0A=
+		if (!el || !inType) return null;=0A=
+		var newElement =3D foswiki.HTML._createElementWithTypeAndContents(=0A=
+			inType,=0A=
+			inHtmlContents,=0A=
+			inAttributes=0A=
+		);=0A=
+		if (newElement) {=0A=
+			el.parentNode.replaceChild(newElement, el);=0A=
+			return newElement;=0A=
+		}=0A=
+		return null;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Creates a new HTMLElement. See insertAfterElement, insertBeforeElement =
+and replaceElement.=0A=
+	@return The new HTMLElement=0A=
+	@priviliged=0A=
+	*/=0A=
+	_createElementWithTypeAndContents:function(inType, inHtmlContents, =
+inAttributes) {=0A=
+		var newElement =3D document.createElement(inType);=0A=
+		if (inHtmlContents !=3D undefined) {=0A=
+			newElement.innerHTML =3D inHtmlContents;=0A=
+		}=0A=
+		if (inAttributes !=3D undefined) {=0A=
+			foswiki.HTML.setElementAttributes(newElement, inAttributes);=0A=
+		}=0A=
+		return newElement;=0A=
+	},=0A=
+=0A=
+	/**=0A=
+	Passes attributes from value object inAttributes to all nodes in =
+NodeList inNodeList.=0A=
+	@param inNodeList : (NodeList) nodes to set the style of=0A=
+	@param inAttributes : (Object) value object with element properties, =
+with stringified keys. For example, use "class":"foswikiSmall" to set =
+the class. This cannot be a property key written as <code>class</code> =
+because this is a reserved keyword.=0A=
+	@use=0A=
+	In this example all NodeList elements get assigend a class and style:=0A=
+	<pre>=0A=
+	var elem =3D document.getElementById("my_div");=0A=
+	var nodeList =3D elem.getElementsByTagName('ul')=0A=
+	var attributes =3D {=0A=
+		"class":"foswikiSmall foswikiGrayText",=0A=
+    	"style":=0A=
+    		{=0A=
+    			"fontSize":"20px",=0A=
+    			"backgroundColor":"#444",=0A=
+    			"borderLeft":"5px solid red",=0A=
+				"margin":"0 0 1em 0"=0A=
+    		}=0A=
+    	};=0A=
+	foswiki.HTML.setNodeAttributesInList(nodeList, attributes);=0A=
+	</pre>=0A=
+	*/=0A=
+	setNodeAttributesInList:function (inNodeList, inAttributes) {=0A=
+		if (!inNodeList) return;=0A=
+		var i, ilen =3D inNodeList.length;=0A=
+		for (i=3D0; i<ilen; ++i) {=0A=
+			var elem =3D inNodeList[i];=0A=
+			foswiki.HTML.setElementAttributes(elem, inAttributes);=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Sets attributes to an HTMLElement.=0A=
+	@param el : (HTMLElement) element to set attributes to=0A=
+	@param inAttributes : (Object) value object with attributes=0A=
+	*/=0A=
+	setElementAttributes:function (el, inAttributes) {=0A=
+		for (var attr in inAttributes) {=0A=
+			if (attr =3D=3D "style") {=0A=
+				var styleObject =3D inAttributes[attr];=0A=
+				for (var style in styleObject) {=0A=
+					el.style[style] =3D styleObject[style];=0A=
+				}=0A=
+			} else {=0A=
+				//el.setAttribute(attr, inAttributes[attr]);=0A=
+				el[attr] =3D inAttributes[attr];=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	=0A=
+};=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiCSS.js
+
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+foswiki.CSS =3D {=0A=
+=0A=
+	/**=0A=
+	Remove the given class from an element, if it is there.=0A=
+	@param el : (HTMLElement) element to remove the class of=0A=
+	@param inClassName : (String) CSS class name to remove=0A=
+	*/=0A=
+	removeClass:function(el, inClassName) {=0A=
+		if (!el) return;=0A=
+		var classes =3D foswiki.CSS.getClassList(el);=0A=
+		if (!classes) return;=0A=
+		var index =3D foswiki.CSS._indexOf(classes, inClassName);=0A=
+		if (index >=3D 0) {=0A=
+			classes.splice(index,1);=0A=
+			foswiki.CSS.setClassList(el, classes);=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Add the given class to the element, unless it is already there.=0A=
+	@param el : (HTMLElement) element to add the class to=0A=
+	@param inClassName : (String) CSS class name to add=0A=
+	*/=0A=
+	addClass:function(el, inClassName) {=0A=
+		if (!el) return;=0A=
+		var classes =3D foswiki.CSS.getClassList(el);=0A=
+		if (!classes) return;=0A=
+		if (foswiki.CSS._indexOf(classes, inClassName) < 0) {=0A=
+			classes[classes.length] =3D inClassName;=0A=
+			foswiki.CSS.setClassList(el,classes);=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Replace the given class with a different class on the element.=0A=
+	The new class is added even if the old class is not present.=0A=
+	@param el : (HTMLElement) element to replace the class of=0A=
+	@param inOldClass : (String) CSS class name to remove=0A=
+	@param inNewClass : (String) CSS class name to add=0A=
+	*/=0A=
+	replaceClass:function(el, inOldClass, inNewClass) {=0A=
+		if (!el) return;=0A=
+		foswiki.CSS.removeClass(el, inOldClass);=0A=
+		foswiki.CSS.addClass(el, inNewClass);=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Get an array of the classes on the object.=0A=
+	@param el : (HTMLElement) element to get the class list from=0A=
+	*/=0A=
+	getClassList:function(el) {=0A=
+		if (!el) return;=0A=
+		if (el.className && el.className !=3D "") {=0A=
+			return el.className.split(' ');=0A=
+		}=0A=
+		return [];=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Set the classes on an element from an array of class names.=0A=
+	@param el : (HTMLElement) element to set the class list to=0A=
+	@param inClassList : (Array) list of CSS class names=0A=
+	*/=0A=
+	setClassList:function(el, inClassList) {=0A=
+		if (!el) return;=0A=
+		el.className =3D inClassList.join(' ');=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Determine if the element has the given class string somewhere in it's=0A=
+	className attribute.=0A=
+	@param el : (HTMLElement) element to check the class occurrence of=0A=
+	@param inClassName : (String) CSS class name=0A=
+	*/=0A=
+	hasClass:function(el, inClassName) {=0A=
+		if (!el) return;=0A=
+		if (el.className) {=0A=
+			var classes =3D foswiki.CSS.getClassList(el);=0A=
+			if (classes) return (foswiki.CSS._indexOf(classes, inClassName) >=3D =
+0);=0A=
+			return false;=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/* PRIVILIGED METHODS */=0A=
+	=0A=
+	/**=0A=
+	See: foswiki.Array.indexOf=0A=
+	Function copied here to prevent extra dependency on foswiki.Array.=0A=
+	*/=0A=
+	_indexOf:function(inArray, el) {=0A=
+		if (!inArray || inArray.length =3D=3D undefined) return null;=0A=
+		var i, ilen =3D inArray.length;=0A=
+		for (i=3D0; i<ilen; ++i) {=0A=
+			if (inArray[i] =3D=3D el) return i;=0A=
+		}=0A=
+		return -1;=0A=
+	}=0A=
+=0A=
+}=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiForm.js
+
+/**=0A=
+Requires foswikiCSS.js and foswikiString.js=0A=
+*/=0A=
+=0A=
+var foswiki; if (foswiki =3D=3D undefined) foswiki =3D {};=0A=
+foswiki.Form =3D {=0A=
+	=0A=
+	/*=0A=
+	Original js filename: formdata2querystring.js=0A=
+	=0A=
+	Copyright 2005 Matthew Eernisse (mde@fleegix.org)=0A=
+	=0A=
+	Licensed under the Apache License, Version 2.0 (the "License");=0A=
+	http://www.apache.org/licenses/LICENSE-2.0=0A=
+=0A=
+	Original code by Matthew Eernisse (mde@fleegix.org), March 2005=0A=
+	Additional bugfixes by Mark Pruett (mark.pruett@comcast.net), 12th July =
+2005=0A=
+	Multi-select added by Craig Anderson (craig@sitepoint.com), 24th August =
+2006=0A=
+=0A=
+	Version 1.3=0A=
+	=0A=
+	Changes for Foswiki:=0A=
+	Added KEYVALUEPAIR_DELIMITER and documentation by Arthur Clemens, 2006=0A=
+	*/=0A=
+	=0A=
+	KEYVALUEPAIR_DELIMITER : ";",=0A=
+=0A=
+	/**=0A=
+	Serializes the data from all the inputs in a Web form=0A=
+	into a query-string style string.=0A=
+	@param inForm : (HTMLElement) Reference to a DOM node of the form =
+element=0A=
+	@param inFormatOptions : (Object) value object of options for how to =
+format the return string. Supported options:=0A=
+		  collapseMulti: (Boolean) take values from elements that can return =
+multiple values (multi-select, checkbox groups) and collapse into a =
+single, comma-delimited value (e.g., thisVar=3Dasdf,qwer,zxcv)=0A=
+	@returns Query-string formatted String of variable-value pairs=0A=
+	@example=0A=
+	<code>=0A=
+	var queryString =3D foswiki.Form.formData2QueryString(=0A=
+		document.getElementById('myForm'),=0A=
+		{collapseMulti:true}=0A=
+	);=0A=
+	</code>=0A=
+	*/=0A=
+	formData2QueryString:function (inForm, inFormatOptions) {=0A=
+		if (!inForm) return null;=0A=
+		var opts =3D inFormatOptions || {};=0A=
+		var str =3D '';=0A=
+		var formElem;=0A=
+		var lastElemName =3D '';=0A=
+		=0A=
+		for (i =3D 0; i < inForm.elements.length; i++) {=0A=
+			formElem =3D inForm.elements[i];=0A=
+			=0A=
+			switch (formElem.type) {=0A=
+				// Text fields, hidden form elements=0A=
+				case 'text':=0A=
+				case 'hidden':=0A=
+				case 'password':=0A=
+				case 'textarea':=0A=
+				case 'select-one':=0A=
+					str +=3D formElem.name=0A=
+						+ '=3D'=0A=
+						+ encodeURI(formElem.value)=0A=
+						+ foswiki.Form.KEYVALUEPAIR_DELIMITER;=0A=
+					break;=0A=
+				=0A=
+				// Multi-option select=0A=
+				case 'select-multiple':=0A=
+					var isSet =3D false;=0A=
+					for(var j =3D 0; j < formElem.options.length; j++) {=0A=
+						var currOpt =3D formElem.options[j];=0A=
+						if(currOpt.selected) {=0A=
+							if (opts.collapseMulti) {=0A=
+								if (isSet) {=0A=
+									str +=3D ','=0A=
+										+ encodeURI(currOpt.text);=0A=
+								} else {=0A=
+									str +=3D formElem.name=0A=
+										+ '=3D'=0A=
+										+ encodeURI(currOpt.text);=0A=
+									isSet =3D true;=0A=
+								}=0A=
+							} else {=0A=
+								str +=3D formElem.name=0A=
+									+ '=3D'=0A=
+									+ encodeURI(currOpt.text)=0A=
+									+ foswiki.Form.KEYVALUEPAIR_DELIMITER;=0A=
+							}=0A=
+						}=0A=
+					}=0A=
+					if (opts.collapseMulti) {=0A=
+						str +=3D foswiki.Form.KEYVALUEPAIR_DELIMITER;=0A=
+					}=0A=
+					break;=0A=
+				=0A=
+				// Radio buttons=0A=
+				case 'radio':=0A=
+					if (formElem.checked) {=0A=
+						str +=3D formElem.name=0A=
+							+ '=3D'=0A=
+							+ encodeURI(formElem.value)=0A=
+							+ foswiki.Form.KEYVALUEPAIR_DELIMITER;=0A=
+					}=0A=
+					break;=0A=
+				=0A=
+				// Checkboxes=0A=
+				case 'checkbox':=0A=
+					if (formElem.checked) {=0A=
+						// Collapse multi-select into comma-separated list=0A=
+						if (opts.collapseMulti && (formElem.name =3D=3D lastElemName)) {=0A=
+						// Strip of end ampersand if there is one=0A=
+						if (str.lastIndexOf('&') =3D=3D str.length-1) {=0A=
+							str =3D str.substr(0, str.length - 1);=0A=
+						}=0A=
+						// Append value as comma-delimited string=0A=
+						str +=3D ','=0A=
+							+ encodeURI(formElem.value);=0A=
+						}=0A=
+						else {=0A=
+						str +=3D formElem.name=0A=
+							+ '=3D'=0A=
+							+ encodeURI(formElem.value);=0A=
+						}=0A=
+						str +=3D foswiki.Form.KEYVALUEPAIR_DELIMITER;=0A=
+						lastElemName =3D formElem.name;=0A=
+					}=0A=
+					break;=0A=
+					=0A=
+				} // switch=0A=
+			} // for=0A=
+		// Remove trailing separator=0A=
+		str =3D str.substr(0, str.length - 1);=0A=
+		return str;=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Makes form field values safe to insert in a Foswiki table. Any =
+table-breaking characters are replaced.=0A=
+	@param inForm: (String) the form to make safe=0A=
+	*/=0A=
+	makeSafeForTableEntry:function(inForm) {=0A=
+		if (!inForm) return null;=0A=
+		var formElem;=0A=
+		=0A=
+		for (i =3D 0; i < inForm.elements.length; i++) {=0A=
+			formElem =3D inForm.elements[i];=0A=
+			switch (formElem.type) {=0A=
+				// Text fields, hidden form elements=0A=
+				case 'text':=0A=
+				case 'password':=0A=
+				case 'textarea':=0A=
+					formElem.value =3D =
+foswiki.String.makeTextSafeForTableEntry(formElem.value);=0A=
+					break;=0A=
+			}=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Finds the form element.=0A=
+	@param inFormName : (String) name of the form=0A=
+	@param inElementName : (String) name of the form element=0A=
+	@return HTMLElement=0A=
+	*/=0A=
+	getFormElement:function(inFormName, inElementName) {=0A=
+		return document[inFormName][inElementName];=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Sets input focus to input element. Note: only one field on a page can =
+have focus.=0A=
+	@param inFormName : (String) name of the form=0A=
+	@param inInputFieldName : (String) name of the input field that will =
+get focus=0A=
+	*/=0A=
+	setFocus:function(inFormName, inInputFieldName) {=0A=
+		try {=0A=
+			var el =3D foswiki.Form.getFormElement(inFormName, inInputFieldName);=0A=
+			el.focus();=0A=
+		} catch (er) {}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Sets the default text of an input field (for instance the text 'Enter =
+keyword or product number' in a search box) that is cleared when the =
+field gets focus. The field is styled with CSS class =
+'foswikiInputFieldBeforeFocus'.=0A=
+	@param el : (HTMLElement) the input field to receive default text=0A=
+	@param inText : (String) the default text=0A=
+	*/=0A=
+	initBeforeFocusText:function(el, inText) {=0A=
+		el.FP_defaultValue =3D inText;=0A=
+		if (!el.value || el.value =3D=3D inText) {=0A=
+			foswiki.Form._setDefaultStyle(el);=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Clears the default input field text. The CSS styling =
+'foswikiInputFieldBeforeFocus' is removed. Call this function at =
+'onfocus'.=0A=
+	@param el : (HTMLElement) the input field that has default text=0A=
+	*/=0A=
+	clearBeforeFocusText:function(el) {=0A=
+		if (!el.FP_defaultValue) {=0A=
+			el.FP_defaultValue =3D el.value;=0A=
+		}=0A=
+		if (el.FP_defaultValue =3D=3D el.value) {=0A=
+			el.value =3D "";=0A=
+		}=0A=
+		foswiki.CSS.addClass(el, "foswikiInputFieldFocus");=0A=
+		foswiki.CSS.removeClass(el, "foswikiInputFieldBeforeFocus");=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Restores the default text when the input field is empty. Call this =
+function at 'onblur'.=0A=
+	@param el : (HTMLElement) the input field to clear=0A=
+	*/=0A=
+	restoreBeforeFocusText:function(el) {=0A=
+		if (!el.value && el.FP_defaultValue) {=0A=
+			foswiki.Form._setDefaultStyle(el);=0A=
+		}=0A=
+		foswiki.CSS.removeClass(el, "foswikiInputFieldFocus");=0A=
+	},=0A=
+	=0A=
+	/**=0A=
+	Sets the value and style of unfocussed or empty text field.=0A=
+	@param el : (HTMLElement) the input field that has default text=0A=
+	*/=0A=
+	_setDefaultStyle:function(el) {=0A=
+		el.value =3D el.FP_defaultValue;=0A=
+		foswiki.CSS.addClass(el, "foswikiInputFieldBeforeFocus");=0A=
+	}=0A=
+	=0A=
+};=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/PatternSkin/pattern.js
+
+var Pattern =3D {=0A=
+=0A=
+	metaTags:[],=0A=
+	searchResultsCount:0,=0A=
+	=0A=
+	createActionFormStepSign:function(el) {=0A=
+		var newEl =3D foswiki.HTML.insertBeforeElement(=0A=
+			el,=0A=
+			'span',=0A=
+			'&#9658;'=0A=
+		);=0A=
+		newEl.className =3D 'foswikiActionFormStepSign';=0A=
+	},=0A=
+=0A=
+	/**=0A=
+	Creates a attachment counter in the attachment table twisty.=0A=
+	*/=0A=
+	setAttachmentCount:function(inAttachmentContainer) {		=0A=
+		=0A=
+		var headers =3D foswiki.getElementsByClassName(inAttachmentContainer, =
+'patternAttachmentHeader', 'h3');=0A=
+		if (headers !=3D undefined) {=0A=
+			var count =3D inAttachmentContainer.getElementsByTagName("tr").length =
+- 1;=0A=
+			var countStr =3D " " + "<span class=3D'patternSmallLinkToHeader'>" + =
+' '  + count + "<\/span>";=0A=
+			if (headers[0]) {=0A=
+				headers[0].innerHTML +=3D countStr;=0A=
+			}=0A=
+			if (headers[1]) {=0A=
+				headers[1].innerHTML +=3D countStr;=0A=
+			}=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	addSearchResultsCounter:function(el) {=0A=
+		var count =3D foswiki.HTML.getHtmlOfElement(el);=0A=
+		Pattern.searchResultsCount +=3D parseInt(count);=0A=
+	},=0A=
+	=0A=
+	displayTotalSearchResultsCount:function(el) {=0A=
+		// write result count=0A=
+		if (Pattern.searchResultsCount >=3D 10) {=0A=
+			var text =3D " " + TEXT_NUM_TOPICS + " <b>" + =
+Pattern.searchResultsCount + " <\/b>";=0A=
+			foswiki.HTML.setHtmlOfElement(el, text);=0A=
+		}=0A=
+	},=0A=
+	=0A=
+	displayModifySearchLink:function() {=0A=
+		var linkContainer =3D =
+document.getElementById('foswikiModifySearchContainer');=0A=
+		if (linkContainer !=3D null) {=0A=
+			if (Pattern.searchResultsCount > 0) {=0A=
+				var linkText=3D' <a href=3D"#" =
+onclick=3D"location.hash=3D\'foswikiSearchForm\'; return false;"><span =
+class=3D"foswikiLinkLabel foswikiSmallish">' + TEXT_MODIFY_SEARCH + =
+'</span></a>';=0A=
+				foswiki.HTML.setHtmlOfElement(linkContainer, linkText);=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+var patternRules =3D {=0A=
+	'.foswikiFormStep h3' : function(el) {=0A=
+		Pattern.createActionFormStepSign(el);=0A=
+	},=0A=
+	'input#jumpFormField' : function(el) {=0A=
+		foswiki.Form.initBeforeFocusText(el,TEXT_JUMP);=0A=
+		el.onfocus =3D function() {=0A=
+			foswiki.Form.clearBeforeFocusText(this);=0A=
+		}=0A=
+		el.onblur =3D function() {=0A=
+			foswiki.Form.restoreBeforeFocusText(this);=0A=
+		}=0A=
+	},=0A=
+	'input#quickSearchBox' : function(el) {=0A=
+		foswiki.Form.initBeforeFocusText(el,TEXT_SEARCH);=0A=
+		el.onfocus =3D function() {=0A=
+			foswiki.Form.clearBeforeFocusText(this);=0A=
+		}=0A=
+		el.onblur =3D function() {=0A=
+			foswiki.Form.restoreBeforeFocusText(this);=0A=
+		}=0A=
+	},=0A=
+	'.foswikiAttachments' : function(el) {=0A=
+		Pattern.setAttachmentCount(el);=0A=
+	},=0A=
+	'body.patternEditPage' : function(el) {=0A=
+		foswiki.Event.addLoadEvent(initForm, false); // call after Behaviour=0A=
+	},=0A=
+	'.foswikiSearchResultCount' : function(el) {=0A=
+		Pattern.addSearchResultsCounter(el);=0A=
+	},=0A=
+	'span#foswikiNumberOfResultsContainer' : function(el) {=0A=
+		Pattern.displayTotalSearchResultsCount(el);=0A=
+	},=0A=
+	'form#foswikiWebSearchForm':function(el) {=0A=
+		Pattern.displayModifySearchLink();=0A=
+	},=0A=
+	'a.foswikiPopUp':function(el) {=0A=
+		el.onclick =3D function() {=0A=
+			foswiki.Window.openPopup(el.href, {template:"viewplain"});=0A=
+			return false;=0A=
+		}=0A=
+	},=0A=
+	'input.foswikiFocus':function(el) {=0A=
+		el.focus();=0A=
+	},=0A=
+	'input.foswikiChangeFormButton':function(el) {=0A=
+		el.onclick =3D function() {=0A=
+			suppressSaveValidation();=0A=
+		}=0A=
+	}=0A=
+};=0A=
+Behaviour.register(patternRules);=0A=
+=0A=
+var initForm; // in case initForm is not defined (f.e. when TinyMCE is =
+used and foswiki_edit.js is not loaded=0A=
+var TEXT_JUMP =3D foswiki.getMetaTag('TEXT_JUMP');=0A=
+var TEXT_SEARCH =3D foswiki.getMetaTag('TEXT_SEARCH');=0A=
+var TEXT_NUM_TOPICS =3D foswiki.getMetaTag('TEXT_NUM_TOPICS');=0A=
+var TEXT_MODIFY_SEARCH =3D foswiki.getMetaTag('TEXT_MODIFY_SEARCH');=0A=
+var SCRIPTURLPATH =3D foswiki.getMetaTag('SCRIPTURLPATH');=0A=
+var SCRIPTSUFFIX =3D foswiki.getMetaTag('SCRIPTSUFFIX');=0A=
+var WEB =3D foswiki.getMetaTag('WEB');=0A=
+var TOPIC =3D foswiki.getMetaTag('WEBTOPIC');=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki03.lynero.net/foswiki/pub/System/JavascriptFiles/foswikiStyles.js
+
+// styles:javascript_affected=0A=
+var styleText =3D '<style type=3D"text/css" =
+media=3D"all">.foswikiMakeVisible{display:inline;}.foswikiMakeVisibleInli=
+ne{display:inline;}.foswikiMakeVisibleBlock{display:block;}.foswikiMakeHi=
+dden{display:none;}<\/style>';=0A=
+document.write(styleText);=0A=
+=0A=
+
+------=_NextPart_000_0041_01CEDA0D.079AF970--

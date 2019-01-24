@@ -1,0 +1,10 @@
+ 程序
+   机器人程序
+     'the following code will be ok'
+     MoveJ
+       Low
+       A≔get_target_tcp_pose()
+       B≔pose_add(A,p[0,0,0.5,0,0,0])
+       B
+     'the following code will raise an error'
+     'MoveJ'

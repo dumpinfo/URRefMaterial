@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     MoveJ
+       路点_1
+       start≔get_target_tcp_pose()
+       startpos≔get_target_tcp_pose()
+       endpos≔pose_add(startpos,p[0,0,0.1,0,0,0])
+       startpos
+       endpos

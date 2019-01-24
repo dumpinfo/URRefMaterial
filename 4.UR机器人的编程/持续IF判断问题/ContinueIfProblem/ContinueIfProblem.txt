@@ -1,0 +1,12 @@
+ 程序
+   机器人程序
+     If digital_out[0]≟ True 
+       MoveL
+         路点_1
+         路点_2
+     ElseIf digital_out[1]≟ True 
+       MoveL
+         路点_4
+         路点_5
+     Else
+       等待: 0.01

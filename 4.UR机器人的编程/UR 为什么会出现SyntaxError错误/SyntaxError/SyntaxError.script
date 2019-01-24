@@ -1,0 +1,29 @@
+def SyntaxError():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveJ"
+    $ 3 "路点_1"
+    movej([-1.6007000026820797, -1.4888945431406277, -1.9237245749370449, -1.3254808853519244, 1.59510000321182, -0.031000006128651374], a=1.3962634015954636, v=1.0471975511965976)
+    $ 4 "start≔get_target_tcp_pose()"
+    global start=get_target_tcp_pose()
+    $ 5 "startpos≔get_target_tcp_pose()"
+    global startpos=get_target_tcp_pose()
+    $ 6 "endpos≔pose_add(startpos,p[0,0,0.1,0,0,0])"
+    global endpos=pose_add(startpos,p[0,0,0.1,0,0,0])
+    $ 7 "startpos"
+    movej(startpos, a=1.3962634015954636, v=1.0471975511965976)
+    $ 8 "endpos"
+    movej(endpos, a=1.3962634015954636, v=1.0471975511965976)
+  end
+end
