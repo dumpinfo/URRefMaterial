@@ -1,0 +1,59 @@
+ Program
+   BeforeStart
+     MoveJ
+       Relative
+       Home
+       'Waypoint_1'
+       Pos1≔get_forward_kin()
+       TargetPos≔p[0,0,0.1,0,0,0]
+       TargetRX_P≔p[0,0,0,d2r(45),0,0]
+       TargetRX_N≔p[0,0,0,-d2r(45),0,0]
+       TargetRY_P≔p[0,0,0,0,d2r(45),0]
+       TargetRY_N≔p[0,0,0,0,-d2r(45),0]
+       TargetRZ_P≔p[0,0,0,0,0,d2r(60)]
+       TargetRZ_N≔p[0,0,0,0,0,-d2r(60)]
+       Calculate XYZ
+         Poseadd_pos≔pose_add(Pos1,TargetPos)
+         Posetrans_pos≔pose_trans(Pos1,TargetPos)
+       Calculate Base Coordinate
+         TestRx_add_P≔pose_add(TargetRX_P,Pos1)
+         TestRx_add_N≔pose_add(TargetRX_N,Pos1)
+         TestRy_add_P≔pose_add(TargetRY_P,Pos1)
+         TestRy_add_N≔pose_add(TargetRY_N,Pos1)
+         TestRz_add_P≔pose_add(TargetRZ_P,Pos1)
+         TestRz_add_N≔pose_add(TargetRZ_N,Pos1)
+       Calculate Tool Coordinate
+         TestRx_trans_P≔pose_trans(Pos1,TargetRX_P)
+         TestRx_trans_N≔pose_trans(Pos1,TargetRX_N)
+         TestRy_trans_P≔pose_trans(Pos1,TargetRY_P)
+         TestRy_trans_N≔pose_trans(Pos1,TargetRY_N)
+         TestRz_trans_P≔pose_trans(Pos1,TargetRZ_P)
+         TestRz_trans_N≔pose_trans(Pos1,TargetRZ_N)
+   Robot Program
+     MoveL
+       Move Around Base Coordinate
+         pose_add
+           Loop 3 times
+             Pos1
+             Poseadd_pos
+       Move Around Tool Coordinate
+         pose_trans
+           Loop 3 times
+             Pos1
+             Posetrans_pos
+       Rotate Around Base Coordinate
+         'pose_add RX'
+         'pose_add RY'
+         pose_add RZ
+           Loop 3 times
+             Pos1
+             TestRz_add_P
+             TestRz_add_N
+       Rotate Around Tool Coordinate
+         'pose_trans RX'
+         'pose_trans RY'
+         pose_trans RZ
+           Loop 3 times
+             Pos1
+             TestRz_trans_P
+             TestRz_trans_N

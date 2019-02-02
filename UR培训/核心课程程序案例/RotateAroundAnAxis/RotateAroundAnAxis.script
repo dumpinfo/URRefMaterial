@@ -1,0 +1,117 @@
+def RotateAroundAnAxis():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  $ 1 "BeforeStart"
+  $ 2 "MoveJ"
+  $ 3 "Relative"
+  movej(get_inverse_kin(pose_add(get_forward_kin(), pose_sub(p[-.351287532611, -.433897176708, .317216517074, 1.245236515075, 2.298762195520, -.385494805300],p[-.351269390349, -.433904294238, .317227330915, 1.245152784027, 2.298762027302, -.385548213877]))), a=1.3962634015954636, v=1.0471975511965976)
+  $ 4 "Home"
+  movej([0.6065107583999634, -1.4120429197894495, 1.7362842559814453, -1.9306348005877894, -0.9882991949664515, 0.04298179969191551], a=1.3962634015954636, v=1.0471975511965976)
+  $ 6 "Pos1≔get_forward_kin()"
+  global Pos1=get_forward_kin()
+  $ 7 "TargetPos≔p[0,0,0.1,0,0,0]"
+  global TargetPos=p[0,0,0.1,0,0,0]
+  $ 8 "TargetRX_P≔p[0,0,0,d2r(45),0,0]"
+  global TargetRX_P=p[0,0,0,d2r(45),0,0]
+  $ 9 "TargetRX_N≔p[0,0,0,-d2r(45),0,0]"
+  global TargetRX_N=p[0,0,0,-d2r(45),0,0]
+  $ 10 "TargetRY_P≔p[0,0,0,0,d2r(45),0]"
+  global TargetRY_P=p[0,0,0,0,d2r(45),0]
+  $ 11 "TargetRY_N≔p[0,0,0,0,-d2r(45),0]"
+  global TargetRY_N=p[0,0,0,0,-d2r(45),0]
+  $ 12 "TargetRZ_P≔p[0,0,0,0,0,d2r(60)]"
+  global TargetRZ_P=p[0,0,0,0,0,d2r(60)]
+  $ 13 "TargetRZ_N≔p[0,0,0,0,0,-d2r(60)]"
+  global TargetRZ_N=p[0,0,0,0,0,-d2r(60)]
+  $ 14 "Calculate XYZ"
+  $ 15 "Poseadd_pos≔pose_add(Pos1,TargetPos)"
+  global Poseadd_pos=pose_add(Pos1,TargetPos)
+  $ 16 "Posetrans_pos≔pose_trans(Pos1,TargetPos)"
+  global Posetrans_pos=pose_trans(Pos1,TargetPos)
+  $ 17 "Calculate Base Coordinate"
+  $ 18 "TestRx_add_P≔pose_add(TargetRX_P,Pos1)"
+  global TestRx_add_P=pose_add(TargetRX_P,Pos1)
+  $ 19 "TestRx_add_N≔pose_add(TargetRX_N,Pos1)"
+  global TestRx_add_N=pose_add(TargetRX_N,Pos1)
+  $ 20 "TestRy_add_P≔pose_add(TargetRY_P,Pos1)"
+  global TestRy_add_P=pose_add(TargetRY_P,Pos1)
+  $ 21 "TestRy_add_N≔pose_add(TargetRY_N,Pos1)"
+  global TestRy_add_N=pose_add(TargetRY_N,Pos1)
+  $ 22 "TestRz_add_P≔pose_add(TargetRZ_P,Pos1)"
+  global TestRz_add_P=pose_add(TargetRZ_P,Pos1)
+  $ 23 "TestRz_add_N≔pose_add(TargetRZ_N,Pos1)"
+  global TestRz_add_N=pose_add(TargetRZ_N,Pos1)
+  $ 24 "Calculate Tool Coordinate"
+  $ 25 "TestRx_trans_P≔pose_trans(Pos1,TargetRX_P)"
+  global TestRx_trans_P=pose_trans(Pos1,TargetRX_P)
+  $ 26 "TestRx_trans_N≔pose_trans(Pos1,TargetRX_N)"
+  global TestRx_trans_N=pose_trans(Pos1,TargetRX_N)
+  $ 27 "TestRy_trans_P≔pose_trans(Pos1,TargetRY_P)"
+  global TestRy_trans_P=pose_trans(Pos1,TargetRY_P)
+  $ 28 "TestRy_trans_N≔pose_trans(Pos1,TargetRY_N)"
+  global TestRy_trans_N=pose_trans(Pos1,TargetRY_N)
+  $ 29 "TestRz_trans_P≔pose_trans(Pos1,TargetRZ_P)"
+  global TestRz_trans_P=pose_trans(Pos1,TargetRZ_P)
+  $ 30 "TestRz_trans_N≔pose_trans(Pos1,TargetRZ_N)"
+  global TestRz_trans_N=pose_trans(Pos1,TargetRZ_N)
+  while (True):
+    $ 31 "Robot Program"
+    $ 32 "MoveL"
+    $ 33 "Move Around Base Coordinate"
+    $ 34 "pose_add"
+    $ 35 "Loop 3 times"
+    Loop_1 = 0
+    while (Loop_1 < 3):
+      $ 36 "Pos1"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Pos1), a=1.2, v=0.25)
+      $ 37 "Poseadd_pos"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Poseadd_pos), a=1.2, v=0.25)
+      Loop_1 = Loop_1 + 1
+    end
+    $ 38 "Move Around Tool Coordinate"
+    $ 39 "pose_trans"
+    $ 40 "Loop 3 times"
+    Loop_6 = 0
+    while (Loop_6 < 3):
+      $ 41 "Pos1"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Pos1), a=1.2, v=0.25)
+      $ 42 "Posetrans_pos"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Posetrans_pos), a=1.2, v=0.25)
+      Loop_6 = Loop_6 + 1
+    end
+    $ 43 "Rotate Around Base Coordinate"
+    $ 46 "pose_add RZ"
+    $ 47 "Loop 3 times"
+    Loop_7 = 0
+    while (Loop_7 < 3):
+      $ 48 "Pos1"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Pos1), a=1.2, v=0.25)
+      $ 49 "TestRz_add_P"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], TestRz_add_P), a=1.2, v=0.25)
+      $ 50 "TestRz_add_N"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], TestRz_add_N), a=1.2, v=0.25)
+      Loop_7 = Loop_7 + 1
+    end
+    $ 51 "Rotate Around Tool Coordinate"
+    $ 54 "pose_trans RZ"
+    $ 55 "Loop 3 times"
+    Loop_10 = 0
+    while (Loop_10 < 3):
+      $ 56 "Pos1"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], Pos1), a=1.2, v=0.25)
+      $ 57 "TestRz_trans_P"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], TestRz_trans_P), a=1.2, v=0.25)
+      $ 58 "TestRz_trans_N"
+      movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], TestRz_trans_N), a=1.2, v=0.25)
+      Loop_10 = Loop_10 + 1
+    end
+  end
+end

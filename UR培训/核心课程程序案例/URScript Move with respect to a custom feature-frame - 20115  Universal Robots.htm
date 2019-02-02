@@ -1,0 +1,283 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0126)https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+     
+<META charset="utf-8">     
+<META http-equiv="X-UA-Compatible" content="IE=edge">     
+<META name="viewport" content="width=device-width, initial-scale=1">	 
+<META name="description" content="">	 
+<META name="keywords" content="">			     <TITLE>URScript: Move with respect to a 
+custom feature/frame - 20115 | Universal Robots</TITLE>     <LINK href="URScript%20Move%20with%20respect%20to%20a%20custom%20feature-frame%20-%2020115%20%20Universal%20Robots_files/universal_robotssupport.css" 
+rel="stylesheet">     <LINK href="URScript%20Move%20with%20respect%20to%20a%20custom%20feature-frame%20-%2020115%20%20Universal%20Robots_files/css.css" 
+rel="stylesheet" type="text/css">     <LINK href="URScript%20Move%20with%20respect%20to%20a%20custom%20feature-frame%20-%2020115%20%20Universal%20Robots_files/font-awesome.min.css" 
+rel="stylesheet">     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->   
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+			 
+<SCRIPT id="cookiebanner" src="/scripts/cookiebanner.min.js" type="text/javascript" data-message="We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies." data-linkmsg="Learn more" data-moreinfo="/support/" data-zindex="1000"></SCRIPT>
+     
+<SCRIPT type="text/javascript">var switchTo5x = true;</SCRIPT>
+     
+<SCRIPT src="http://w.sharethis.com/button/buttons.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT type="text/javascript">stLight.options({ publisher: "8100cf34-1848-4c0d-8e73-f3a01b1248b5", doNotHash: false, doNotCopy: false, hashAddressBar: false });</SCRIPT>
+     
+<SCRIPT src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10586.589"></HEAD> 
+<BODY>
+<DIV class="navbar-lead hidden-print">
+<DIV class="container">
+<UL class="list-unstyled text-uppercase pull-right">
+  <LI><A href="http://www.universal-robots.com/" target="_blank">Back to main 
+  site</A></LI>
+  <LI><A class="active" href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/">Support 
+  site</A></LI></UL></DIV></DIV><!--/.navbar-lead -->     <NAV class="navbar navbar-default navbar-static-top">
+<DIV class="container">
+<DIV class="navbar-header"><BUTTON class="navbar-toggle collapsed" 
+aria-expanded="false" aria-controls="navbar" type="button" data-toggle="collapse" 
+data-target="#navbar"><SPAN class="sr-only">Toggle navigation</SPAN>             
+        <SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN></BUTTON> 
+                <A class="navbar-brand" href="https://www.universal-robots.com/support/"><IMG 
+alt="Universal Robots" src="URScript%20Move%20with%20respect%20to%20a%20custom%20feature-frame%20-%2020115%20%20Universal%20Robots_files/site-logo.png"></A> 
+            </DIV>
+<DIV class="navbar-collapse collapse" id="navbar">
+<UL class="nav navbar-nav navbar-right text-uppercase">
+  <LI><A 
+  href="https://www.universal-robots.com/how-tos-and-faqs/how-to/">How-to</A></LI>
+  <LI><A 
+  href="https://www.universal-robots.com/how-tos-and-faqs/faq/">FAQ</A></LI>
+  <LI><A href="https://www.universal-robots.com/download/">Download</A></LI>
+  <LI><A class="is-icon collapsed" onclick="setTimeout(function() { $('#search-field-content').focus(); }, 10);" 
+  href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/#collapse-search" 
+  data-toggle="collapse"><I class="fa fa-search"></I><I 
+  class="fa fa-times"></I></A></LI></UL></DIV>
+<DIV class="collapse" id="collapse-search">
+<DIV class="navbar-search">
+<FORM action="/support-search/" method="get">
+<DIV class="form-group form-group--search"><INPUT name="query" class="form-control form-control--search" id="search-field-content" type="text" placeholder="Enter your keyword" value=""><BUTTON 
+class="btn--search" type="submit"><I class="fa fa-search"></I></BUTTON>
+						 </DIV></FORM></DIV></DIV></DIV></NAV><main role="main">
+<DIV class="page page--content">
+<DIV class="container"><SECTION class="page-header hidden-print">
+<DIV class="gray-bar"><A class="link link--back-to" href="https://www.universal-robots.com/how-tos-and-faqs/how-to/"><I 
+class="fa fa-angle-left"></I>Back to overview</A>                     </DIV><!--/.gray-bar --> 
+                    
+<DIV class="white-bar">
+<UL class="m-social-media list-unstyled list-inline vertical--middle">
+  <LI><A onclick="window.print();" href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/#"><I 
+  class="fa fa-print"></I></A></LI>
+  <LI><SPAN class="st_email_large" displaytext="Email"><I 
+  class="fa fa-envelope"></I></SPAN></LI>
+  <LI><SPAN class="st_facebook_large" displaytext="Facebook"><I class="fa fa-facebook"></I></SPAN></LI>
+  <LI><SPAN class="st_linkedin_large" displaytext="LinkedIn"><I class="fa fa-linkedin"></I></SPAN></LI>
+  <LI><SPAN class="st_twitter_large" displaytext="Tweet"><I class="fa fa-twitter"></I></SPAN></LI>
+  <LI><SPAN class="st_googleplus_large" displaytext="Google +"><I class="fa fa-google-plus"></I></SPAN></LI></UL></DIV><!--/.white-bar --> 
+                    
+<DIV class="blue-badge text-center text-uppercase"><SPAN 
+class="heading">Difficulty level</SPAN><SPAN 
+class="subheading">Expert</SPAN></DIV><!--/.blue-badge -->                 
+</SECTION><!--/.page-header -->                 <SECTION class="l-rte-container rte-container">
+<H1>URScript: Move with respect to a custom feature/frame - 20115</H1>
+<HR>
+
+<P><STRONG>Example is valid for: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<BR></STRONG></P>
+<P><STRONG>CB2 Software version: 
+1.8.16941&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</STRONG><BR><STRONG>CB3 
+Software version: 3.2.19293 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</STRONG><BR><STRONG>Note that older or 
+newer software versions may behave differently.</STRONG></P>
+<P><STRONG>This example can be used for both CB2 and for CB3.</STRONG></P>
+<P>&nbsp;</P>
+<HR>
+
+<P><STRONG>In order</STRONG> to demonstrate how to move with respect to a 
+feature (point, line or plane) we can use the script commands 
+<STRONG>MOVEL</STRONG> and <STRONG>POSE_TRANS:</STRONG></P>
+<P><STRONG>Move to position (linear in tool-space)</STRONG></P>
+<P><EM>Syntax</EM></P>
+<P style="margin-left: 30px;">movel(<EM>pose</EM>, <EM>a</EM>=1.2, 
+<EM>v</EM>=0.3, <EM>t</EM>=0, <EM>r</EM>=0)</P>
+<P><EM>Parameters</EM></P>
+<P style="margin-left: 30px;"><EM>pose</EM>: target pose (pose can also be 
+specified as joint&nbsp;positions, then forward kinematics is used to 
+calculate&nbsp;the corresponding pose)</P>
+<P style="margin-left: 30px;"><EM>a</EM>: tool acceleration [m/sˆ2]</P>
+<P style="margin-left: 30px;"><EM>v</EM>: tool speed [m/s]</P>
+<P style="margin-left: 30px;"><EM>t</EM>: time [S]</P>
+<P style="margin-left: 30px;"><EM>r</EM>: blend radius [m]</P>
+<P>By default the “pose” parameter in the above syntax is always w.r.t to the 
+base-frame.</P>
+<P>Logically if we can express the “pose” variable w.r.t to feature-frame as a 
+pose w.r.t to the base-frame then we should be able to pass that pose and have 
+the robot move to the required point. This is where we use the pose_trans 
+function.,</P>
+<P>&nbsp;</P>
+<P><STRONG>Pose Transformation</STRONG></P>
+<P><EM>Syntax</EM></P>
+<P style="margin-left: 30px;"><EM>resulting_pose&nbsp;</EM> = 
+pose_trans(<EM>p_feature, p_wrt_feature</EM>)</P>
+<P><EM>Parameters</EM></P>
+<P style="margin-left: 30px;"><EM>p_feature</EM>: starting pose (spatial vector 
+representing feature frame)</P>
+<P style="margin-left: 30px;"><EM>p_wrt_feature</EM> : pose relative to 
+feature-frame (spatial vector w.r.t feature frame as new origin)</P>
+<P><EM>Return Value</EM></P>
+<P style="margin-left: 30px;"><EM>resulting_pose</EM>&nbsp; : pose relative to 
+base-frame</P>
+<P>&nbsp;</P>
+<P>The first argument, <EM>p_feature</EM>, is used to transform the second 
+argument, <EM>p_wrt_feature</EM> to the base co-ordinate system.</P>
+<P>This function can be seen as two steps.</P>
+<P style="margin-left: 30px;">a) The function transforms, i.e translates and 
+rotates, <EM>p_wrt_feature</EM> by the parameters of <EM>p_feature</EM>.</P>
+<P style="margin-left: 30px;">b) The function is used to get the resulting pose, 
+when first making a move of p_feature and then from that point in space, a 
+relative move of <EM>p_wrt_feature</EM>.</P>
+<P>If the poses were regarded as transformation matrices, it would look 
+like:</P>
+<P>T(waypoint-&gt;base) = T(waypoint-&gt;feature) * T(feature-&gt;base)</P>
+<P>&nbsp;</P>
+<P>This idea will be made clearer by considering a few example scenarios:</P>
+<P>&nbsp;</P>
+<P style="margin-left: 30px;">a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Move with 
+respect to tool</STRONG>. The below code will have the robot move 10cm along the 
+Z-axis of the tool and rotate 90 degrees about the Z-axis.</P>
+<P style="margin-left: 30px;">X,Y and Z values are expressed in metres and Rx,Ry 
+and Rz values are expressed in radians.</P>
+<P style="margin-left: 30px;">Example code:</P>
+<P style="margin-left: 90px;">global pose_wrt_tool = p[0,0,0.1,0,0 , 1.57]</P>
+<P style="margin-left: 90px;">global pose_wrt_base = 
+pose_trans(get_forward_kin(), pose_wrt_tool)</P>
+<P style="margin-left: 90px;">movel( pose_wrt_base , a=1.2, v=0.25)</P>
+<P style="margin-left: 30px;">&nbsp; &nbsp; &nbsp; &nbsp;get_forward_kin() 
+returns current pose.</P>
+<P>&nbsp;</P>
+<P style="margin-left: 30px;">b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Move with 
+respect to feature</STRONG>. The below code will have the robot move 10cm along 
+the X, Y and Z axes of the feature and rotate 90 degrees about the Z-axis.</P>
+<P style="margin-left: 30px;">Example code:</P>
+<P style="margin-left: 90px;">global pose_wrt_feature = p[0.1,0.1,0.1,0,0 , 
+1.57]</P>
+<P style="margin-left: 90px;">global feature_wrt_base = 
+p[0.03,0.03,0.03,0,0,0]</P>
+<P style="margin-left: 90px;">global pose_wrt_base = 
+pose_trans(feature_wrt_base, pose_wrt_feature)</P>
+<P style="margin-left: 90px;">movel( pose_wrt_base , a=1.2, v=0.25)</P>
+<P>&nbsp;</P>
+<P style="margin-left: 30px;">c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<STRONG> Express a 
+point w.r.t a feature</STRONG>. If you need to express a pose (or a point) in 
+base-frame, as a point w.r.t feature frame:</P>
+<P style="margin-left: 30px;">This is how you would proceed:</P>
+<P style="margin-left: 30px;">Point x w.r.t base-frame has 
+pose&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : P_x_b&nbsp;<BR> Feature f w.r.t base-frame 
+has pose&nbsp;&nbsp; : P_f_b&nbsp;<BR> Point x as a pose w.r.t 
+f-frame&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 
+P_x_f&nbsp;<BR> Mathematically; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P style="margin-left: 150px;">P_x_f = (P_f_b)^(-1) * P_x_b&nbsp;</P>
+<P style="margin-left: 150px;">P_b_f = (P_f_b)^(-1)</P>
+<P style="margin-left: 60px;">As script-code:&nbsp;<BR>&nbsp; &nbsp; &nbsp; 
+&nbsp;global P_b_f = pose_inv(P_f_b)&nbsp;</P>
+<P style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp;global P_x_f = 
+pose_trans(P_b_f, P_x_b) , This is a good way to calculate the normal distance 
+of a point from a any given plane(The z-index of the resulting pose will always 
+be the normal distance in metres)</P></SECTION><!--/.rte-container -->
+					 <SECTION class="l-related-articles hidden-print"><SPAN class="h1 text-center">Related 
+articles</SPAN><ARTICLE class="m-article m-article--related"><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/ur-polyscope-move-with-respect-to-a-custom-featureframe-20570/">
+<H3>UR Polyscope: Move with respect to a custom feature/frame - 20570</H3>
+<P>Demonstrates how to Move with respect to a custom feature/frame via UR 
+Polyscope</P></A>							 </ARTICLE><ARTICLE 
+class="m-article m-article--related"><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/moving-to-a-position-calculated-from-user-input-16605/">
+<H3>Moving to a position calculated from user input - 16605</H3>
+<P>Let the user enter some dimensions of an object, and then move the robot 
+according to them</P></A>							 </ARTICLE><ARTICLE class="m-article m-article--related"><A 
+href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/rotate-only-one-axis-relative-to-current-position-16248/">
+<H3>Rotate only one axis relative to current position - 16248</H3>
+<P>Sample of how to rotate only one axis relative to current position</P></A>
+							 </ARTICLE><ARTICLE class="m-article m-article--related"><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/vision-system-with-the-robot-15576/">
+<H3>Vision system with the robot - 15576</H3>
+<P>An example of combining UR robot with vision system</P></A>
+							 </ARTICLE></SECTION><SECTION class="l-blue-articles hidden-print">
+<DIV class="row">
+<DIV class="col-sm-6"><ARTICLE class="m-article m-article--blue">
+<H4>Want to get notified about updates?</H4>
+<P>You are welcome to sign up for notifications about new relevant information 
+and articles that could be interesting for you. </P>
+<FORM class="subscribe-news">
+<DIV class="form-group form-group--input"><INPUT name="email" class="form-control" type="text" placeholder="Enter e-mail address here" value=""><INPUT class="btn btn-default" type="submit" value="Submit">
+				 </DIV></FORM></ARTICLE><!--/.m-blue-article-->				 </DIV>
+<DIV class="col-sm-6"><ARTICLE class="m-article m-article--blue">
+<H4>Need help?</H4>
+<P>Did you find what you needed on this site? For additional information please 
+contact one of our distributors.</P>
+<DIV class="form-group text-right"><A class="btn btn-default" href="https://www.universal-robots.com/distributors/" 
+target="_blank">Find distributor</A>			 </DIV></ARTICLE><!--/.m-blue-article-->
+				 </DIV></DIV></SECTION></DIV></DIV><!--/.page -->     </main><FOOTER class="hidden-print" 
+id="footer">
+<DIV class="container">
+<UL class="list-unstyled list-inline">
+  <LI>©Universal Robots A/S 2015 All rights reserved</LI>
+  <LI><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/">Cookie 
+  Policy</A></LI>
+  <LI><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/">Site 
+  Disclaimer</A></LI>
+  <LI><A href="https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/urscript-move-with-respect-to-a-custom-featureframe-20115/">Privacy 
+  Policy</A></LI></UL></DIV></FOOTER><!--/#footer -->     
+<SCRIPT src="/scripts/vendor/support_bootstrap.min.js"></SCRIPT>
+     
+<SCRIPT src="/scripts/plugins/chosen.jquery.min.js"></SCRIPT>
+     
+<SCRIPT src="/scripts/plugins/icheck.min.js"></SCRIPT>
+				     
+<SCRIPT>
+		$('#filters-content .panel-heading').on('click', function () {
+			$($(this).data('target')).collapse('toggle');
+		});
+			
+        $("select.form-control").chosen({
+            disable_search: true
+        });
+			
+		if (!navigator.userAgent.match(/iPad|iPhone|Android|BlackBerry|Windows Phone|webOS/i)) {
+        	$(".checkbox--filter").iCheck();
+		}
+							
+        $(".rte-container table").wrap("<div class='scrollable-content' />");
+
+		$(".rte-container img").removeAttr('width').removeAttr('height');
+		
+							$(".subscribe-news").submit(function() {
+								var form = $(this);
+								var promise = $.post('/umbraco/surface/SupportSite/SubscribeNewsletter', form.serialize());
+								promise.done(function() {
+									alert('You are now subscribed to our newsletter');
+								});
+								promise.fail(function() {
+									alert('Something went wrong. Please check your e-mail and try again.');
+								});
+								return false;
+							});
+							
+							if ("SupportSiteHowTo" == "SupportSiteHowTo")
+							{
+								setTimeout(function() {
+									$.post('/umbraco/surface/SupportSite/RegisterView', { page: 20115 });
+								}, 10000);
+							}
+    </SCRIPT>
+ 
+<SCRIPT>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-7462214-1', 'auto');
+  ga('send', 'pageview');
+</SCRIPT>
+			 </BODY></HTML>
