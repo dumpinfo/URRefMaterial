@@ -1,0 +1,8 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       If Button≟ True 
+         waypoint2
+       Else
+         waypoint3

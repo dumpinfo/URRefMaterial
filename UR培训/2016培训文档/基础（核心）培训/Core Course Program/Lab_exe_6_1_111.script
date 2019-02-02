@@ -1,0 +1,50 @@
+def Lab_exe_6_1_111():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.2390130356296982,0.1988220216661285,0.6906463386941732,-1.5849351512597112,-0.11123094817809666,-0.280699297210965]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.23901306530292177,0.1988083937627932,0.49001479949400534,-1.5848737370083603,-0.1113516672861672,-0.2807227364537332]), a=1.2, v=0.25)
+    $ 5 "count≔count+1"
+    global count=count+1
+    $ 6 "If count≟10"
+    if (count == 10):
+      $ 7 "waypoint3"
+      movel(pose_trans(u26426u24231, p[0.4390174134415593,0.1988299804303177,0.6906407375859162,-1.5849360754247246,-0.11134531157455482,-0.28076653956268927]), a=1.2, v=0.25)
+      $ 8 "等待: 2.0"
+      sleep(2.0)
+    end
+    $ 9 "If count≟20"
+    if (count == 20):
+      $ 10 "弹出窗口"
+      popup("Change Feeder Tray", "Message", False, False, blocking=True)
+      $ 11 "count≔0"
+      global count=0
+    end
+  end
+end

@@ -1,0 +1,20 @@
+ 程序
+   机器人程序
+     var_1≔0
+     var_2≔'please input'
+     循环 var_1<var_2
+       pick_part
+         MoveL
+           waypoint1
+           waypoint2
+           设置 Lamp=开
+           等待: 0.5
+           waypoint1
+       place_part
+         MoveL
+           waypoint3
+           waypoint4
+           设置 Lamp=关
+           等待: 0.5
+           waypoint3
+       var_1≔var_1+1

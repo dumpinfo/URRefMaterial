@@ -1,0 +1,72 @@
+def URClient():
+  modbus_add_signal("172.16.17.6", 255, 155, 2, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.6", 255, 156, 3, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(0)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=[False, True, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+  global pose1=p[0.6288806, 0.20600551, 0.12124029, -3.0387292, -0.50522476, -0.036137067]
+  global i_var_2=[True, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  $ 1 "BeforeStart"
+  $ 2 "open≔socket_open('192.168.1.6',5000)"
+  global open=socket_open("192.168.1.6",5000)
+  $ 3 "循环 open≟ False "
+  while (open ==   False  ):
+    $ 4 "open≔socket_open('192.168.1.6',5000)"
+    global open=socket_open("192.168.1.6",5000)
+  end
+  $ 5 "targetPos≔p[0,0,0,0,0,0]"
+  global targetPos=p[0,0,0,0,0,0]
+  $ 6 "counter≔6"
+  global counter=6
+  while (True):
+    $ 7 "机器人程序"
+    $ 8 "sendToServer≔'send to server'"
+    global sendToServer=request_string_from_primary_client("send to server")
+    $ 9 "socket_send_string(sendToServer)"
+    socket_send_string(sendToServer)
+    $ 10 "receiveFromServ≔socket_read_ascii_float(6)"
+    global receiveFromServ=socket_read_ascii_float(6)
+    $ 11 "等待: 10.0"
+    sleep(10.0)
+    $ 12 "循环 receiveFromServ[0]≠6"
+    while (receiveFromServ[0] != 6):
+      $ 13 "等待: 0.3"
+      sleep(0.3)
+      $ 14 "receiveFromServ≔socket_read_ascii_float(6)"
+      global receiveFromServ=socket_read_ascii_float(6)
+    end
+    $ 15 "循环 counter<6"
+    while (counter<6):
+      $ 16 "targetPos[counter]=receiveFromServ[counter+1]"
+      targetPos[counter]=receiveFromServ[counter+1]
+      $ 17 "counter≔counter+1"
+      global counter=counter+1
+    end
+    $ 18 "MoveJ"
+    $ 19 "targetPos"
+    movej(targetPos, a=1.3962634015954636, v=1.0471975511965976)
+  end
+end

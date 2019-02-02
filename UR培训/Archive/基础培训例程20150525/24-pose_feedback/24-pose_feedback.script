@@ -1,0 +1,20 @@
+def P24pose_feedback():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=0
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "var_1≔get_actual_tcp_pose()"
+    global var_1=get_actual_tcp_pose()
+    $ 3 "sync()"
+    sync()
+  end
+end

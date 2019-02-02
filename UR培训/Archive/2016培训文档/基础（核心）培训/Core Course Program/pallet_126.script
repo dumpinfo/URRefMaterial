@@ -1,0 +1,51 @@
+def pallet_126():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global cnt_1=1
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "托盘"
+    cnt_1_x = cnt_1 % 3
+    cnt_1_y = floor(cnt_1 / 3)
+    u20301u23039_1 = interpolate_pose(interpolate_pose(pose_trans(u26426u24231, p[-0.39287493474301816,0.3789089223527664,0.06616154798695834,-2.4607915365124033,-1.8027009363597952,0.09031690225800712]), pose_trans(u26426u24231, p[-0.386611770730188,0.5758943302513561,0.06650521658612327,-2.4469476289481165,-1.8165459438339657,0.03089491299825632]), cnt_1_x/2), interpolate_pose(pose_trans(u26426u24231, p[-0.19147099564377815,0.37025084098707506,0.07306665267587242,-2.4469490165306196,-1.8165403427476172,0.030912755845994566]), pose_trans(u26426u24231, p[-0.19145307853450216,0.5759079217417217,0.07306667136931888,-2.4469555115338784,-1.8165637951887483,0.030572269090386645]),cnt_1_x/2), cnt_1_y/2)
+    if (cnt_1 >= 8):
+      cnt_1 = 0
+    else:
+      cnt_1 = cnt_1 + 1
+    end
+    $ 9 "方式_1"
+    movel(pose_trans(u20301u23039_1, pose_trans(pose_inv(pose_trans(u26426u24231, p[-0.3928301289060624,0.37891896691542926,0.06613063584092518,-2.460963733540311,-1.8026122600963619,0.09013488070952336])),pose_trans(u26426u24231, p[-0.39285064321590996,0.3789340637699954,0.19594684257979098,-2.4608395666540424,-1.8025601228199262,0.09032804072053383]))), a=1.2, v=0.25)
+    $ 10 "模式点_1"
+    movel(u20301u23039_1, a=1.2, v=0.25)
+    $ 11 "设置 Lamp=开"
+    set_standard_digital_out(4, True)
+    $ 12 "等待: 1.0"
+    sleep(1.0)
+    $ 13 "退出_1"
+    movel(pose_trans(u20301u23039_1, pose_trans(pose_inv(pose_trans(u26426u24231, p[-0.3928301289060624,0.37891896691542926,0.06613063584092518,-2.460963733540311,-1.8026122600963619,0.09013488070952336])),pose_trans(u26426u24231, p[-0.3928538096165732,0.3789354788600276,0.19593739894347656,-2.460771753633032,-1.802645838521734,0.0899629353725583]))), a=1.2, v=0.25)
+  end
+end

@@ -1,0 +1,38 @@
+def Lab_exe_5_1_98():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  def SubP_lamp_flash():
+    set_standard_digital_out(4, True)
+    sleep(0.5)
+    set_standard_digital_out(4, False)
+    sleep(0.5)
+  end
+  $ 1 "机器人程序"
+  $ 2 "循环 5 次数"
+  u24490u29615_1 = 0
+  while (u24490u29615_1 < 5):
+    $ 3 "调用 SubP_lamp_flash"
+    SubP_lamp_flash()
+    u24490u29615_1 = u24490u29615_1 + 1
+  end
+end

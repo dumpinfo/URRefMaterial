@@ -1,0 +1,17 @@
+def P25script_file():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  while (True):
+    $ 1 "机器人程序"
+    movej([-1.6007002035332292, -1.5827531569708118, -2.093159502954533, -1.0621873442540695, 1.5951000452051884, -0.030999962444354878], a=1.3962634015954636, v=1.0471975511965976)
+    movej([-1.6007002035724085, -1.7271001974688929, -2.2029998938189905, -0.8079999128924769, 1.5951000452041626, -0.03099996248354131], a=1.3962634015954636, v=1.0471975511965976)
+  end
+end

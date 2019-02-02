@@ -1,0 +1,76 @@
+def Lab_exe_9_2_154():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  $ 9 "u32447u31243_1"
+  thread u32447u31243_1():
+    while (True):
+      sleep(0.01)
+      if (modbus_get_signal_status("MODBUS_3") ==   True  ):
+        sleep(5.0)
+        if (modbus_get_signal_status("MODBUS_1") ==   False  ):
+          popup("no modbus output.", "Message", False, False, blocking=True)
+        end
+      end
+      if (modbus_get_signal_status("MODBUS_4") ==   True  ):
+        sleep(5.0)
+        if (modbus_get_signal_status("MODBUS_2") ==   False  ):
+          popup("no modbus output.", "Message", False, False, blocking=True)
+        end
+      end
+    end
+  end
+  threadId_u32447u31243_1 = run u32447u31243_1()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "等待: 0.01"
+    sleep(0.01)
+    $ 3 "If MODBUS_3≟ True "
+    if (modbus_get_signal_status("MODBUS_3") ==   True  ):
+      $ 4 "设置 MODBUS_1= True "
+      modbus_set_output_signal("MODBUS_1",   True  )
+      $ 5 "弹出窗口"
+      popup("modbus output is True", "Message", False, False, blocking=True)
+    end
+    $ 6 "If MODBUS_4≟ True "
+    if (modbus_get_signal_status("MODBUS_4") ==   True  ):
+      $ 7 "设置 MODBUS_2= True "
+      modbus_set_output_signal("MODBUS_2",   True  )
+      $ 8 "弹出窗口"
+      popup("modbus output is True", "Message", False, False, blocking=True)
+    end
+  end
+end

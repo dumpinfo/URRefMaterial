@@ -1,0 +1,13 @@
+ 程序
+   机器人程序
+     MoveJ
+       waypoint5
+       循环 Button≟ True 
+         MoveL
+           waypoint1
+           waypoint2
+           waypoint3
+           waypoint4
+     MoveJ
+       waypoint5
+     等待: 0.01

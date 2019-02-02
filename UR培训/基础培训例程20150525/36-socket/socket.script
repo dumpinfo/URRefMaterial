@@ -1,0 +1,32 @@
+def socket():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  $ 1 "BeforeStart"
+  $ 2 "open≔socket_open('192.168.1.7',30000)"
+  global open=socket_open("192.168.1.7",30000)
+  $ 3 "循环 open≟ False "
+  while (open ==  False  ):
+    $ 4 "open≔socket_open('192.168.1.7',30000)"
+    global open=socket_open("192.168.1.7",30000)
+    $ 5 "sync()"
+    sync()
+  end
+  while (True):
+    $ 6 "机器人程序"
+    $ 7 "data≔socket_read_ascii_float(6)"
+    global data=socket_read_ascii_float(6)
+    $ 8 "If data[0]≟6"
+    if (data[0] ==6):
+      $ 9 "socket_send_line('received')"
+      socket_send_line("received")
+    end
+  end
+end

@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+       设置 MODBUS_1= True 
+       waypoint3
+       waypoint4
+       设置 MODBUS_1= False 

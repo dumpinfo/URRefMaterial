@@ -1,0 +1,51 @@
+def pick_and_place_86():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "pick_part"
+    $ 3 "MoveL"
+    $ 4 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.23898668854964977,0.19877751451461928,0.5244624228862594,-1.5848253054760346,-0.11136467244793381,-0.2807640062022138]), a=1.2, v=0.25)
+    $ 5 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.23901725260363302,0.1988065230186324,0.32398898195087245,-1.5849776980946626,-0.11121485573838584,-0.28068835677194404]), a=1.2, v=0.25)
+    $ 6 "设置 DO[4]=开"
+    set_standard_digital_out(4, True)
+    $ 7 "等待: 0.5"
+    sleep(0.5)
+    $ 8 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.23898668854964977,0.19877751451461928,0.5244624228862594,-1.5848253054760346,-0.11136467244793381,-0.2807640062022138]), a=1.2, v=0.25)
+    $ 9 "place_part"
+    $ 10 "MoveL"
+    $ 11 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.5380145720304282,0.19875331216412165,0.5244666675144827,-1.584887410638968,-0.11130763057065124,-0.2808050233382935]), a=1.2, v=0.25)
+    $ 12 "waypoint4"
+    movel(pose_trans(u26426u24231, p[0.5380246226059404,0.1987603894725109,0.32399106709006575,-1.5848744767299339,-0.11131254852553768,-0.2807592676520623]), a=1.2, v=0.25)
+    $ 13 "设置 DO[4]=关"
+    set_standard_digital_out(4, False)
+    $ 14 "等待: 0.5"
+    sleep(0.5)
+    $ 15 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.5380145720304282,0.19875331216412165,0.5244666675144827,-1.584887410638968,-0.11130763057065124,-0.2808050233382935]), a=1.2, v=0.25)
+  end
+end

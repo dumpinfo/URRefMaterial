@@ -1,0 +1,13 @@
+ 程序
+   机器人程序
+     MoveJ
+       refpoint
+       等待 Button=高
+       Calc_folder
+         x≔250
+         y≔120
+         rz≔31
+         offset≔p[(x/1000),(y/1000),0,0,0,d2r(rz)]
+         pick_pos≔pose_add(refpoint,offset)
+       MoveL
+         pick_pos

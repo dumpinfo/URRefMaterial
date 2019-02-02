@@ -1,0 +1,22 @@
+ 程序
+   BeforeStart
+     MoveL
+       quit
+   机器人程序
+     卸垛
+       起始位置_1
+       方向
+         源位置_1
+         目标位置_1
+       拾取序列
+         堆垛位置_1
+         设置 DO[0]=开
+         等待: 0.5
+         退出
+     MoveL
+       quit
+     MoveJ
+       work
+       设置 DO[0]=关
+     MoveL
+       quit

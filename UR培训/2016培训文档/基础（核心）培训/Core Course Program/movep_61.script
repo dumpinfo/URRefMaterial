@@ -1,0 +1,36 @@
+def movep_61():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveP"
+    $ 3 "waypoint1"
+    movep(pose_trans(u26426u24231, p[0.1600136714758328,0.19881216989022985,0.524836572412232,-1.5849333518377482,-0.11138371774199475,-0.28071592417588653]), a=1.2, v=0.25, r=0.025)
+    $ 4 "waypoint3"
+    movep(pose_trans(u26426u24231, p[0.46001978525248866,0.19880937263542367,0.5248145141384934,-1.5848401138838608,-0.11146731649279255,-0.2806782307046094]), a=1.2, v=0.25, r=0.025)
+    $ 5 "waypoint4"
+    movep(pose_trans(u26426u24231, p[0.4602307519165249,0.1988988980388362,0.3030043702229616,-1.5851458433204646,-0.10934116425451366,-0.2825009160131663]), a=1.2, v=0.25, r=0.025)
+    $ 6 "waypoint5"
+    movep(pose_trans(u26426u24231, p[0.16000556691498188,0.1989316765817919,0.30300097709283685,-1.5850901734431244,-0.10938518707050601,-0.2825339776229334]), a=1.2, v=0.25, r=0.025)
+  end
+end

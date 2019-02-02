@@ -1,0 +1,16 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       等待 Button=高
+       调用 SubP_lamp_flash
+       waypoint2
+       If Button≟ True 
+         waypoint1
+       Else
+         waypoint3
+   SubP_lamp_flash
+     设置 Lamp=开
+     等待: 0.5
+     设置 Lamp=关
+     等待: 0.5

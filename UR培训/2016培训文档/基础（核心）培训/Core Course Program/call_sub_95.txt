@@ -1,0 +1,21 @@
+ 程序
+   机器人程序
+     MoveJ
+       waypoint5
+       循环 3 次数
+         MoveL
+           waypoint1
+           waypoint2
+           waypoint3
+           waypoint4
+       调用 SubP_movec_62
+     MoveJ
+       waypoint5
+   SubP_movec_62
+     MoveP
+       waypoint_1
+       循环移动
+         waypoint_2
+         waypoint_3
+       waypoint_4
+       waypoint_5

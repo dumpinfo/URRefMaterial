@@ -1,0 +1,6 @@
+ 程序
+   机器人程序
+     set_digital_out(4,True)
+     等待: 0.5
+     set_digital_out(4,False)
+     等待: 0.5

@@ -1,0 +1,18 @@
+ 程序
+   BeforeStart
+     tcp≔1
+     tcp1≔p[0.15,0,0.15,0,0,0]
+     tcp2≔p[-0.2,0,0.14,0,d2r(-25),0]
+     MoveJ
+       home
+   机器人程序
+     If tcp≟1
+       set_tcp(tcp1)
+       tcp≔2
+     ElseIf tcp≟2
+       set_tcp(tcp2)
+       tcp≔1
+     MoveL
+       waypoint1
+       waypoint2
+       waypoint1

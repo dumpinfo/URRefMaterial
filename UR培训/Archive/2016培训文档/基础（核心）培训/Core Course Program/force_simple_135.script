@@ -1,0 +1,47 @@
+def force_simple_135():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.23901653986874577,0.19881484658860463,0.49001729230654906,-2.4922853332174975E-5,-3.1413367629854756,-7.65245015312525E-5]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.2390329341191619,0.19881383566002847,0.29043724081814953,-1.5790271701577953E-4,-3.1412950644186792,-2.393467782333871E-5]), a=1.2, v=0.25)
+    sync()
+    force_mode(u26426u24231, [0, 0, 1, 0, 0, 0], [0.0, 0.0, -30.0, 0.0, 0.0, 0.0], 2, [0.1, 0.1, 0.15, 0.3490658503988659, 0.3490658503988659, 0.3490658503988659])
+    $ 5 "力"
+    $ 6 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.2390329341191619,0.19881383566002847,0.29043724081814953,-1.5790271701577953E-4,-3.1412950644186792,-2.393467782333871E-5]), a=1.2, v=0.1)
+    $ 7 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.4390035681079881,0.1988162588179776,0.29041959068952145,-5.093242759575136E-5,-3.1412178081217226,1.7469555481090912E-4]), a=1.2, v=0.1)
+    end_force_mode()
+    stopl(5.0)
+    $ 8 "waypoint4"
+    movel(pose_trans(u26426u24231, p[0.43902847887101376,0.1988055008505977,0.4899737270908458,-2.1752504834068915E-5,-3.1411779799163524,2.3050417109148443E-4]), a=1.2, v=0.25)
+  end
+end

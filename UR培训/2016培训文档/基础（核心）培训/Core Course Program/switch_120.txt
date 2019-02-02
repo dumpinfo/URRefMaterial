@@ -1,0 +1,12 @@
+ 程序
+   机器人程序
+     select_no≔'Enter a number between 1 to 3:'
+     开关 select_no
+       情况 1
+         弹出窗口
+       情况 2
+         弹出窗口
+       情况 3
+         弹出窗口
+       默认情况
+         弹出窗口

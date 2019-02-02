@@ -1,0 +1,8 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+   线程_1
+     force1≔force()
+     等待: 0.01

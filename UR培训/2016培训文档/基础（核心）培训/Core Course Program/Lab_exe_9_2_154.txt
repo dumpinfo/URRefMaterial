@@ -1,0 +1,19 @@
+ 程序
+   机器人程序
+     等待: 0.01
+     If MODBUS_3≟ True 
+       设置 MODBUS_1= True 
+       弹出窗口
+     If MODBUS_4≟ True 
+       设置 MODBUS_2= True 
+       弹出窗口
+   线程_1
+     等待: 0.01
+     If MODBUS_3≟ True 
+       等待: 5.0
+       If MODBUS_1≟ False 
+         弹出窗口
+     If MODBUS_4≟ True 
+       等待: 5.0
+       If MODBUS_2≟ False 
+         弹出窗口

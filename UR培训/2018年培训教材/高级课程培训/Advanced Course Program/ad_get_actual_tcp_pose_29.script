@@ -1,0 +1,58 @@
+def ad_get_actual_tcp_pose_29():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global force1=124.23835
+  global count=1
+  global i_var_1=1
+  global select_no=1
+  global cp=p[0.036018707, 0.23811427, 0.07895236, 1.5486304, -2.5836353, -0.096085384]
+  global z=0.07895236
+  global safe_pos=p[0.036018707, 0.23811427, 0.47895235, 1.5486304, -2.5836353, -0.096085384]
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  $ 1 "BeforeStart"
+  $ 2 "cp≔get_actual_tcp_pose()"
+  global cp=get_actual_tcp_pose()
+  $ 3 "z≔cp[2]"
+  global z=cp[2]
+  $ 4 "safe_pos≔p[cp[0],cp[1],z+0.4,cp[3],cp[4],cp[5]]"
+  global safe_pos=p[cp[0],cp[1],z+0.4,cp[3],cp[4],cp[5]]
+  $ 5 "等待: 1.0"
+  sleep(1.0)
+  $ 6 "MoveL"
+  $ 7 "safe_pos"
+  movel(pose_trans(u26426u24231, safe_pos), a=1.2, v=0.25)
+  while (True):
+    $ 8 "机器人程序"
+    $ 9 "中止"
+    halt
+  end
+end

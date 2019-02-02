@@ -1,0 +1,35 @@
+def P33trigger_reduced_mode():
+  modbus_add_signal("127.0.0.1", 255, 155, 1, "MODBUSCIient")
+  modbus_set_signal_update_frequency("MODBUSCIient", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  modbus_set_runstate_dependent_choice("MODBUSCIient",0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_3=p[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  global i_var_2=0.0
+  global i_var_1=0
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global i_var_1=0
+  global i_var_2=0.0
+  global i_var_3=p[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "路点_1"
+    movel(pose_trans(u26426u24231, p[-0.4328500968425132,-0.20085347457033764,0.2098212918601961,-3.1224672981626562,0.1627652346722001,-0.162087261467964]), a=1.2, v=0.25)
+    $ 4 "路点_2"
+    movel(pose_trans(u26426u24231, p[-0.4328695456767533,-0.20086045026229912,-0.19296083589084112,-3.122584117311889,0.16271068994540802,-0.16187034783988982]), a=1.2, v=0.25)
+    $ 5 "路点_3"
+    movel(pose_trans(u26426u24231, p[-0.34437772167666364,0.10919607092421764,-0.1929939751957054,-3.122590823125009,0.1627656593988479,-0.16216513554717069]), a=1.2, v=0.25)
+    $ 6 "路点_4"
+    movel(pose_trans(u26426u24231, p[-0.3444101299808141,0.10917971943427503,0.17024457476537574,-3.122575244951181,0.16271155992446873,-0.16197719226190127]), a=1.2, v=0.25)
+  end
+end

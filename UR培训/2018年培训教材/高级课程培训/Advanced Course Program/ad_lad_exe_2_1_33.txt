@@ -1,0 +1,15 @@
+ 程序
+   机器人程序
+     current_pos≔get_actual_tcp_pose()
+     offset_b≔p[0.1,0,0,0,0,0]
+     offset_c≔p[0.1,0,-0.1,0,0,0]
+     offset_d≔p[0,0,-0.1,0,0,0]
+     pos_b≔pose_trans(current_pos,offset_b)
+     pos_c≔pose_trans(current_pos,offset_c)
+     pos_d≔pose_trans(current_pos,offset_d)
+     MoveL
+       current_pos
+       pos_b
+       pos_c
+       pos_d
+       current_pos

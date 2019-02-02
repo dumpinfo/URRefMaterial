@@ -1,0 +1,36 @@
+def movel_with_blend_60():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.16093089776008956,0.19884490207359568,0.5247439862571897,-1.584919621440947,-0.11142035950763972,-0.2805709660199654]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.4600188961707332,0.1988076563686971,0.5247671193742285,-1.5848520880340864,-0.1113455939807395,-0.2805953468903697]), a=1.2, v=0.25, r=0.025)
+    $ 5 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.4602307519165249,0.1988988980388362,0.3030043702229616,-1.5851458433204646,-0.10934116425451366,-0.2825009160131663]), a=1.2, v=0.25)
+    $ 6 "waypoint4"
+    movel(pose_trans(u26426u24231, p[0.16000556691498188,0.1989316765817919,0.30300097709283685,-1.5850901734431244,-0.10938518707050601,-0.2825339776229334]), a=1.2, v=0.25)
+  end
+end

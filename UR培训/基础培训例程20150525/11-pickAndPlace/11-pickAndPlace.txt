@@ -1,0 +1,28 @@
+ 程序
+   BeforeStart
+     MoveJ
+       pick_wait_A
+     设置
+     设置 TO[0]=关
+   机器人程序
+     MoveJ
+       等待 DI[0]=高
+       pick_wait_A
+       pick_up_A
+     MoveL
+       pick_A
+       设置 TO[0]=开
+       等待: 0.5
+       pick_up_A
+     MoveJ
+       pick_wait_A
+       place_wait_B
+       place_up_B
+     MoveL
+       place_B
+       设置 TO[0]=关
+       等待: 0.5
+       place_up_B
+     MoveJ
+       place_wait_B
+       pick_wait_A

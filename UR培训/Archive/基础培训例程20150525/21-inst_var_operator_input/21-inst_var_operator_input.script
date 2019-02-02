@@ -1,0 +1,30 @@
+def P21inst_var_operator_input():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=0
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "i_var_1≔0"
+    global i_var_1=0
+    $ 3 "var_2≔'input number'"
+    global var_2=request_integer_from_primary_client("input number")
+    $ 4 "循环 i_var_1<var_2"
+    while (i_var_1 <var_2):
+      $ 5 "MoveJ"
+      $ 6 "路点_1"
+      movej([-0.713168896387387, -1.617536815403887, -1.498972288730938, -1.593257846644602, 1.6060771732863524, 0.8568899972334387], a=1.3962634015954636, v=1.0471975511965976)
+      $ 7 "路点_2"
+      movej([-0.7131688964931104, -1.8123553517065956, -1.9873956871762513, -0.9100159119003077, 1.606077173286625, 0.8568899971277015], a=1.3962634015954636, v=1.0471975511965976)
+      $ 8 "i_var_1≔i_var_1+1"
+      global i_var_1=i_var_1+1
+    end
+  end
+end

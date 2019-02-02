@@ -1,0 +1,44 @@
+def Lab_exe_7_1_121():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  $ 5 "u32447u31243_1"
+  thread u32447u31243_1():
+    while (True):
+      global force1=force()
+      sleep(0.01)
+    end
+  end
+  threadId_u32447u31243_1 = run u32447u31243_1()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.2390130356296982,0.1988220216661285,0.6906463386941732,-1.5849351512597112,-0.11123094817809666,-0.280699297210965]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.23901306530292177,0.1988083937627932,0.49001479949400534,-1.5848737370083603,-0.1113516672861672,-0.2807227364537332]), a=1.2, v=0.25)
+  end
+end

@@ -1,0 +1,72 @@
+def P30seek_destack():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global interpolate_1=0.0
+  global tester=p[-0.5078157057255585,-0.4350412311617634,0.25418996642245856,2.909786392858845,1.1629260941998065,-0.01841730133244159]
+  global tester_plane=p[-0.28271635948786766,-0.5333547020783505,0.2896105991803043,-0.011175387235176795,-2.7788695005559236,-0.0025547844158684695]
+  $ 1 "BeforeStart"
+  $ 2 "MoveL"
+  $ 3 "quit"
+  movel([0.904064476491799, -1.487942998077786, 1.125457288713595, -1.1925061399110657, -1.523828808454101, -0.03592902813396304], a=1.2, v=0.25)
+  while (True):
+    $ 4 "机器人程序"
+    if (interpolate_1 == 0.0):
+      $ 6 "起始位置_1"
+      movel([0.90469484830096, -1.5480805730437233, 1.5616954280160837, -1.5686337635602445, -1.5237136081904845, -0.036498346452042085], a=1.2, v=0.25)
+      global ur_start_point_5=get_forward_kin()
+    else:
+      movel(p[ur_start_point_5[0]+interpolate_1*1.2132609488923423E-4, ur_start_point_5[1]+interpolate_1*1.2026101515955039E-5, ur_start_point_5[2]+interpolate_1*-0.9999999925676758, ur_start_point_5[3],ur_start_point_5[4],ur_start_point_5[5]], a=1.2, v=0.25)
+    end
+    thread ur_Thread_direction_5():
+      speedl([1.2132609488923423E-6,1.2026101515955038E-7,-0.009999999925676758,0.0,0.0,0.0],1.2,100000.0)
+      ur_stacking_motion_running_5 = False
+    end
+    $ 5 "卸垛"
+    ur_thread_handler_5 = run ur_Thread_direction_5()
+    ur_stacking_motion_running_5 = True
+    while (ur_stacking_motion_running_5 == True):
+      if ((pose_dist(get_forward_kin(),ur_start_point_5)>0.24764060980120542)):
+        kill ur_thread_handler_5
+        ur_stacking_motion_running_5 = False
+        interpolate_1 = 0.0
+        stopl(1.2)
+      else:
+        if (get_standard_digital_out(0) ==  False  ):
+          kill ur_thread_handler_5
+          ur_stacking_motion_running_5 = False
+          interpolate_1 = pose_dist(get_forward_kin(),ur_start_point_5) +0.05
+          stopl(1.2)
+          u20301u23039_1 = get_forward_kin()
+          $ 11 "堆垛位置_1"
+          movel(pose_trans(u20301u23039_1, pose_trans(pose_inv(p[-.217176126783, -.460369124039, .568529576857, .959726819060, 2.937639793761, -.003829190126]),p[-.217176126783, -.460369124039, .568529576857, .959726819060, 2.937639793761, -.003829190126])), a=1.2, v=0.25)
+          $ 12 "设置 DO[0]=开"
+          set_standard_digital_out(0, True)
+          $ 13 "等待: 0.5"
+          sleep(0.5)
+          $ 14 "退出"
+          movel(u20301u23039_1, a=1.2, v=0.25)
+        end
+      end
+      sync()
+    end
+    $ 15 "MoveL"
+    $ 16 "quit"
+    movel([0.904064476491799, -1.487942998077786, 1.125457288713595, -1.1925061399110657, -1.523828808454101, -0.03592902813396304], a=1.2, v=0.25)
+    $ 17 "MoveJ"
+    $ 18 "work"
+    movej([0.2894458098296315, -1.4879429979950478, 1.125457288431205, -1.1925061396320107, -1.5238288084839056, -0.035929028131623575], a=1.3962634015954636, v=1.0471975511965976)
+    $ 19 "设置 DO[0]=关"
+    set_standard_digital_out(0, False)
+    $ 20 "MoveL"
+    $ 21 "quit"
+    movel([0.904064476491799, -1.487942998077786, 1.125457288713595, -1.1925061399110657, -1.523828808454101, -0.03592902813396304], a=1.2, v=0.25)
+  end
+end

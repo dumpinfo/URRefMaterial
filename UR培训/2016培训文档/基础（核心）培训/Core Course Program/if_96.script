@@ -1,0 +1,55 @@
+def if_96():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.17158293744464975,0.23669774911201602,0.6672932230680051,-1.5849345221074405,-0.10935797755034465,-0.2822233130350622]), a=1.2, v=0.25)
+    $ 4 "If Button≟ True "
+    global thread_flag_4=0
+    thread Thread_if_4():
+      $ 5 "waypoint2"
+      movel(pose_trans(u26426u24231, p[0.1716001538823602,0.2367008730751398,0.4669947097925147,-1.5849571898474704,-0.10924336222023638,-0.28236637720558977]), a=1.2, v=0.25)
+      thread_flag_4 = 1
+    end
+    if (get_standard_digital_in(5) ==   True  ):
+      global thread_handler_4=run Thread_if_4()
+      while (thread_flag_4 == 0):
+        if not(get_standard_digital_in(5) ==   True  ):
+          kill thread_handler_4
+          thread_flag_4 = 2
+        else:
+          sync()
+        end
+      end
+    else:
+      thread_flag_4 = 2
+    end
+    if (thread_flag_4 == 2):
+      $ 6 "Else"
+      $ 7 "waypoint3"
+      movel(pose_trans(u26426u24231, p[0.37102185569158125,0.2367412797383351,0.6672706296871016,-1.5849957275819877,-0.10931369192520513,-0.28231337590062816]), a=1.2, v=0.25)
+    end
+  end
+end

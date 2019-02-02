@@ -1,0 +1,12 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+       count≔count+1
+       If count≟10
+         waypoint3
+         等待: 2.0
+       If count≟20
+         弹出窗口
+         count≔0

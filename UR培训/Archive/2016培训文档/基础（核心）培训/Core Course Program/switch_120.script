@@ -1,0 +1,47 @@
+def switch_120():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "select_no≔'Enter a number between 1 to 3:'"
+    global select_no=request_integer_from_primary_client("Enter a number between 1 to 3:")
+    $ 3 "开关 select_no"
+    switch_1 = select_no
+    if (1 == switch_1):
+      $ 5 "弹出窗口"
+      popup("product 1", "Message", False, False, blocking=True)
+    elif (2 == switch_1):
+      $ 7 "弹出窗口"
+      popup("product 2", "Message", False, False, blocking=True)
+    elif (3 == switch_1):
+      $ 9 "弹出窗口"
+      popup("product 3", "Message", False, False, blocking=True)
+    else:
+      $ 11 "弹出窗口"
+      popup("wrong product number", "Message", False, False, blocking=True)
+    end
+  end
+end

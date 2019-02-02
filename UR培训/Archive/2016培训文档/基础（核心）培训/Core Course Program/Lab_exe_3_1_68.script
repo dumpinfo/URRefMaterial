@@ -1,0 +1,40 @@
+def Lab_exe_3_1_68():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint_1"
+    movel(pose_trans(u26426u24231, p[0.25428369804943,0.1988466215518349,0.5921020644886504,-1.5848873720208285,-0.11147022495896117,-0.28051284557191053]), a=1.2, v=0.25)
+    $ 4 "waypoint_2"
+    movel(pose_trans(u26426u24231, p[0.45403009946743983,0.198853341082597,0.5920799824479556,-1.5848797372803523,-0.11150868713695374,-0.2804814917430682]), a=1.2, v=0.25)
+    $ 5 "waypoint_3"
+    movel(pose_trans(u26426u24231, p[0.4540308824852063,0.19886957824655974,0.4919758929709006,-1.5849676593062172,-0.11142914409512736,-0.28039116603913256]), a=1.2, v=0.25, r=0.05)
+    $ 6 "waypoint_4"
+    movel(pose_trans(u26426u24231, p[0.5540100206884869,0.19886772354264062,0.49198364481298995,-1.5849494686100816,-0.11144213813290173,-0.2804381957730674]), a=1.2, v=0.25, r=0.048)
+    $ 7 "waypoint_5"
+    movel(pose_trans(u26426u24231, p[0.5540002712137935,0.19883356679347952,0.39200771368031473,-1.584914131508262,-0.11134118240354676,-0.2804727493720309]), a=1.2, v=0.25)
+    $ 8 "waypoint_6"
+    movel(pose_trans(u26426u24231, p[0.2540173358924393,0.19886437386302108,0.3919824382485494,-1.5851533818950627,-0.11124239890034987,-0.2803521719023499]), a=1.2, v=0.25)
+  end
+end

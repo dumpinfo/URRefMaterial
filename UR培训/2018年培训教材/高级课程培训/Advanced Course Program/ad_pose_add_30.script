@@ -1,0 +1,70 @@
+def ad_pose_add_30():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global force1=124.23835
+  global count=1
+  global i_var_1=1
+  global cp=p[0.036018707, 0.23811427, 0.07895236, 1.5486304, -2.5836353, -0.096085384]
+  global z=0.07895236
+  global select_no=1
+  global safe_pos=p[0.036018707, 0.23811427, 0.47895235, 1.5486304, -2.5836353, -0.096085384]
+  global offset=p[0.25, 0.12, 0.0, 0.0, 0.0, 0.54105204]
+  global pick_pos=p[0.28764468, 0.35738185, 0.36176643, 0.8076734, -2.8948507, -0.009301616]
+  global x=250
+  global y=120
+  global rz=31
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveJ"
+    $ 3 "refpoint"
+    movej([1.7651527152158941, -0.9723692734543521, -1.8373855721697847, -1.907382465179805, 1.702331562692077, 2.251093411939326], a=1.3962634015954636, v=1.0471975511965976)
+    $ 4 "等待 Button=高"
+    while (get_standard_digital_in(5) == False):
+      sync()
+    end
+    $ 5 "Calc_folder"
+    $ 6 "x≔250"
+    global x=250
+    $ 7 "y≔120"
+    global y=120
+    $ 8 "rz≔31"
+    global rz=31
+    $ 9 "offset≔p[(x/1000),(y/1000),0,0,0,d2r(rz)]"
+    global offset=p[(x/1000),(y/1000),0,0,0,d2r(rz)]
+    $ 10 "pick_pos≔pose_add(refpoint,offset)"
+    global pick_pos=pose_add(p[.037644681550, .237381845200, .361766434582, 1.554986799869, -2.578821180325, -.063856394502],offset)
+    $ 11 "MoveL"
+    $ 12 "pick_pos"
+    movel(pose_trans(u26426u24231, pick_pos), a=1.2, v=0.25)
+  end
+end

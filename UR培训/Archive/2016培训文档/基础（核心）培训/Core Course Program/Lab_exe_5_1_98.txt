@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     循环 5 次数
+       调用 SubP_lamp_flash
+   SubP_lamp_flash
+     设置 Lamp=开
+     等待: 0.5
+     设置 Lamp=关
+     等待: 0.5

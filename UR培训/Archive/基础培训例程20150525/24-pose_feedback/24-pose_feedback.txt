@@ -1,0 +1,4 @@
+ 程序
+   机器人程序
+     var_1≔get_actual_tcp_pose()
+     sync()

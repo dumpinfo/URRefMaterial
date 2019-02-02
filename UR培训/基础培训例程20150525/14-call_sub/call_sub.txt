@@ -1,0 +1,21 @@
+ 程序
+   机器人程序
+     MoveJ
+       路点_5
+     循环 digital_in[0]
+       MoveL
+         路点_1
+         路点_2
+         路点_3
+         路点_4
+     调用 SubP_5xmovec
+     MoveJ
+       路点_5
+   SubP_5xmovec
+     MoveP
+       路点_1
+       循环移动
+         路点_6
+         路点_7
+       路点_8
+       路点_9

@@ -1,0 +1,14 @@
+ 程序
+   机器人程序
+     托盘
+       模式:方块
+         a1st_Corner_1
+         a2nd_Corner_1
+         a3rd_Corner_1
+         a4th_Corner_1
+       托盘序列
+         方式_1
+         模式点_1
+         设置 Lamp=开
+         等待: 0.5
+         退出_1

@@ -1,0 +1,45 @@
+def Lab_exe_4_2_88():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "Button_Folder"
+    $ 3 "等待 Button=高"
+    while (get_standard_digital_in(5) == False):
+      sync()
+    end
+    $ 4 "'wait press button:'"
+    # 'wait press button:'
+    $ 5 "Lamp_Folder"
+    $ 6 "设置 Lamp=开"
+    set_standard_digital_out(4, True)
+    $ 7 "等待: 5.0"
+    sleep(5.0)
+    $ 8 "设置 Lamp=关"
+    set_standard_digital_out(4, False)
+    $ 9 "弹出窗口"
+    popup("program finished", "Message", False, False, blocking=True)
+    $ 10 "'finished'"
+    # 'finished'
+  end
+end

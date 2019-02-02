@@ -1,0 +1,7 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       If force()<50
+         waypoint2
+     等待: 0.01

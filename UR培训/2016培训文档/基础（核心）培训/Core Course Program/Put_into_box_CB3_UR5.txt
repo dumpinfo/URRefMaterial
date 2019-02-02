@@ -1,0 +1,12 @@
+ 程序
+   机器人程序
+     设置
+     MoveJ
+       Home
+       Waypoint_25
+       弹出窗口
+       Waypoint_26
+       弹出窗口
+       Home
+       Waypoint_23
+       弹出窗口

@@ -1,0 +1,8 @@
+ 程序
+   机器人程序
+     MoveL
+       路点_1
+       If digital_in[0]
+         路点_2
+       Else
+         路点_3

@@ -1,0 +1,36 @@
+def movej_58():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveJ"
+    $ 3 "waypoint1"
+    movej([1.2750567197799683, -0.9785154501544397, -2.190486256276266, 0.0150604248046875, 1.7581127882003784, -0.2560322920428675], a=1.3962634015954636, v=1.0471975511965976)
+    $ 4 "waypoint2"
+    movej([0.49507184800857024, -1.7257581400658877, -1.616308053471247, 0.17513719790416937, 2.5393657379910763, -0.27256463788898344], a=1.3962634015954636, v=1.0471975511965976)
+    $ 5 "waypoint3"
+    movej([0.4946718186762606, -1.9743768760627747, -1.9301511588263, 0.7398117922219525, 2.5389578791600305, -0.269768969336738], a=1.3962634015954636, v=1.0471975511965976)
+    $ 6 "waypoint4"
+    movej([1.2799801556474826, -1.3125001452251972, -2.6654652928877915, 0.8243452449852517, 1.7532913008769704, -0.25393662791651206], a=1.3962634015954636, v=1.0471975511965976)
+  end
+end

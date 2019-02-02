@@ -1,0 +1,52 @@
+def jog():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  $ 1 "BeforeStart"
+  $ 2 "choose≔'the way of moving'"
+  global choose=request_integer_from_primary_client("the way of moving")
+  $ 3 "p_current≔get_actual_tcp_pose()"
+  global p_current=get_actual_tcp_pose()
+  $ 4 "If choose≟1"
+  if (choose ==1):
+    $ 5 "p_target≔pose_add(p[0,0.1,0,0,0,0],p_current)"
+    global p_target=pose_add(p[0,0.1,0,0,0,0],p_current)
+  else:
+    $ 6 "ElseIf choose≟2"
+    if (choose ==2):
+      $ 7 "p_target≔pose_add(p[0,0,0,0,1,0],p_current)"
+      global p_target=pose_add(p[0,0,0,0,1,0],p_current)
+    else:
+      $ 8 "ElseIf choose≟3"
+      if (choose ==3):
+        $ 9 "p_target≔pose_trans(p_current,p[0,0.1,0,0,0,0])"
+        global p_target=pose_trans(p_current,p[0,0.1,0,0,0,0])
+      else:
+        $ 10 "ElseIf choose≟4"
+        if (choose ==4):
+          $ 11 "p_target≔pose_trans(p_current,p[0,0,0,0,1,0])"
+          global p_target=pose_trans(p_current,p[0,0,0,0,1,0])
+        else:
+          $ 12 "Else"
+          $ 13 "中止"
+          halt
+        end
+      end
+    end
+  end
+  while (True):
+    $ 14 "机器人程序"
+    $ 15 "MoveL"
+    $ 16 "p_current"
+    movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], p_current), a=1.2, v=0.25)
+    $ 17 "p_target"
+    movel(pose_trans(p[0.0,0.0,0.0,0.0,0.0,0.0], p_target), a=1.2, v=0.25)
+  end
+end

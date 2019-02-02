@@ -1,0 +1,16 @@
+ 程序
+   机器人程序
+     pick_part
+       MoveL
+         waypoint1
+         waypoint2
+         设置 DO[4]=开
+         等待: 0.5
+         waypoint1
+     place_part
+       MoveL
+         waypoint3
+         waypoint4
+         设置 DO[4]=关
+         等待: 0.5
+         waypoint3

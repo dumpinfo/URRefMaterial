@@ -1,0 +1,18 @@
+ 程序
+   BeforeStart
+     choose≔'the way of moving'
+     p_current≔get_actual_tcp_pose()
+     If choose≟1
+       p_target≔pose_add(p[0,0.1,0,0,0,0],p_current)
+     ElseIf choose≟2
+       p_target≔pose_add(p[0,0,0,0,1,0],p_current)
+     ElseIf choose≟3
+       p_target≔pose_trans(p_current,p[0,0.1,0,0,0,0])
+     ElseIf choose≟4
+       p_target≔pose_trans(p_current,p[0,0,0,0,1,0])
+     Else
+       中止
+   机器人程序
+     MoveL
+       p_current
+       p_target

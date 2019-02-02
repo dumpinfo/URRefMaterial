@@ -1,0 +1,96 @@
+def ad_tcp_62():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global force1=124.23835
+  global count=1
+  global i_var_1=1
+  global cp=p[0.036018707, 0.23811427, 0.07895236, 1.5486304, -2.5836353, -0.096085384]
+  global z=0.07895236
+  global select_no=1
+  global safe_pos=p[0.036018707, 0.23811427, 0.47895235, 1.5486304, -2.5836353, -0.096085384]
+  global offset=p[0.25, 0.12, 0.0, 0.0, 0.0, 0.54105204]
+  global pick_pos=p[0.28764468, 0.35738185, 0.36176643, 0.8076734, -2.8948507, -0.009301616]
+  global x=250
+  global y=120
+  global rz=31
+  global current_pos=p[0.15984741, 0.50990254, 0.3064576, -2.89215, 0.024296368, 0.04666581]
+  global offset_b=p[0.2, 0.0, 0.0, 0.0, 0.0, 0.0]
+  global offset_c=p[0.2, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global offset_d=p[0.0, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global pos_b=p[0.3597006, 0.50741154, 0.29985195, -2.8920474, 0.024356836, 0.046286248]
+  global pos_c=p[0.36558646, 0.45806554, 0.49357942, -2.8920474, 0.024356836, 0.046286248]
+  global pos_d=p[0.16571523, 0.46059236, 0.5002956, -2.8920474, 0.024356836, 0.046286248]
+  global length_1=0.2
+  global fy=0.2
+  global offset_f=p[0.0, 0.2, 0.0, 0.0, 0.0, 0.0]
+  global tcp1=p[0.15, 0.0, 0.15, 0.0, 0.0, 0.0]
+  global tcp2=p[-0.2, 0.0, 0.14, 0.0, -0.43633232, 0.0]
+  global tcp=1
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global plane_1=p[-0.05354340703832602,0.7379880984438217,-0.010016798825696852,-2.233255862178301,-2.111658992685216,-0.10776861331170197]
+  global plane_2=p[-0.0535814714617062,0.638878837442093,-0.10999439459026486,-2.23754044392575,-2.1159479760002364,-0.09820246034297925]
+  $ 1 "BeforeStart"
+  $ 2 "tcp≔1"
+  global tcp=1
+  $ 3 "tcp1≔p[0.15,0,0.15,0,0,0]"
+  global tcp1=p[0.15,0,0.15,0,0,0]
+  $ 4 "tcp2≔p[-0.2,0,0.14,0,d2r(-25),0]"
+  global tcp2=p[-0.2,0,0.14,0,d2r(-25),0]
+  $ 5 "MoveJ"
+  $ 6 "home"
+  movej([1.870582103729248, -1.2798216978656214, -1.5915215651141565, -1.5908435026751917, 1.6819695234298706, -0.8942425886737269], a=1.3962634015954636, v=1.0471975511965976)
+  while (True):
+    $ 7 "机器人程序"
+    $ 8 "If tcp≟1"
+    if (tcp == 1):
+      $ 9 "set_tcp(tcp1)"
+      set_tcp(tcp1)
+      $ 10 "tcp≔2"
+      global tcp=2
+    else:
+      $ 11 "ElseIf tcp≟2"
+      if (tcp == 2):
+        $ 12 "set_tcp(tcp2)"
+        set_tcp(tcp2)
+        $ 13 "tcp≔1"
+        global tcp=1
+      end
+    end
+    $ 14 "MoveL"
+    $ 15 "waypoint1"
+    movel(pose_trans(u26426u24231, p[-0.03453961538071204,0.40730616560969074,0.37868931258549654,-2.360883674959611,-1.628343609595431,0.05315022531966526]), a=1.2, v=0.25)
+    $ 16 "waypoint2"
+    movel(pose_trans(u26426u24231, p[-0.03455248167425029,0.4619911308662754,0.3106846248539948,-2.3610168739241675,-1.628444206583402,0.05334077299246302]), a=1.2, v=0.25)
+    $ 17 "waypoint1"
+    movel(pose_trans(u26426u24231, p[-0.03453961538071204,0.40730616560969074,0.37868931258549654,-2.360883674959611,-1.628343609595431,0.05315022531966526]), a=1.2, v=0.25)
+  end
+end

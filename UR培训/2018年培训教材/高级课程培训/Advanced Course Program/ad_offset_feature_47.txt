@@ -1,0 +1,15 @@
+ 程序
+   BeforeStart
+     fy≔0
+   机器人程序
+     MoveJ
+       home
+       fy≔fy+0.05
+       offset_f≔p[0,fy,0,0,0,0]
+       plane_1_var≔pose_trans(plane_1,offset_f)
+       MoveL
+         waypoint1
+         waypoint2
+         waypoint3
+         waypoint4
+         waypoint1

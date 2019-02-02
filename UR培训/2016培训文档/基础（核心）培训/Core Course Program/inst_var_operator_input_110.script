@@ -1,0 +1,61 @@
+def inst_var_operator_input_110():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "i_var_1≔0"
+    global i_var_1=0
+    $ 3 "var_2≔'please input'"
+    global var_2=request_integer_from_primary_client("please input")
+    $ 4 "循环 i_var_1<var_2"
+    while (i_var_1<var_2):
+      $ 5 "pick_part"
+      $ 6 "MoveL"
+      $ 7 "waypoint1"
+      movel(pose_trans(u26426u24231, p[0.23898668854964977,0.19877751451461928,0.5244624228862594,-1.5848253054760346,-0.11136467244793381,-0.2807640062022138]), a=1.2, v=0.25)
+      $ 8 "waypoint2"
+      movel(pose_trans(u26426u24231, p[0.23901725260363302,0.1988065230186324,0.32398898195087245,-1.5849776980946626,-0.11121485573838584,-0.28068835677194404]), a=1.2, v=0.25)
+      $ 9 "设置 Lamp=开"
+      set_standard_digital_out(4, True)
+      $ 10 "等待: 0.5"
+      sleep(0.5)
+      $ 11 "waypoint1"
+      movel(pose_trans(u26426u24231, p[0.23898668854964977,0.19877751451461928,0.5244624228862594,-1.5848253054760346,-0.11136467244793381,-0.2807640062022138]), a=1.2, v=0.25)
+      $ 12 "place_part"
+      $ 13 "MoveL"
+      $ 14 "waypoint3"
+      movel(pose_trans(u26426u24231, p[0.5380145720304282,0.19875331216412165,0.5244666675144827,-1.584887410638968,-0.11130763057065124,-0.2808050233382935]), a=1.2, v=0.25)
+      $ 15 "waypoint4"
+      movel(pose_trans(u26426u24231, p[0.5380246226059404,0.1987603894725109,0.32399106709006575,-1.5848744767299339,-0.11131254852553768,-0.2807592676520623]), a=1.2, v=0.25)
+      $ 16 "设置 Lamp=关"
+      set_standard_digital_out(4, False)
+      $ 17 "等待: 0.5"
+      sleep(0.5)
+      $ 18 "waypoint3"
+      movel(pose_trans(u26426u24231, p[0.5380145720304282,0.19875331216412165,0.5244666675144827,-1.584887410638968,-0.11130763057065124,-0.2808050233382935]), a=1.2, v=0.25)
+      $ 19 "设置 i_var_1=i_var_1+1"
+      i_var_1 = i_var_1 + 1
+    end
+  end
+end

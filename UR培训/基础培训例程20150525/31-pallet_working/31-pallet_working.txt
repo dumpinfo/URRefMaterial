@@ -1,0 +1,26 @@
+ 程序
+   BeforeStart
+     MoveJ
+       home
+     cnt_1≔5
+   机器人程序
+     托盘
+       模式:方块
+         a1st_Corner
+         a2nd_Corner
+         a3rd_Corner
+         a4th_Corner
+       托盘序列
+         方式
+         模式点_1
+         设置
+         等待: 0
+         退出
+     MoveJ
+       home
+       pick_up
+     MoveL
+       pick
+       pick_up
+     MoveJ
+       home

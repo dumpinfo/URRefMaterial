@@ -1,0 +1,49 @@
+def Put_into_box_CB3_UR5():
+  modbus_add_signal("172.16.17.6", 255, 155, 2, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.6", 255, 156, 3, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(0)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  $ 1 "机器人程序"
+  $ 2 "设置"
+  set_payload(0.0)
+  $ 3 "MoveJ"
+  $ 4 "Home"
+  movej([8.027432885082675E-16, -1.5707963267948966, 4.228388472693467E-18, -1.5707963267948966, -1.5260145577733475E-17, 5.30825383648903E-16], a=1.3962634015954636, v=0.17453292519943295)
+  $ 5 "Waypoint_25"
+  movej([0.3567360000000001, -1.570796326794897, 1.9420229313560355E-15, -1.5707963267948966, -1.5260145577733478E-17, 1.0542781925249045E-15], a=1.3962634015954636, v=0.17453292519943295)
+  $ 6 "弹出窗口"
+  popup("Remove first bolt placed under shoulder", "Message", False, False, blocking=True)
+  $ 7 "Waypoint_26"
+  movej([-0.4007999999999972, -1.570796326794897, 1.9420229313560355E-15, -1.5707963267948966, -1.5260145577733478E-17, 1.0542781925249045E-15], a=1.3962634015954636, v=0.17453292519943295)
+  $ 8 "弹出窗口"
+  popup("Remove second bolt placed under shoulder                                                                      Place protective pad between arm and base joint", "Message", False, False, blocking=True)
+  $ 9 "Home"
+  movej([8.027432885082675E-16, -1.5707963267948966, 4.228388472693467E-18, -1.5707963267948966, -1.5260145577733475E-17, 5.30825383648903E-16], a=1.3962634015954636, v=0.17453292519943295)
+  $ 10 "Waypoint_23"
+  movej([-9.549541748858914E-4, 0.06286013563701805, -2.8573812056697037, -1.9110596307797767, 8.502088517239646E-4, 4.289273936069635E-4], a=1.3962634015954636, v=0.17453292519943295)
+  $ 11 "弹出窗口"
+  popup("Remove remaining bolts", "Message", False, False, blocking=True)
+end

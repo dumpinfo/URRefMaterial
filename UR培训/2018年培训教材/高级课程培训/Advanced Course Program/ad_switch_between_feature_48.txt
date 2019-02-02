@@ -1,0 +1,17 @@
+ 程序
+   机器人程序
+     MoveJ
+       home
+       If digital_in[4]≟ True 
+         plane_1_var≔plane_1
+       ElseIf Button≟ True 
+         plane_1_var≔plane_2
+       MoveL
+         waypoint1
+         waypoint2
+         'waypoint3'
+         'waypoint4'
+         'waypoint1'
+       MoveL
+         waypoint3
+         waypoint4

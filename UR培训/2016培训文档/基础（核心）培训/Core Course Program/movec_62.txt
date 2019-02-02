@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     MoveP
+       waypoint_1
+       循环移动
+         waypoint_2
+         waypoint_3
+       waypoint_4
+       waypoint_5

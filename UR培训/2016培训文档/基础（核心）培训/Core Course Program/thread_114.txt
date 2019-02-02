@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+   线程_1
+     If Button≟ True 
+       中止
+     等待: 0.01

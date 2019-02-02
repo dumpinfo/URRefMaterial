@@ -1,0 +1,36 @@
+def movel_with_relative_waypoint_66():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.16093089776008956,0.19884490207359568,0.5247439862571897,-1.584919621440947,-0.11142035950763972,-0.2805709660199654]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_add(get_forward_kin(), pose_sub(p[.460007827312, .198846730646, .524759114706, -1.584896481792, -.111409473855, -.280592014059], p[.160926960399, .198835028600, .524758907712, -1.584920576437, -.111430550552, -.280599245651])), a=1.2, v=0.25)
+    $ 5 "waypoint3"
+    movel(pose_add(get_forward_kin(), pose_sub(p[.460024951944, .198822043329, .323998682815, -1.584959347104, -.111349468240, -.280492742546], p[.460014424003, .198837352458, .524740337080, -1.584965804866, -.111365723133, -.280553881639])), a=1.2, v=0.25)
+    $ 6 "waypoint4"
+    movel(pose_add(get_forward_kin(), pose_sub(p[.159997421959, .198836689861, .323981158547, -1.585007693256, -.111383462635, -.280388495642], p[.460016457702, .198817475201, .324002401356, -1.584959539729, -.111339615692, -.280483051484])), a=1.2, v=0.25)
+  end
+end

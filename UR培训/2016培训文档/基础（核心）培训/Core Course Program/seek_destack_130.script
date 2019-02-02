@@ -1,0 +1,83 @@
+def seek_destack_130():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global interpolate_1=0.0
+  while (True):
+    $ 1 "机器人程序"
+    if (interpolate_1 == 0.0):
+      $ 3 "起始位置_1"
+      movel(pose_trans(u26426u24231, p[-0.3928747792424591,0.378940492161006,0.38021359980709907,-2.4605957010686303,-1.8025824546532563,0.09038814293549001]), a=1.2, v=0.25)
+      global ur_start_point_2=get_forward_kin()
+    else:
+      movel(p[ur_start_point_2[0]+interpolate_1*2.388255911873752E-5, ur_start_point_2[1]+interpolate_1*1.909155502371578E-4, ur_start_point_2[2]+interpolate_1*-0.9999999814904378, ur_start_point_2[3],ur_start_point_2[4],ur_start_point_2[5]], a=1.2, v=0.25)
+    end
+    thread ur_Thread_direction_2():
+      speedl([2.388255911873752E-7,1.909155502371578E-6,-0.009999999814904377,0.0,0.0,0.0],1.2,100000.0)
+      ur_stacking_motion_running_2 = False
+    end
+    $ 2 "卸垛"
+    ur_thread_handler_2 = run ur_Thread_direction_2()
+    ur_stacking_motion_running_2 = True
+    while (ur_stacking_motion_running_2 == True):
+      if ((pose_dist(get_forward_kin(),ur_start_point_2)>0.1)):
+        kill ur_thread_handler_2
+        ur_stacking_motion_running_2 = False
+        interpolate_1 = 0.0
+        stopl(1.2)
+      else:
+        if (force()>50):
+          kill ur_thread_handler_2
+          ur_stacking_motion_running_2 = False
+          interpolate_1 = pose_dist(get_forward_kin(),ur_start_point_2) +0.03
+          stopl(1.2)
+          u20301u23039_1 = get_forward_kin()
+          $ 8 "堆垛位置_1"
+          movel(u20301u23039_1, a=1.2, v=0.25)
+          $ 9 "设置 Lamp=开"
+          set_standard_digital_out(4, True)
+          $ 10 "等待: 0.5"
+          sleep(0.5)
+          $ 11 "退出_1"
+          movel(pose_trans(u20301u23039_1, pose_trans(pose_inv(pose_trans(u26426u24231, p[-0.39286558297524965,0.3789432650022284,0.38018019540567727,-2.4607974524581984,-1.8025902846825765,0.09027983581125157])),pose_trans(u26426u24231, p[-0.39288881505343853,0.3789337731518756,0.35734681082922964,-2.460629359891931,-1.802699701364264,0.09057104656621971]))), a=1.2, v=0.25)
+        end
+      end
+      sync()
+    end
+    $ 12 "Folder"
+    $ 13 "MoveL"
+    $ 14 "waypoint1"
+    movel(pose_trans(u26426u24231, p[-0.19287709859649146,0.3789376109390324,0.35735865741219713,-2.4606632916782165,-1.8026174988585193,0.09048157539976871]), a=1.2, v=0.25)
+    $ 15 "waypoint2"
+    movel(pose_trans(u26426u24231, p[-0.1928594692520856,0.3789413845946659,0.1569679215934673,-2.460771841313366,-1.8028034521966205,0.09056568888513598]), a=1.2, v=0.25)
+    $ 16 "设置 Lamp=关"
+    set_standard_digital_out(4, False)
+    $ 17 "等待: 0.5"
+    sleep(0.5)
+    $ 18 "waypoint1"
+    movel(pose_trans(u26426u24231, p[-0.19287709859649146,0.3789376109390324,0.35735865741219713,-2.4606632916782165,-1.8026174988585193,0.09048157539976871]), a=1.2, v=0.25)
+  end
+end

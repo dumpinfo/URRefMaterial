@@ -1,0 +1,11 @@
+ 程序
+   机器人程序
+     Button_Folder
+       等待 Button=高
+       'wait press button:'
+     Lamp_Folder
+       设置 Lamp=开
+       等待: 5.0
+       设置 Lamp=关
+       弹出窗口
+       'finished'

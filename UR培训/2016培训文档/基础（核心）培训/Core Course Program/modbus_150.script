@@ -1,0 +1,50 @@
+def modbus_150():
+  modbus_add_signal("172.16.17.8", 255, 16, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.16093089776008956,0.19884490207359568,0.5247439862571897,-1.584919621440947,-0.11142035950763972,-0.2805709660199654]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.4600078273121425,0.19884673064634556,0.5247591147055792,-1.5848964817924536,-0.11140947385545161,-0.2805920140587565]), a=1.2, v=0.25)
+    $ 5 "设置 MODBUS_1= True "
+    modbus_set_output_signal("MODBUS_1",   True  )
+    $ 6 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.46002495194443516,0.19882204332921644,0.32399868281478067,-1.5849593471042027,-0.11134946824004568,-0.2804927425464604]), a=1.2, v=0.25)
+    $ 7 "waypoint4"
+    movel(pose_trans(u26426u24231, p[0.15999742195925964,0.1988366898608559,0.32398115854688986,-1.585007693255635,-0.11138346263453576,-0.28038849564192697]), a=1.2, v=0.25)
+    $ 8 "设置 MODBUS_1= False "
+    modbus_set_output_signal("MODBUS_1",   False  )
+  end
+end

@@ -1,0 +1,8 @@
+ 程序
+   BeforeStart
+     脚本: add.script
+   机器人程序
+     var_1≔'please input a:'
+     var_2≔'please input b:'
+     results≔add(var_1,var_2)
+     等待: 5.0

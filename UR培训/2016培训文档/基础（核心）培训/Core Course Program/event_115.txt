@@ -1,0 +1,7 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+   事件 Button≟ True 
+     中止

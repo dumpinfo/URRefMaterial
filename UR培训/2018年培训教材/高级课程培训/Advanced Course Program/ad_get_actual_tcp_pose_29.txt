@@ -1,0 +1,10 @@
+ 程序
+   BeforeStart
+     cp≔get_actual_tcp_pose()
+     z≔cp[2]
+     safe_pos≔p[cp[0],cp[1],z+0.4,cp[3],cp[4],cp[5]]
+     等待: 1.0
+     MoveL
+       safe_pos
+   机器人程序
+     中止

@@ -1,0 +1,7 @@
+ 程序
+   机器人程序
+     MoveJ
+       waypoint1
+       waypoint2
+       waypoint3
+       waypoint4

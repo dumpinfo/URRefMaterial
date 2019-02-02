@@ -1,0 +1,37 @@
+ 程序
+   BeforeStart
+     MoveJ
+       pick_wait_A
+   机器人程序
+     If digital_in[0]
+       调用 sub_b
+     Else
+       调用 sub_c
+     调用 sub_a
+   sub_a
+     MoveJ
+       pick_wait_A
+       pick_up_A
+     MoveL
+       pick_A
+       pick_up_A
+     MoveJ
+       pick_wait_A
+   sub_b
+     MoveJ
+       place_wait_B
+       place_up_B
+     MoveL
+       place_B
+       place_up_B
+     MoveJ
+       place_wait_B
+   sub_c
+     MoveJ
+       place_wait_c
+       place_up_c
+     MoveL
+       place_b
+       place_up_c
+     MoveJ
+       place_wait_c

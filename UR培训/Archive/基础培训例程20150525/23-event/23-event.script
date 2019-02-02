@@ -1,0 +1,30 @@
+def P23event():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(0)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=0
+  thread EventThread():
+    while (True):
+      if (get_standard_digital_in(0)):
+        halt
+      end
+      sync()
+    end
+  end
+  eventThread = run EventThread()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveJ"
+    $ 3 "路点_2"
+    movej([-0.7131688962876446, -1.6173202298344123, -1.536981164405514, -1.5554655565397457, 1.6060771732863524, 0.8568899973333854], a=1.3962634015954636, v=1.0471975511965976)
+    $ 4 "路点_1"
+    movej([-0.713168896387387, -1.8123553517065956, -1.9873956871762513, -0.9100159119003077, 1.6060771732863524, 0.8568899972334387], a=1.3962634015954636, v=1.0471975511965976)
+  end
+end

@@ -1,0 +1,5 @@
+ 程序
+   机器人程序
+     设置 MODBUS_1=MODBUS_1+1
+     等待: 0.5
+     var_1≔MODBUS_1

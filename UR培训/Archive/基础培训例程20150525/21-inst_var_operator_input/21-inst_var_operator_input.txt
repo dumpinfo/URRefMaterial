@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     i_var_1≔0
+     var_2≔'input number'
+     循环 i_var_1<var_2
+       MoveJ
+         路点_1
+         路点_2
+       i_var_1≔i_var_1+1

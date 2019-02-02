@@ -1,0 +1,70 @@
+def ad_lab_exe_3_2_50():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global force1=124.23835
+  global count=1
+  global i_var_1=1
+  global cp=p[0.036018707, 0.23811427, 0.07895236, 1.5486304, -2.5836353, -0.096085384]
+  global z=0.07895236
+  global select_no=1
+  global safe_pos=p[0.036018707, 0.23811427, 0.47895235, 1.5486304, -2.5836353, -0.096085384]
+  global offset=p[0.25, 0.12, 0.0, 0.0, 0.0, 0.54105204]
+  global pick_pos=p[0.28764468, 0.35738185, 0.36176643, 0.8076734, -2.8948507, -0.009301616]
+  global x=250
+  global y=120
+  global rz=31
+  global current_pos=p[0.15984741, 0.50990254, 0.3064576, -2.89215, 0.024296368, 0.04666581]
+  global offset_b=p[0.2, 0.0, 0.0, 0.0, 0.0, 0.0]
+  global offset_c=p[0.2, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global offset_d=p[0.0, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global pos_b=p[0.3597006, 0.50741154, 0.29985195, -2.8920474, 0.024356836, 0.046286248]
+  global pos_c=p[0.36558646, 0.45806554, 0.49357942, -2.8920474, 0.024356836, 0.046286248]
+  global pos_d=p[0.16571523, 0.46059236, 0.5002956, -2.8920474, 0.024356836, 0.046286248]
+  global length_1=0.2
+  global fy=0.2
+  global offset_f=p[0.0, 0.2, 0.0, 0.0, 0.0, 0.0]
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global plane_1=p[-0.05358430104644799,0.6388916539488769,-0.01001544897448628,-2.2334302144757228,-2.1123425819008665,-0.10698331633847996]
+  global plane_2=p[-0.0535814714617062,0.638878837442093,-0.10999439459026486,-2.23754044392575,-2.1159479760002364,-0.09820246034297925]
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(plane_1, p[6.1279475470632505E-6,1.0767824585852792E-5,1.60522492548415E-5,-7.378276734900146E-4,-0.0037938732118509193,-4.7804628037367603E-4]), a=1.2, v=0.25)
+    $ 4 "waypoint2"
+    movel(pose_trans(plane_1, p[-0.02470377364387455,0.07689826845700416,0.02494493778605328,-0.020552046369521272,-0.005505636539483717,0.10698886765196831]), a=1.2, v=0.25)
+    $ 5 "waypoint3"
+    movel(pose_trans(plane_1, p[-0.1346694155491167,-0.02243977167997678,0.013678663706553199,0.03976182111429409,-0.07660648146083293,-0.10233235891324452]), a=1.2, v=0.25)
+    $ 6 "waypoint4"
+    movel(pose_trans(plane_1, p[-0.2497433435532429,0.13455079067756429,0.028824761864531367,0.007557975345478665,-0.08891674403527206,0.15878369265400025]), a=1.2, v=0.25)
+  end
+end

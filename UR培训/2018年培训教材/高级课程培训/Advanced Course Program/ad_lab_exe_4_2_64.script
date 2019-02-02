@@ -1,0 +1,123 @@
+def ad_lab_exe_4_2_64():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global force1=124.23835
+  global count=1
+  global i_var_1=1
+  global cp=p[0.036018707, 0.23811427, 0.07895236, 1.5486304, -2.5836353, -0.096085384]
+  global z=0.07895236
+  global select_no=1
+  global safe_pos=p[0.036018707, 0.23811427, 0.47895235, 1.5486304, -2.5836353, -0.096085384]
+  global offset=p[0.25, 0.12, 0.0, 0.0, 0.0, 0.54105204]
+  global pick_pos=p[0.28764468, 0.35738185, 0.36176643, 0.8076734, -2.8948507, -0.009301616]
+  global x=250
+  global y=120
+  global rz=31
+  global current_pos=p[0.15984741, 0.50990254, 0.3064576, -2.89215, 0.024296368, 0.04666581]
+  global offset_b=p[0.2, 0.0, 0.0, 0.0, 0.0, 0.0]
+  global offset_c=p[0.2, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global offset_d=p[0.0, 0.0, -0.2, 0.0, 0.0, 0.0]
+  global pos_b=p[0.3597006, 0.50741154, 0.29985195, -2.8920474, 0.024356836, 0.046286248]
+  global pos_c=p[0.36558646, 0.45806554, 0.49357942, -2.8920474, 0.024356836, 0.046286248]
+  global pos_d=p[0.16571523, 0.46059236, 0.5002956, -2.8920474, 0.024356836, 0.046286248]
+  global length_1=0.2
+  global fy=0.2
+  global offset_f=p[0.0, 0.2, 0.0, 0.0, 0.0, 0.0]
+  global tcp1=p[0.0, 0.0, 0.2, 0.0, 0.0, 0.0]
+  global tcp2=p[0.2, 0.0, 0.05, 0.0, 1.5707964, 0.0]
+  global tcp=1
+  global screw_1=p[-0.13028689, 0.066642135, 0.18084837, 0.85676926, -1.3626392, 0.73663825]
+  global screw_2=p[-0.11789555, 0.060871802, 0.33022428, 0.85676926, -1.3626392, 0.73663825]
+  global screw_3=p[-0.0021469092, -0.010138742, 0.16725263, 0.85676926, -1.3626392, 0.73663825]
+  global screw_4=p[0.010244422, -0.015909072, 0.31662852, 0.85676926, -1.3626392, 0.73663825]
+  global offset_s1=p[-0.075, 0.075, 0.0, 0.0, 0.0, 0.0]
+  global offset_s2=p[0.075, 0.075, 0.0, 0.0, 0.0, 0.0]
+  global offset_s3=p[-0.075, -0.075, 0.0, 0.0, 0.0, 0.0]
+  global offset_s4=p[0.075, -0.075, 0.0, 0.0, 0.0, 0.0]
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  global plane_1=p[-0.05354340703832602,0.7379880984438217,-0.010016798825696852,-2.233255862178301,-2.111658992685216,-0.10776861331170197]
+  global plane_2=p[-0.0535814714617062,0.638878837442093,-0.10999439459026486,-2.23754044392575,-2.1159479760002364,-0.09820246034297925]
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "文件夹"
+    $ 3 "tcp1≔p[0,0,0.2,0,0,0]"
+    global tcp1=p[0,0,0.2,0,0,0]
+    $ 4 "tcp2≔p[0.2,0,0.05,0,d2r(90),0]"
+    global tcp2=p[0.2,0,0.05,0,d2r(90),0]
+    $ 5 "set_tcp(tcp1)"
+    set_tcp(tcp1)
+    $ 6 "MoveL"
+    $ 7 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.1378712926020888,0.6641298178353381,0.2765164209274003,-1.3493280556083567,2.437415424295974,0.4076542722408678]), a=1.2, v=0.25)
+    $ 8 "place_pos"
+    movel(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]), a=1.2, v=0.25)
+    $ 9 "set_tcp(tcp2)"
+    set_tcp(tcp2)
+    $ 10 "offset_s1≔p[-0.075,0.075,0,0,0,0]"
+    global offset_s1=p[-0.075,0.075,0,0,0,0]
+    $ 11 "offset_s2≔p[0.075,0.075,0,0,0,0]"
+    global offset_s2=p[0.075,0.075,0,0,0,0]
+    $ 12 "offset_s3≔p[-0.075,-0.075,0,0,0,0]"
+    global offset_s3=p[-0.075,-0.075,0,0,0,0]
+    $ 13 "offset_s4≔p[0.075,-0.075,0,0,0,0]"
+    global offset_s4=p[0.075,-0.075,0,0,0,0]
+    $ 14 "screw_1≔pose_trans(place_pos,offset_s1)"
+    global screw_1=pose_trans(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]),offset_s1)
+    $ 15 "screw_2≔pose_trans(place_pos,offset_s2)"
+    global screw_2=pose_trans(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]),offset_s2)
+    $ 16 "screw_3≔pose_trans(place_pos,offset_s3)"
+    global screw_3=pose_trans(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]),offset_s3)
+    $ 17 "screw_4≔pose_trans(place_pos,offset_s4)"
+    global screw_4=pose_trans(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]),offset_s4)
+    $ 18 "MoveL"
+    $ 19 "relative_point1"
+    movel(pose_add(get_forward_kin(), pose_sub(p[-.060027673691, .025358177645, .299997934190, .856643951472, -1.362635098116, .736766085153], p[-.060014921673, .025359824231, .248748684365, .856746577038, -1.362665122146, .736683911035])), a=1.2, v=0.25)
+    $ 20 "MoveL"
+    $ 21 "screw_1"
+    movel(pose_trans(u26426u24231, screw_1), a=1.2, v=0.25)
+    $ 22 "MoveL"
+    $ 23 "place_pos"
+    movel(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]), a=1.2, v=0.25)
+    $ 24 "screw_2"
+    movel(pose_trans(u26426u24231, screw_2), a=1.2, v=0.25)
+    $ 25 "MoveL"
+    $ 26 "place_pos"
+    movel(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]), a=1.2, v=0.25)
+    $ 27 "screw_3"
+    movel(pose_trans(u26426u24231, screw_3), a=1.2, v=0.25)
+    $ 28 "MoveL"
+    $ 29 "place_pos"
+    movel(pose_trans(u26426u24231, p[-0.060021230749796615,0.025366530949519555,0.24873845958778618,0.8567692874846237,-1.3626391813889793,0.7366382640796959]), a=1.2, v=0.25)
+    $ 30 "screw_4"
+    movel(pose_trans(u26426u24231, screw_4), a=1.2, v=0.25)
+  end
+end

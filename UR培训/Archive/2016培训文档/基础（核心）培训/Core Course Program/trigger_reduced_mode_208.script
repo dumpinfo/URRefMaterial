@@ -1,0 +1,50 @@
+def trigger_reduced_mode_208():
+  modbus_add_signal("172.16.17.8", 255, 0, 1, "MODBUS_1")
+  modbus_set_signal_update_frequency("MODBUS_1", 10)
+  modbus_add_signal("172.16.17.8", 255, 1, 1, "MODBUS_2")
+  modbus_set_signal_update_frequency("MODBUS_2", 10)
+  modbus_add_signal("172.16.17.8", 255, 16, 0, "MODBUS_3")
+  modbus_set_signal_update_frequency("MODBUS_3", 10)
+  modbus_add_signal("172.16.17.8", 255, 17, 0, "MODBUS_4")
+  modbus_set_signal_update_frequency("MODBUS_4", 10)
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 1)
+  set_analog_outputdomain(1, 1)
+  set_tool_voltage(24)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  modbus_set_runstate_dependent_choice("MODBUS_1",0)
+  modbus_set_runstate_dependent_choice("MODBUS_2",0)
+  set_tcp(p[0.0,0.0,0.125,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  global i_var_1=1
+  global count=1
+  global select_no=1
+  global force1=124.23835
+  global u26426u24231=p[0.0,0.0,0.0,0.0,0.0,0.0]
+  global u24037u20855=get_forward_kin()
+  while (True):
+    $ 1 "机器人程序"
+    $ 2 "MoveL"
+    $ 3 "waypoint1"
+    movel(pose_trans(u26426u24231, p[0.37237179155786926,0.1900439400092283,0.10001464955068896,-0.004605505729896698,-3.139167821243243,0.12039758163156863]), a=2.5, v=1.5)
+    $ 4 "waypoint2"
+    movel(pose_trans(u26426u24231, p[0.37234626853355657,0.18999461652374486,-0.10004508472493975,-0.004523174243140425,-3.1391264705638036,0.12077396742922672]), a=2.5, v=1.5)
+    $ 5 "waypoint3"
+    movel(pose_trans(u26426u24231, p[0.37234803517764775,0.08995253433457266,-0.10003526748133065,-0.004595731729991629,-3.13913576348577,0.12068213371717712]), a=2.5, v=1.5)
+    $ 6 "waypoint4"
+    movel(pose_trans(u26426u24231, p[0.3723810767061409,0.08996988126679703,0.09999323799727537,-0.004612357525099174,-3.139156975263808,0.12059880310787573]), a=2.5, v=1.5)
+  end
+end

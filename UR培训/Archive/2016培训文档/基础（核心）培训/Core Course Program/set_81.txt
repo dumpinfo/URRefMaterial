@@ -1,0 +1,9 @@
+ 程序
+   机器人程序
+     MoveL
+       waypoint1
+       waypoint2
+       设置 Lamp=开
+       waypoint3
+       waypoint4
+       设置 Lamp=关
